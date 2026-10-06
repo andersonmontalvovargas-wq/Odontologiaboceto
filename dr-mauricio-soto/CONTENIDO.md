@@ -262,3 +262,65 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 9. Condiciones reales de la "garantía".
 10. Registro de prestador (REPS) y tarjeta profesional.
 11. Si siguen vigentes los paquetes con hotel y vuelo.
+
+---
+
+## 7. Contenido de las páginas internas (entregado por el usuario el 6-oct-2026)
+
+> Este bloque **complementa y prevalece** sobre lo anterior cuando hay diferencias. Viene de las páginas `/` (Diseño de Sonrisa, en español), `/ortodoncia-bucaramanga`, `/dental-implants-colombia`, `/doctor-mauricio-soto`, `/dental-veneers-masterclass`, el blog y `/links`.
+> Se mantiene la decisión del cliente: **no mostrar precios** (las cifras del sitio actual se contradicen entre sí y no se usan).
+
+### 7.1 Diseño de sonrisa (página de inicio actual, en español)
+- **Qué es:** "Cuando se habla de diseño de sonrisa generalmente se hace referencia a la colocación de carillas dentales para modificar el tamaño, la forma y el color de los dientes en conjunto. Para realizar las carillas contamos con dos materiales: la resina y la porcelana." [EXTRAÍDO, pulido]
+- **Resina:** "El diseño de sonrisa en resina es una solución ágil y mínimamente invasiva para corregir imperfecciones en una sola cita. Empleamos resinas de alta estética (IPS Empress® Direct) que permiten modelar la forma y el color de tus dientes con gran precisión." [EXTRAÍDO, pulido]
+- **Porcelana:** "Utilizamos porcelana de alta resistencia IPS e.max® Ceram." [EXTRAÍDO]. No usar "no se mancha ni pierde el brillo" ni "garantizando".
+- **Diferencias entre resina y porcelana** [EXTRAÍDO, pulido]:
+  - La porcelana es más resistente a las manchas y a la fractura que la resina.
+  - Para la porcelana, en la mayoría de los casos se desgastan los dientes; para la resina, en la mayoría de los casos no se hace ningún desgaste.
+  - Duración promedio: porcelana, unos 15 años; resina, unos 5 años.
+  - Resina: una sola cita de 4 a 6 horas. Porcelana: entre 2 y 3 citas en una semana (las carillas se fabrican en laboratorio digital).
+  - (No usar "cuestan cuatro veces más": se omite por la decisión de no hablar de precios.)
+- **¿Daña mis dientes?** "En los diseños de resina generalmente no se realiza ningún desgaste del esmalte. En los casos de porcelana se hace una micropreparación mínima y controlada." [EXTRAÍDO, pulido; se quita el "No." inicial porque contradice la lista de diferencias]
+- **Reparación de carillas:** "¿Se te partió o se te despegó una carilla? Te la reparamos. Reparamos carillas en resina y en porcelana." [EXTRAÍDO, pulido]
+- **Financiación:** "Ofrecemos diferentes planes de financiación." [EXTRAÍDO]
+- **Ubicación:** "Encuéntranos en el corazón del Barrio El Prado, una zona segura y de fácil acceso, con parqueadero gratuito." [EXTRAÍDO]
+- **Galería:** remite a Instagram. [EXTRAÍDO]
+
+### 7.2 Ortodoncia (`/ortodoncia-bucaramanga`)
+- **Especialidad:** "Especialista en Ortodoncia, Universidad Nacional." [EXTRAÍDO, del título de la página]. En la página del doctor: "Orthodontics & Dentofacial Orthopedics" → "Ortodoncia y ortopedia dentofacial". [EXTRAÍDO – traducido]
+- **¿Necesito ortodoncia?** "La respuesta a menudo va más allá de la estética. Desde problemas de mordida y apiñamiento dental hasta dificultades para masticar o hablar, una evaluación profesional es el primer paso para saber cómo corregir la posición de tus dientes." [EXTRAÍDO, pulido]
+- **Tipos:** brackets metálicos; brackets transparentes (cerámica o zafiro); ortodoncia invisible con alineadores removibles. [EXTRAÍDO]
+- **Alineadores invisibles:** "Son placas de plástico transparente fabricadas a medida con escaneo intraoral 3D. A diferencia de los brackets, son removibles, estéticos y prácticamente imperceptibles, y corrigen la posición de los dientes sin alambres ni metales." [EXTRAÍDO, pulido]. "Al ser removibles, facilitan la higiene bucal." [EXTRAÍDO]
+- **Brackets transparentes:** "Son menos visibles que los metálicos; una opción para adultos y adolescentes que quieren un tratamiento más discreto." [EXTRAÍDO, pulido]
+- **Alineadores vs. brackets:** "Los alineadores son transparentes y removibles, y permiten una mejor higiene. Los brackets son fijos y pueden ser más visibles, pero son muy eficaces para corregir casos más complicados. La elección depende de las necesidades de cada paciente." [EXTRAÍDO, pulido]
+- **PuraLigners:** "Sistema propio de alineadores transparentes impresos en 3D, creado por el Dr. Soto. Cada caso se diseña digitalmente en Bucaramanga, con tecnología DLP y resinas biocompatibles." [EXTRAÍDO – traducido, pulido]. Sitio: http://www.puraligners.com/ [EXTRAÍDO]. No usar "resultados en 6 meses".
+- **Retenedores:** "Los retenedores mantienen la alineación de los dientes después del tratamiento y evitan que vuelvan a su posición original. Tipos: fijos (un alambre adherido detrás de los dientes), removibles transparentes y Hawley (arco de metal con base de acrílico)." [EXTRAÍDO, pulido]
+- **Duración:** "En promedio de 12 a 24 meses; con flujo digital, algunos casos leves se resuelven en 8 a 10 meses." [EXTRAÍDO]
+- **Molestias:** "Usamos arcos térmicos que aplican fuerzas leves y constantes." [EXTRAÍDO, sin la cifra "70%"]
+- **Edad:** "Desde los 7 años para prevención. La mayoría de nuestros pacientes son adultos de 30 a 50 años." [EXTRAÍDO]
+- **Financiación directa** para brackets (cuota inicial y mensualidades). [EXTRAÍDO; montos omitidos]
+- **Habilitación:** "Nuestra clínica cumple con los estándares de habilitación de la Secretaría de Salud de Santander y la normativa del Ministerio de Salud." [EXTRAÍDO, pulido]. Código REPS: [PENDIENTE]
+- **Bioseguridad:** "Todo el instrumental pasa por lavado ultrasónico, empaquetado y esterilización en autoclave." [EXTRAÍDO, pulido; sin "100% estéril"]
+- **Prensa:** mención de Vanguardia Liberal [EXTRAÍDO]; enlace a la nota: [PENDIENTE]
+- **Antes y después:** 4 fotos de ortodoncia en el sitio actual [EXTRAÍDO]; archivos o URLs: [PENDIENTE]
+
+### 7.3 Implantes (`/dental-implants-colombia`, en inglés)
+- **Qué es:** "Un implante dental es una pieza de metal o zirconio que se atornilla en el hueso para sostener una corona o una prótesis y reemplazar dientes perdidos. Funciona como un diente fijo." [EXTRAÍDO – traducido]
+- **Proceso:** "Primero, una cirugía corta para colocar el implante; luego unos cuatro meses de cicatrización; finalmente se colocan las prótesis sobre los implantes." [EXTRAÍDO – traducido]
+- **Pagos:** "Aceptamos todas las tarjetas de crédito y PayPal." [EXTRAÍDO – traducido] → choca con Doctoralia (débito y transferencia): [PENDIENTE] confirmar.
+
+### 7.4 El doctor (`/doctor-mauricio-soto`, en inglés)
+- **Formación:** "Mi formación profesional comenzó en la Universidad Nacional de Colombia, donde desarrollé un compromiso con la excelencia clínica y el rigor científico." [EXTRAÍDO – traducido]
+- **Áreas:** ortodoncia y ortopedia dentofacial; odontología estética; implantología oral. [EXTRAÍDO – traducido]. Títulos formales de cada área: [PENDIENTE]
+- **Creador de PuraLigners.** [EXTRAÍDO]
+- **Canal de YouTube** "Dr. Mauricio Soto Smile Design & Veneers Colombia", fundado en 2010, con más de 2 millones de vistas y más de 10 mil suscriptores. [EXTRAÍDO – traducido]. No usar "el canal número uno del mundo".
+- **Docencia:** "Ha dictado más de 100 cursos de formación profesional." [EXTRAÍDO – traducido]. Ofrece residencias clínicas para odontólogos (carillas cerámicas, carillas impresas en 3D, carillas en resina). [EXTRAÍDO]
+- **Prensa:** Portafolio (enero de 2026) sobre impresión 3D en odontología estética. [EXTRAÍDO]
+- **Años de experiencia:** el sitio dice 10, 20, 25, 28 y "casi 30" → [PENDIENTE], no usar.
+- **Número de casos:** "cientos", "más de 1.000", "miles" → [PENDIENTE], no usar.
+- **Doctor SEO Labs:** no se incluye en el sitio para pacientes (decisión).
+
+### 7.5 Otros
+- **Blog:** 4 entradas (enero y febrero de 2026), en `/blog-estetica-dental-ortodoncia-bucaramanga`. [EXTRAÍDO]
+- **Pinterest:** existe un enlace en `/links`; URL: [PENDIENTE]
+- **Imágenes:** no se pudieron descargar (la red del entorno bloquea el dominio). Ninguna URL de foto está disponible → todas las fotos son [PENDIENTE].
