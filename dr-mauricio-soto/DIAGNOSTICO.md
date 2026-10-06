@@ -85,13 +85,14 @@ Tiene buenas credenciales y buena información sobre carillas, pero le habla a u
 
 ## 5. Decisiones que tomé
 
-- **Sitio nuevo en español, para el paciente local, con una sección "Pacientes de otras ciudades y del exterior"** que conserva lo del turismo dental. Esto encaja con tu servicio (sitios en español para Bucaramanga) y no tira el trabajo internacional que ya tiene. Va como pregunta 1 por si el dueño prefiere lo contrario.
+- **Sitio nuevo bilingüe:** español como idioma principal para el paciente local, selector ES / EN y sección "Pacientes de otras ciudades y del exterior" en ambos idiomas. *(Confirmado por el usuario.)*
 - **Traduje al español el contenido extraído del inglés** y lo etiqueté `[EXTRAÍDO – traducido]`. Es el mismo contenido, no texto nuevo.
 - **Años de experiencia: no uso ninguna cifra.** Como el sitio se contradice, en el boceto solo va "Universidad Nacional de Colombia" y la cifra queda `[PENDIENTE]`.
 - **Saqué las frases de superioridad y garantía** ("the best", "guaranteed", "flawless", "safest city") de los textos propuestos, por la regla de no prometer resultados.
 - **El curso o masterclass para odontólogos sale del menú principal** y queda como enlace en el pie, porque no es un servicio para pacientes.
 - **El escudo de la UNAL no va como imagen principal.** Puede ir pequeño junto a la credencial; la imagen principal debe ser el doctor o el consultorio (pendiente).
-- **El precio de 5.000 USD no va en la portada en español.** Se conserva en la sección internacional y en las preguntas frecuentes según lo que responda el cliente (pregunta 2).
+- **No se muestra ningún precio:** en todo el sitio, y en ambos idiomas, se dice "El valor de tu tratamiento se define en la valoración". *(Confirmado por el usuario.)*
+- **Google Maps:** se usa el perfil "Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia" del enlace entregado. Ese enlace también traía, de una búsqueda anterior, el nombre de otra clínica (BEODONTO); se descartó y se usa solo el ID del perfil del Dr. Soto.
 - **Escala del veredicto:** 0–14 crítico · 15–26 mejorable · 27–36 sólido.
 - **Puntajes con ⚠️:** califiqué solo lo visible; se ajustan si llegan capturas del celular.
 - **Página analizada:** por el menú resaltado en la captura, el texto pegado parece ser `/porcelain-veneers-colombia`, no la raíz (en el menú, "Diseño de Sonrisa" apunta a `/`). El diagnóstico describe esa página y el menú, que son comunes a todo el sitio.

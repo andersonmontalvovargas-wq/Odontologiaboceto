@@ -6,7 +6,12 @@
 > - `[SUGERIDO]` texto genérico, verdadero para cualquier consultorio; no afirma nada específico de este.
 > - `[PENDIENTE]` dato real que falta; en el boceto va como marcador visible, por ejemplo `[Horario pendiente]`.
 >
-> **Reglas para quien construya:** no inventar datos; no prometer resultados ("sin dolor", "garantizado", "perfecta", "la mejor"); todo en español; el contacto principal es WhatsApp.
+> **Reglas para quien construya:** no inventar datos; no prometer resultados ("sin dolor", "garantizado", "perfecta", "la mejor"); el contacto principal es WhatsApp.
+>
+> **Decisiones confirmadas por el cliente (6-oct-2026):**
+> 1. **Sitio bilingüe:** español como idioma principal (paciente de Bucaramanga) y selector **ES / EN** visible en el encabezado. La versión en inglés es la traducción del mismo contenido; la sección "Pacientes del exterior" va en ambos idiomas.
+> 2. **Precio:** en ningún idioma se muestra cifra. Se usa siempre: **"El valor de tu tratamiento se define en la valoración."** / EN: **"The cost of your treatment is defined during your consultation."**
+> 3. **Google Maps:** perfil confirmado (ver sección 1). Las reseñas siguen pendientes porque no se pudieron leer desde este entorno.
 
 ---
 
@@ -37,8 +42,12 @@
 | Horario de atención | — | [PENDIENTE] |
 | Parqueadero | Parqueadero privado gratuito para pacientes | [EXTRAÍDO – traducido] ("complimentary private parking") |
 | Zona | Barrio El Prado; el sitio la describe como "segura y de fácil acceso" | [EXTRAÍDO – traducido] |
-| Enlace Google Maps / perfil de Google | — | [PENDIENTE] (no aparece en el sitio) |
+| Nombre en Google Maps | Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (enlace del perfil entregado por el usuario) |
+| Enlace Google Maps (limpio) | `https://www.google.com/maps?cid=6574127976607366725` | [EXTRAÍDO] (ID del perfil del enlace entregado) |
+| Coordenadas | 7.1230637, -73.1120744 | [EXTRAÍDO] (del enlace) |
+| Mapa embebido | `https://maps.google.com/maps?q=7.1230637,-73.1120744&z=17&output=embed` | [SUGERIDO] (construido con las coordenadas) |
 | Idiomas de atención | Español e inglés ("fully bilingual") | [EXTRAÍDO – traducido] |
+| Idiomas del sitio | Español (principal) + inglés con selector ES / EN | Decisión del cliente |
 | Formas de pago | Tarjeta débito y transferencia | Solo en Doctoralia según el resumen de un buscador → [PENDIENTE] confirmar con el cliente |
 | Registro de prestador de servicios de salud (REPS) | — | [PENDIENTE] (no aparece) |
 
@@ -80,7 +89,9 @@
 | Ubicación y contacto | Dirección, WhatsApp, correo, parqueadero | [EXTRAÍDO]; mapa y horario [PENDIENTE] | Parcial |
 | Pie de página | Datos, enlaces legales, redes, enlace al curso | [EXTRAÍDO] | Completo |
 
-**Navegación propuesta:** Inicio · Servicios · El doctor · Testimonios · Preguntas frecuentes · Contacto. En el pie: Pacientes del exterior (English), Curso para odontólogos, Blog, Términos, Política de datos. [SUGERIDO]
+**Navegación propuesta (ES):** Inicio · Servicios · El doctor · Testimonios · Preguntas frecuentes · Contacto · **ES / EN**. En el pie: Pacientes del exterior, Curso para odontólogos, Blog, Términos, Política de datos. [SUGERIDO]
+**Navegación (EN):** Home · Treatments · The Doctor · Reviews · FAQ · Contact · **ES / EN**. Footer: International patients, Veneers course for dentists, Blog, Terms, Privacy policy. [SUGERIDO]
+**Textos en inglés:** para el contenido [EXTRAÍDO – traducido], usar el texto original en inglés del sitio actual, ya depurado (sin "the best", "guaranteed", "flawless", "safest city"). Para el [SUGERIDO], traducción fiel del español.
 
 ---
 
@@ -102,7 +113,7 @@
 - **Cómo se hacen:** "Usamos tecnología digital: escaneo 3D, diseño digital de sonrisa, impresión 3D y CAD/CAM. Con la planeación 3D puedes ver una vista previa de tu sonrisa antes de empezar." [EXTRAÍDO – traducido]
 - **Para quién:** "Para personas que quieren cambiar el color, la forma o el tamaño de sus dientes. Si son una buena opción para ti se define en la valoración, después de revisar tus dientes y encías." [SUGERIDO]
 - **Duración:** "Un tratamiento completo de carillas suele tomar de 5 a 7 días hábiles." [EXTRAÍDO – traducido]
-- **Precio:** paquete de 16 a 20 carillas (arcada superior e inferior) desde 5.000 USD [EXTRAÍDO – traducido]. ⚠️ No ponerlo en la versión en español hasta que el cliente responda la pregunta 2. Mientras tanto: "El valor depende de cuántas carillas necesites; te lo damos en la valoración." [SUGERIDO]
+- **Precio:** "El valor de tu tratamiento se define en la valoración." [Decisión del cliente]. No mostrar los 5.000 USD en ningún idioma.
 - **Cierre:** botón "Pregunta por carillas en WhatsApp" [SUGERIDO]
 - ❌ No usar: "indistinguishable from natural teeth", "flawless", "guaranteed quality", "the best".
 
@@ -148,14 +159,15 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 
 ### 3.5 Testimonios
 - **Testimonios en el sitio:** ninguno. [PENDIENTE]
-- **Qué pedir:** de 3 a 6 reseñas reales de Google con nombre o inicial, más el enlace al perfil de Google. [PENDIENTE]
+- **Fuente confirmada:** perfil de Google Maps "Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia". No se pudo leer desde este entorno: faltan de 3 a 6 reseñas textuales con nombre o inicial, y la calificación promedio y número de reseñas tal como aparecen. [PENDIENTE]
+- **Mientras tanto en el boceto:** 3 tarjetas marcadas "[Reseña de Google pendiente]" y el botón "Ver reseñas en Google" → enlace del perfil. No escribir reseñas de ejemplo.
 - **Antes y después:** el sitio remite a Instagram (https://www.instagram.com/doctormauriciosoto/) [EXTRAÍDO]. Para el boceto: 3 a 4 casos con autorización del paciente [PENDIENTE]; mientras tanto, botón "Ver casos en Instagram".
 - **Texto introductorio:** "Lo que dicen nuestros pacientes" [SUGERIDO]
 
 ### 3.6 Preguntas frecuentes
 
 **Extraídas (del sitio, traducidas):**
-1. **¿Cuánto cuestan las carillas de porcelana?** "Un diseño completo de 20 carillas de porcelana cuesta aproximadamente 5.000 USD." [EXTRAÍDO – traducido] ⚠️ Depende de la pregunta 2. No incluir la comparación con EE. UU. ("ahorro del 70%") en la versión local.
+1. **¿Cuánto cuestan las carillas de porcelana?** "Depende de cuántas carillas necesites y de tu caso. El valor de tu tratamiento se define en la valoración." [Decisión del cliente]. No incluir cifras ni la comparación con EE. UU.
 2. **¿Qué materiales usan para las carillas?** "Usamos porcelanas E.max y Empress." [EXTRAÍDO – traducido]
 3. **¿Cuánto tiempo toma un tratamiento completo de carillas?** "Normalmente de 5 a 7 días hábiles." [EXTRAÍDO – traducido]
 4. **¿Atienden en inglés?** "Sí. El Dr. Soto y su equipo son bilingües." [EXTRAÍDO – traducido]
@@ -172,9 +184,9 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 13. **¿Tienen parqueadero?** "Sí, parqueadero privado gratuito." [EXTRAÍDO – traducido]
 
 ### 3.7 Pacientes de otras ciudades y del exterior
-(Sección secundaria; puede tener versión en inglés enlazada desde el pie.)
+(Sección secundaria, en ambos idiomas.)
 - "Atendemos pacientes de otras ciudades de Colombia y del exterior." [SUGERIDO]
-- **Paquete de diseño de sonrisa:** 16 a 20 carillas de porcelana (E.max o Empress), diseño 3D previo y tratamiento en 5 a 7 días hábiles, desde 5.000 USD. [EXTRAÍDO – traducido]
+- **Paquete de diseño de sonrisa:** 16 a 20 carillas de porcelana (E.max o Empress), diseño 3D previo y tratamiento en 5 a 7 días hábiles. [EXTRAÍDO – traducido] Valor: "se define en la valoración" (puede ser virtual para quien está fuera, ver 3.2). [Decisión del cliente]
 - **Traslados:** "Recogida gratuita en el aeropuerto Palonegro (BGA) y transporte entre el hotel y el consultorio incluido en el paquete." [EXTRAÍDO – traducido]
 - **Alojamiento:** "Te ayudamos con recomendaciones de hotel." [EXTRAÍDO – traducido]. El sitio también menciona "paquetes con hotel y tiquete aéreo de ida y regreso" → [PENDIENTE] confirmar si siguen vigentes, porque se contradice con "hotel recommendations".
 - **Cómo llegar:** "La mayoría de pacientes internacionales llega al aeropuerto Palonegro (BGA) con un vuelo corto desde Bogotá o Ciudad de Panamá." [EXTRAÍDO – traducido]
@@ -186,7 +198,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 ### 3.8 Ubicación y contacto
 - **Título:** "¿Dónde estamos?" [SUGERIDO]
 - **Dirección:** Carrera 33 #37-31, Tercer Piso, Barrio El Prado, Bucaramanga, Santander. [EXTRAÍDO]
-- **Mapa:** Google Maps embebido [PENDIENTE: enlace del perfil; si no hay, mapa por dirección]
+- **Mapa:** Google Maps embebido con las coordenadas de la sección 1, más el botón "Cómo llegar" → `https://www.google.com/maps?cid=6574127976607366725` [EXTRAÍDO]
 - **Parqueadero:** privado y gratuito. [EXTRAÍDO – traducido]
 - **Horario:** [PENDIENTE]
 - **WhatsApp:** +57 318 708 0343, con botón grande. [EXTRAÍDO]
@@ -241,9 +253,9 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 
 1. Fotos: doctor, consultorio, tecnología, antes y después (con autorización).
 2. Horario de atención.
-3. De 3 a 6 reseñas de Google y el enlace al perfil de Google Maps.
+3. De 3 a 6 reseñas de Google copiadas textualmente, con la calificación y el número de reseñas (el enlace del perfil ya está).
 4. Años de experiencia (cifra única) y título exacto obtenido en 1998.
-5. Valor de la valoración, formas de pago y financiación.
+5. Valor de la valoración (o si es gratis), formas de pago y financiación.
 6. ¿Atienden urgencias?
 7. Contenido de las páginas de Ortodoncia, Implantes y Diseño de Sonrisa (tipos de tratamiento que ofrece).
 8. Qué es PuraLigners y cómo se presenta.
