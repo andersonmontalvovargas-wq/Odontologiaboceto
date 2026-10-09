@@ -22,7 +22,9 @@
 - Git: la carpeta `sitio/` vive dentro del repositorio existente `Odontologiaboceto`, así que hice el commit ahí en vez de crear un repositorio anidado. Para GitHub Pages, la carpeta `sitio/` puede subirse tal cual como raíz de un repositorio propio.
 - Imagen para compartir el link (`assets/compartir.png`, 1200×630): se generó desde el mismo diseño; la ruta es relativa y debe pasar a absoluta cuando haya dominio.
 
-## Variante azul (`../sitio-azul/`, publicada en `docs/azul/`)
-- Pedida por el usuario como alternativa: azul, blanco y gris claro, más asociada a salud.
+## Variantes azules (pedidas por el usuario como alternativa)
 - Paleta: azul profundo `#0E4C7A` (principal), celeste `#5CBDEB` (acento), azul medio `#1B6CA8` (texto de acento, AA), fondo gris muy claro `#F5F8FB`, celeste suave `#EAF2F8`, texto `#16263A`/`#4F5F70`, pie `#0B2E4C`. Todos los textos cumplen AA.
-- Titulares en *Plus Jakarta Sans* (sans moderna, típica de marcas de salud actuales) y texto en *Figtree*. Mismo contenido, estructura y animaciones que la versión verde.
+- **Azul 1** (`../sitio-azul/` → `docs/azul/`): títulos y subtítulos en *Cormorant Garamond*, la misma de la versión verde.
+- **Azul 2** (`../sitio-azul-2/` → `docs/azul-2/`): títulos y subtítulos en *DM Serif Display*, serif más firme y legible, muy usada por clínicas.
+- En las tres versiones el texto va en *Figtree*. Mismo contenido, estructura y animaciones.
+- Se descartó la prueba con titulares sans (Plus Jakarta Sans) por pedido del usuario: la serif da más profesionalismo y credibilidad.

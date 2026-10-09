@@ -23,7 +23,7 @@
   --wa-2:#10633A;
 
   /* Tipografía */
-  --f-titulo:"Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-titulo:"Cormorant Garamond", Georgia, "Times New Roman", serif;
   --f-texto:"Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
 
   /* Espacio y forma */
@@ -338,21 +338,7 @@ a.tarjeta{text-decoration:none;color:inherit}
   .js .aparecer{opacity:1;transform:none}
 }
 
-/* ===== Variante azul: ajustes para titulares sans y contraste ===== */
-h1,h2,h3,h4{font-weight:700;letter-spacing:-.015em;line-height:1.14}
-h1{font-size:clamp(2.2rem,7.6vw,3.7rem)}
-h2{font-size:clamp(1.8rem,5.4vw,2.6rem)}
-h3{font-size:clamp(1.25rem,3.6vw,1.45rem)}
-h4{font-size:1.08rem}
-.heroe--interna h1{font-size:clamp(2.1rem,7vw,3.3rem)}
-.grupo-preguntas h2{font-size:clamp(1.4rem,4.4vw,1.8rem)}
-.paso h3{font-size:1.15rem}
-em.cursiva{font-style:normal;color:var(--terracota)}
-.marca__texto{font-size:1.12rem;font-weight:700;letter-spacing:-.02em}
-.marca__monograma{font-size:.9rem;font-weight:700}
-.marco__firma{font-style:normal;font-weight:700;letter-spacing:-.02em;font-size:clamp(1.3rem,5vw,1.7rem)}
-.panel-menu a:not(.boton){font-size:1.6rem;font-weight:700;letter-spacing:-.02em}
-.cita-vacia__comillas{font-family:Georgia,serif}
+/* ===== Variante azul: contraste ===== */
 .boton--durazno{--fg:#0B3A5E}
 .boton--durazno:hover{color:#0B3A5E}
 .seccion--verde .antetitulo,.pie h2,.hecho a{color:#9AD8F5}
