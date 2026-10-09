@@ -1,0 +1,694 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>JO SMILE | Clínica de Especialidades Odontológicas</title>
+<meta name="description" content="JO SMILE, clínica de especialidades odontológicas en el área metropolitana de Bucaramanga. Agenda tu valoración por WhatsApp.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff; --bg-soft:#f4f7f8; --ink:#26323a; --ink-soft:#56646d;
+    --brand:#1f5f6b; --brand-dark:#174a54; --brand-tint:#e3eff1;
+    --accent:#e8785e; --wa:#25d366; --wa-dark:#1da851;
+    --line:#dfe6e9; --pending:#b4532a; --pending-bg:#fff6ef;
+    --radius:16px; --shadow:0 6px 24px rgba(31,95,107,.10);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:72px}
+  body{margin:0;background:var(--bg);color:var(--ink);font-family:"Nunito Sans",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+  img{max-width:100%}
+  a{color:var(--brand)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 16px}
+  h1,h2,h3{line-height:1.2;margin:0 0 .5em;color:var(--ink)}
+  h1{font-size:clamp(2rem,6vw,3.2rem);font-weight:800;letter-spacing:-.02em}
+  h2{font-size:clamp(1.6rem,4.5vw,2.3rem);font-weight:800;letter-spacing:-.01em}
+  h3{font-size:1.15rem;font-weight:700}
+  p{margin:0 0 1em}
+  section{padding:64px 0}
+  .eyebrow{display:inline-block;font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--brand);margin-bottom:.6em}
+  .lead{font-size:1.1rem;color:var(--ink-soft);max-width:60ch}
+
+  /* Marcadores de contenido pendiente */
+  .pending{display:inline-block;background:var(--pending-bg);color:var(--pending);border:1.5px dashed #e6a98c;border-radius:8px;padding:.05em .45em;font-weight:600;font-size:.95em}
+  .ph{display:flex;align-items:center;justify-content:center;text-align:center;background:repeating-linear-gradient(135deg,#eef3f4 0 12px,#e6eef0 12px 24px);border:1.5px dashed #b9cbd0;border-radius:var(--radius);color:#5d7880;font-weight:600;font-size:.92rem;padding:16px}
+
+  /* Aviso de boceto */
+  .draft-bar{background:var(--ink);color:#fff;font-size:.85rem;text-align:center;padding:8px 16px}
+  .draft-bar .pending{background:transparent;color:#ffd2bf;border-color:#ffd2bf}
+
+  /* Encabezado */
+  header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.95);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+  .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+  .logo-mark{width:38px;height:38px;border-radius:10px;border:1.5px dashed #b9cbd0;display:grid;place-items:center;font-size:.6rem;color:#5d7880;font-weight:700;background:var(--bg-soft)}
+  .logo-text{font-weight:800;font-size:1.15rem;letter-spacing:.02em;line-height:1}
+  .logo-text small{display:block;font-weight:600;font-size:.68rem;color:var(--ink-soft);letter-spacing:0}
+  .menu{display:none;gap:24px;list-style:none;margin:0;padding:0}
+  .menu a{text-decoration:none;color:var(--ink);font-weight:600;font-size:.95rem}
+  .menu a:hover{color:var(--brand)}
+  @media (min-width:960px){.menu{display:flex}}
+
+  /* Botones */
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;min-height:52px;padding:0 24px;border-radius:999px;font-weight:700;font-size:1rem;text-decoration:none;border:2px solid transparent;transition:transform .15s,background .15s}
+  .btn:active{transform:scale(.98)}
+  .btn-wa{background:var(--wa);color:#fff}
+  .btn-wa:hover{background:var(--wa-dark)}
+  .btn-ghost{border-color:var(--brand);color:var(--brand);background:#fff}
+  .btn-ghost:hover{background:var(--brand-tint)}
+  .btn-sm{min-height:42px;padding:0 16px;font-size:.92rem}
+  .btn svg{width:22px;height:22px;flex:none}
+  .nav .btn-sm{display:none}
+  @media (min-width:560px){.nav .btn-sm{display:inline-flex}}
+
+  /* Hero */
+  .hero{padding:40px 0 56px;background:linear-gradient(180deg,var(--brand-tint),#fff 85%)}
+  .hero-grid{display:grid;gap:32px;align-items:center}
+  @media (min-width:900px){.hero-grid{grid-template-columns:1.1fr .9fr;gap:56px}.hero{padding:72px 0 88px}}
+  .hero h1 span{color:var(--brand)}
+  .hero-ctas{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 8px}
+  .hero-ctas .btn{flex:1 1 220px}
+  @media (min-width:560px){.hero-ctas .btn{flex:0 0 auto}}
+  .hero .ph{aspect-ratio:4/3.4}
+  .reasons{display:grid;gap:12px;margin-top:28px;padding:0;list-style:none}
+  @media (min-width:640px){.reasons{grid-template-columns:repeat(3,1fr)}}
+  .reasons li{display:flex;gap:10px;align-items:flex-start;font-weight:600;font-size:.95rem}
+  .check{flex:none;width:24px;height:24px;border-radius:50%;background:var(--brand);color:#fff;display:grid;place-items:center;margin-top:1px}
+  .check svg{width:14px;height:14px}
+
+  /* Servicios */
+  .services{background:var(--bg-soft)}
+  .grid{display:grid;gap:16px}
+  @media (min-width:640px){.grid-2{grid-template-columns:repeat(2,1fr)}}
+  @media (min-width:960px){.grid-3{grid-template-columns:repeat(3,1fr)}}
+  .card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;display:flex;flex-direction:column}
+  .card p{color:var(--ink-soft);font-size:.97rem;flex:1}
+  .icon{width:48px;height:48px;border-radius:12px;background:var(--brand-tint);color:var(--brand);display:grid;place-items:center;margin-bottom:14px}
+  .icon svg{width:26px;height:26px}
+  .card-link{display:inline-flex;align-items:center;gap:6px;font-weight:700;text-decoration:none;color:var(--brand);min-height:44px}
+  .card-link:hover{text-decoration:underline}
+  .note{font-size:.88rem;color:var(--ink-soft);margin-top:20px}
+
+  /* Equipo */
+  .team-intro{display:grid;gap:32px;align-items:start}
+  @media (min-width:900px){.team-intro{grid-template-columns:1fr 1fr;gap:56px}}
+  .doc{text-align:center}
+  .doc .ph{aspect-ratio:1;border-radius:50%;width:150px;margin:0 auto 14px;font-size:.8rem}
+  .doc h3{margin-bottom:.2em}
+  .doc p{font-size:.92rem;margin:0}
+
+  /* Primera cita */
+  .steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:16px}
+  @media (min-width:900px){.steps{grid-template-columns:repeat(4,1fr)}}
+  .steps li{counter-increment:s;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;position:relative}
+  .steps li::before{content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--accent);color:#fff;font-weight:800;margin-bottom:12px}
+  .steps p{margin:0;color:var(--ink-soft);font-size:.97rem}
+  .first-visit{background:var(--bg-soft)}
+
+  /* Testimonios */
+  .stars{color:#f2b01e;letter-spacing:2px;font-size:1.05rem}
+  .review .ph{min-height:120px;margin:10px 0 14px}
+  .review cite{font-style:normal;font-weight:700;font-size:.92rem}
+  .rating-box{display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px;margin-bottom:28px}
+
+  /* FAQ */
+  .faq{background:var(--bg-soft)}
+  .faq-list{max-width:820px}
+  details{background:#fff;border:1px solid var(--line);border-radius:12px;margin-bottom:10px}
+  summary{cursor:pointer;list-style:none;padding:18px 52px 18px 20px;font-weight:700;position:relative;min-height:44px}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";position:absolute;right:20px;top:50%;transform:translateY(-50%);font-size:1.5rem;color:var(--brand);font-weight:400}
+  details[open] summary::after{content:"–"}
+  details .answer{padding:0 20px 18px;color:var(--ink-soft)}
+  details .answer p:last-child{margin:0}
+
+  /* Contacto */
+  .contact-grid{display:grid;gap:28px}
+  @media (min-width:900px){.contact-grid{grid-template-columns:.9fr 1.1fr;gap:48px}}
+  .info{list-style:none;padding:0;margin:0 0 24px}
+  .info li{display:flex;gap:14px;padding:14px 0;border-bottom:1px solid var(--line)}
+  .info li:last-child{border:0}
+  .info svg{width:22px;height:22px;color:var(--brand);flex:none;margin-top:3px}
+  .info strong{display:block;font-size:.85rem;color:var(--ink-soft);font-weight:600}
+  .map{width:100%;aspect-ratio:4/3;border:0;border-radius:var(--radius);background:var(--bg-soft)}
+  .contact-ctas{display:flex;flex-wrap:wrap;gap:12px}
+  .contact-ctas .btn{flex:1 1 200px}
+
+  /* CTA final */
+  .final{background:var(--brand);color:#fff;text-align:center}
+  .final h2{color:#fff}
+  .final p{color:#d6e8eb;max-width:52ch;margin:0 auto 24px}
+
+  footer{background:#1b2a31;color:#b8c6cc;font-size:.9rem;padding:40px 0 110px}
+  footer a{color:#fff}
+  .foot{display:grid;gap:20px}
+  @media (min-width:760px){.foot{grid-template-columns:1.4fr 1fr 1fr}footer{padding-bottom:40px}}
+  footer .pending{background:transparent;color:#ffcfba;border-color:#8a5a47}
+
+  /* Botón flotante de WhatsApp */
+  .wa-float{position:fixed;z-index:30;right:16px;bottom:16px;left:16px;display:flex;justify-content:center;gap:10px;align-items:center;min-height:56px;border-radius:999px;background:var(--wa);color:#fff;font-weight:800;text-decoration:none;box-shadow:0 8px 24px rgba(0,0,0,.18)}
+  .wa-float svg{width:26px;height:26px}
+  @media (min-width:760px){.wa-float{left:auto;width:64px;height:64px;min-height:0}.wa-float span{display:none}}
+
+  /* ============ MOVIMIENTO E INTERACCIÓN ============ */
+
+  /* Barra de progreso de lectura */
+  .progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--brand),var(--accent));z-index:50}
+
+  /* Encabezado que reacciona al scroll */
+  header{transition:box-shadow .3s}
+  header.scrolled{box-shadow:0 4px 18px rgba(31,95,107,.10)}
+  .menu a{position:relative;padding:6px 0}
+  .menu a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;background:var(--accent);border-radius:2px;transform:scaleX(0);transition:transform .3s ease}
+  .menu a:hover::after,.menu a.active::after{transform:scaleX(1)}
+  .menu a.active{color:var(--brand)}
+
+  /* Botones: elevación, brillo y onda al tocar */
+  .btn{position:relative;overflow:hidden;transition:transform .2s ease,box-shadow .2s ease,background .2s ease,color .2s ease}
+  .btn:hover{transform:translateY(-2px)}
+  .btn-wa:hover{box-shadow:0 10px 22px rgba(37,211,102,.35)}
+  .btn-ghost:hover{box-shadow:0 8px 18px rgba(31,95,107,.15)}
+  .btn:active{transform:translateY(0) scale(.97)}
+  .btn-wa::before{content:"";position:absolute;top:0;left:-75%;width:50%;height:100%;background:linear-gradient(120deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);animation:shine 4.5s ease-in-out infinite}
+  @keyframes shine{0%,70%{left:-75%}100%{left:130%}}
+  .btn svg{transition:transform .3s ease}
+  .btn-wa:hover svg{transform:rotate(-12deg) scale(1.12)}
+  .ripple{position:absolute;border-radius:50%;background:rgba(255,255,255,.55);transform:scale(0);animation:ripple .6s ease-out forwards;pointer-events:none}
+  .btn-ghost .ripple{background:rgba(31,95,107,.18)}
+  @keyframes ripple{to{transform:scale(4);opacity:0}}
+
+  /* Botón flotante: latido suave + globo de ayuda */
+  .wa-float{transition:transform .25s ease}
+  .wa-float:hover{transform:scale(1.06)}
+  .wa-float::after{content:"";position:absolute;inset:0;border-radius:inherit;border:2px solid var(--wa);animation:pulse 2.6s ease-out infinite;pointer-events:none}
+  @keyframes pulse{0%{transform:scale(1);opacity:.8}80%,100%{transform:scale(1.35);opacity:0}}
+  .wa-float{transform:translateY(0)}
+  .wa-float.hide{transform:translateY(140%)}
+  .wa-tip{position:fixed;z-index:31;right:92px;bottom:28px;background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:14px;padding:12px 38px 12px 16px;font-size:.92rem;font-weight:600;box-shadow:var(--shadow);opacity:0;transform:translateX(12px);pointer-events:none;transition:opacity .35s,transform .35s;display:none}
+  .wa-tip.show{opacity:1;transform:none;pointer-events:auto}
+  .wa-tip button{position:absolute;top:6px;right:6px;width:28px;height:28px;border:0;background:none;color:var(--ink-soft);font-size:1.1rem;cursor:pointer;border-radius:50%}
+  .wa-tip button:hover{background:var(--bg-soft)}
+  @media (min-width:760px){.wa-tip{display:block}}
+
+  /* Tarjetas que se elevan */
+  .card,.steps li,.doc{transition:transform .3s ease,box-shadow .3s ease,border-color .3s ease}
+  .card:hover,.steps li:hover{transform:translateY(-6px);box-shadow:var(--shadow);border-color:#c6dade}
+  .icon{transition:background .3s,color .3s,transform .4s cubic-bezier(.34,1.56,.64,1)}
+  .card:hover .icon{background:var(--brand);color:#fff;transform:rotate(-8deg) scale(1.08)}
+  .card-link span{display:inline-block;transition:transform .25s}
+  .card-link:hover span{transform:translateX(5px)}
+  .doc:hover{transform:translateY(-4px)}
+  .doc .ph{transition:border-color .3s,transform .4s}
+  .doc:hover .ph{border-color:var(--brand);transform:scale(1.04)}
+  .card.highlight{border-color:var(--accent);box-shadow:0 0 0 3px rgba(232,120,94,.25),var(--shadow);transform:translateY(-6px)}
+
+  /* Aparición al hacer scroll (solo si hay JS) */
+  .js .reveal{opacity:0;transform:translateY(28px);transition:opacity .7s ease,transform .7s cubic-bezier(.2,.7,.2,1)}
+  .js .reveal.in{opacity:1;transform:none}
+
+  /* Hero: formas suaves en movimiento */
+  .hero{position:relative;overflow:hidden}
+  .blob{position:absolute;border-radius:50%;filter:blur(40px);opacity:.45;pointer-events:none;animation:float 14s ease-in-out infinite}
+  .blob.b1{width:320px;height:320px;background:#bfe0e5;top:-80px;right:-60px}
+  .blob.b2{width:260px;height:260px;background:#fbd9cf;bottom:-100px;left:-80px;animation-delay:-6s}
+  @keyframes float{0%,100%{transform:translate(0,0)}50%{transform:translate(30px,25px)}}
+  .hero .wrap{position:relative}
+  .hero h1 span{background:linear-gradient(90deg,var(--brand),#2f8a99,var(--brand));background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;animation:sheen 6s linear infinite}
+  @keyframes sheen{to{background-position:200% center}}
+  .hero-photo{position:relative}
+  .badge{position:absolute;background:#fff;border-radius:14px;box-shadow:var(--shadow);padding:10px 14px;font-size:.85rem;font-weight:700;display:flex;align-items:center;gap:8px;animation:bob 5s ease-in-out infinite}
+  .badge .dot{width:10px;height:10px;border-radius:50%;background:var(--wa);box-shadow:0 0 0 4px rgba(37,211,102,.2)}
+  .badge.b-1{left:-12px;bottom:28px}
+  .badge.b-2{right:-8px;top:24px;animation-delay:-2.5s}
+  @media (max-width:520px){.badge.b-1{left:8px}.badge.b-2{right:8px}}
+  @keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+
+  /* Selector "¿Qué te molesta?" */
+  .finder{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:24px;margin-top:28px}
+  .finder h3{margin-bottom:.3em}
+  .finder > p{color:var(--ink-soft);font-size:.95rem}
+  .chips{display:flex;flex-wrap:wrap;gap:10px;margin:16px 0 0}
+  .chip{font:inherit;font-size:.95rem;font-weight:600;min-height:44px;padding:0 18px;border-radius:999px;border:1.5px solid var(--line);background:var(--bg-soft);color:var(--ink);cursor:pointer;transition:all .2s ease}
+  .chip:hover{border-color:var(--brand);transform:translateY(-2px)}
+  .chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:#fff}
+  .finder-result{display:grid;grid-template-rows:0fr;transition:grid-template-rows .4s ease}
+  .finder-result.open{grid-template-rows:1fr}
+  .finder-result > div{overflow:hidden}
+  .finder-box{margin-top:18px;padding:18px;border-radius:12px;background:var(--brand-tint);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+  .finder-box p{margin:0;flex:1 1 260px}
+  .finder-box small{display:block;color:var(--ink-soft);margin-top:4px}
+
+  /* Pasos: línea que se dibuja */
+  .steps li::before{transition:transform .4s cubic-bezier(.34,1.56,.64,1)}
+  .steps li:hover::before{transform:scale(1.12) rotate(-6deg)}
+  .js .steps li.reveal:nth-child(2){transition-delay:.12s}
+  .js .steps li.reveal:nth-child(3){transition-delay:.24s}
+  .js .steps li.reveal:nth-child(4){transition-delay:.36s}
+
+  /* FAQ con apertura suave */
+  details{transition:border-color .3s,box-shadow .3s}
+  details:hover{border-color:#c6dade}
+  details[open]{border-color:var(--brand);box-shadow:var(--shadow)}
+  summary::after{transition:transform .3s}
+  details[open] summary::after{content:"+";transform:translateY(-50%) rotate(45deg)}
+  .answer{animation:none}
+  details.animating .answer,details[open] .answer{animation:fadeDown .35s ease}
+  @keyframes fadeDown{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+
+  /* Menú móvil */
+  .burger{display:inline-grid;place-items:center;width:44px;height:44px;border:0;background:none;cursor:pointer;border-radius:10px;color:var(--ink)}
+  .burger:hover{background:var(--bg-soft)}
+  .burger span{display:block;width:22px;height:2px;background:currentColor;border-radius:2px;position:relative;transition:background .2s}
+  .burger span::before,.burger span::after{content:"";position:absolute;left:0;width:22px;height:2px;background:currentColor;border-radius:2px;transition:transform .3s}
+  .burger span::before{top:-7px}.burger span::after{top:7px}
+  .menu-open .burger span{background:transparent}
+  .menu-open .burger span::before{transform:translateY(7px) rotate(45deg)}
+  .menu-open .burger span::after{transform:translateY(-7px) rotate(-45deg)}
+  .nav-right{display:flex;align-items:center;gap:8px}
+  .mobile-menu{display:grid;grid-template-rows:0fr;transition:grid-template-rows .35s ease;border-top:1px solid transparent}
+  .mobile-menu > ul{overflow:hidden;list-style:none;margin:0;padding:0 16px}
+  .menu-open .mobile-menu{grid-template-rows:1fr;border-top-color:var(--line)}
+  .mobile-menu li:first-child{margin-top:8px}.mobile-menu li:last-child{margin-bottom:12px}
+  .mobile-menu a{display:flex;align-items:center;min-height:48px;text-decoration:none;color:var(--ink);font-weight:700;font-size:1.05rem;border-bottom:1px solid var(--line)}
+  .mobile-menu li:last-child a{border:0}
+  @media (min-width:960px){.burger,.mobile-menu{display:none}}
+
+  /* Movimiento reducido: respetar preferencia del usuario */
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+    .js .reveal{opacity:1;transform:none}
+  }
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+
+<div class="progress" aria-hidden="true"></div>
+<div class="draft-bar">Boceto de propuesta · los recuadros <span class="pending">así</span> son datos por confirmar con la clínica</div>
+
+<header>
+  <div class="wrap nav">
+    <a href="#inicio" class="logo" aria-label="JO SMILE, inicio">
+      <span class="logo-mark" title="Logo pendiente">LOGO</span>
+      <span class="logo-text">JO SMILE<small>Especialidades Odontológicas</small></span>
+    </a>
+    <ul class="menu">
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#preguntas">Preguntas</a></li>
+      <li><a href="#contacto">Ubicación</a></li>
+    </ul>
+    <div class="nav-right">
+    <a class="btn btn-wa btn-sm wa-link" href="#" data-msg="Hola, quisiera agendar una valoración.">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+      Escríbenos
+    </a>
+    <button class="burger" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-movil"><span></span></button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="menu-movil" aria-label="Menú">
+    <ul>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#testimonios">Testimonios</a></li>
+      <li><a href="#preguntas">Preguntas frecuentes</a></li>
+      <li><a href="#contacto">Ubicación y contacto</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="inicio">
+
+  <!-- INICIO -->
+  <section class="hero">
+    <span class="blob b1" aria-hidden="true"></span><span class="blob b2" aria-hidden="true"></span>
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Clínica de Especialidades Odontológicas</span>
+        <h1>Especialistas en tu salud oral, <span>en un mismo lugar</span></h1>
+        <p class="lead">Atención odontológica con especialistas en el área metropolitana de Bucaramanga. Empieza con una valoración y te explicamos tus opciones con calma.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-wa wa-link" href="#" data-msg="Hola, quisiera agendar una valoración.">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+            Agenda tu valoración por WhatsApp
+          </a>
+          <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <ul class="reasons">
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span>Especialistas en un mismo lugar</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span>Te explicamos tu plan antes de empezar</li>
+          <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span>Agenda fácil por WhatsApp</li>
+        </ul>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="ph" role="img" aria-label="Foto pendiente" style="aspect-ratio:4/3.4">Foto real de la clínica<br>(fachada, recepción o equipo)</div>
+        <div class="badge b-1"><span class="dot"></span>Agenda por WhatsApp</div>
+        <div class="badge b-2">🦷 Especialistas</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="services" id="servicios">
+    <div class="wrap">
+      <span class="eyebrow">Servicios</span>
+      <h2>¿En qué te podemos ayudar?</h2>
+      <p class="lead">Cada tratamiento empieza con una valoración. Escríbenos sobre el que te interesa y resolvemos tus dudas.</p>
+
+      <div class="finder reveal">
+        <h3>¿Qué te gustaría resolver?</h3>
+        <p>Toca la opción que más se parezca a tu caso y te mostramos por dónde empezar.</p>
+        <div class="chips" role="group" aria-label="Motivo de consulta">
+          <button class="chip" aria-pressed="false" data-svc="0" data-txt="Quiero una revisión general.">Quiero una revisión general</button>
+          <button class="chip" aria-pressed="false" data-svc="2" data-txt="Tengo dolor en una muela.">Me duele una muela</button>
+          <button class="chip" aria-pressed="false" data-svc="1" data-txt="Quiero alinear mis dientes.">Quiero alinear mis dientes</button>
+          <button class="chip" aria-pressed="false" data-svc="3" data-txt="Me sangran las encías.">Me sangran las encías</button>
+          <button class="chip" aria-pressed="false" data-svc="4" data-txt="Me falta un diente y quiero reemplazarlo.">Me falta un diente</button>
+          <button class="chip" aria-pressed="false" data-svc="5" data-txt="Quiero mejorar el color o la forma de mis dientes.">Quiero mejorar mi sonrisa</button>
+        </div>
+        <div class="finder-result" aria-live="polite">
+          <div>
+            <div class="finder-box">
+              <p><strong id="finder-title">Te puede interesar</strong><small>La valoración confirma qué tratamiento necesitas.</small></p>
+              <a class="btn btn-wa wa-link" id="finder-cta" href="#" data-msg="Hola, quisiera agendar una valoración.">Escribir por WhatsApp</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-2 grid-3" style="margin-top:28px">
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></div>
+          <h3>Valoración y odontología general</h3>
+          <p>Revisión completa de dientes y encías para saber cómo está tu boca y qué necesita. Incluye limpiezas, resinas (calzas) y control de caries.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre valoración y odontología general.">Preguntar por este servicio <span>→</span></a>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18"/><rect x="5" y="9" width="3" height="6" rx="1"/><rect x="10.5" y="9" width="3" height="6" rx="1"/><rect x="16" y="9" width="3" height="6" rx="1"/></svg></div>
+          <h3>Ortodoncia</h3>
+          <p>Corrige la posición de los dientes y la mordida con brackets u otros aparatos. Para niños, jóvenes y adultos; la duración se define en la valoración.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre ortodoncia.">Preguntar por este servicio <span>→</span></a>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 3c-2 0-3.5 1.6-3.5 4 0 3 1.5 5 2 8s1 6 2.5 6 1.5-3 2.5-5.5S12 14 12 14s.5 0 1.5 1.5S14.5 21 16 21s2-3 2.5-6 2-5 2-8c0-2.4-1.5-4-3.5-4-2 0-3 1-5 1S9 3 7 3Z"/><path d="M12 7v7"/></svg></div>
+          <h3>Endodoncia</h3>
+          <p>Tratamiento de conductos: trata el interior del diente cuando el nervio está inflamado o infectado, para conservarlo en lugar de extraerlo.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre endodoncia.">Preguntar por este servicio <span>→</span></a>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9c3 3 15 3 18 0"/><path d="M3 9v2c0 4 4 8 9 8s9-4 9-8V9"/></svg></div>
+          <h3>Periodoncia (encías)</h3>
+          <p>Diagnóstico y tratamiento de encías que sangran, se inflaman o se retraen. Cuidar las encías ayuda a conservar los dientes a largo plazo.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre tratamiento de encías.">Preguntar por este servicio <span>→</span></a>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 3h8c1.7 0 3 1.3 3 3 0 2-1 3-1.5 4H6.5C6 9 5 8 5 6c0-1.7 1.3-3 3-3Z"/><path d="M12 10v11M9 13h6M9.5 16h5M10 19h4"/></svg></div>
+          <h3>Rehabilitación oral e implantes</h3>
+          <p>Reemplaza dientes perdidos o muy dañados con coronas, puentes, prótesis o implantes, para recuperar la función al masticar y la apariencia.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre rehabilitación oral e implantes.">Preguntar por este servicio <span>→</span></a>
+        </article>
+        <article class="card reveal">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/><circle cx="12" cy="12" r="3"/></svg></div>
+          <h3>Estética dental</h3>
+          <p>Blanqueamiento y diseño de sonrisa para mejorar el color, la forma o la armonía de los dientes. En la valoración revisamos si eres candidato y qué resultado es realista.</p>
+          <a class="card-link wa-link" href="#" data-msg="Hola, quisiera información sobre estética dental.">Preguntar por este servicio <span>→</span></a>
+        </article>
+      </div>
+      <p class="note"><span class="pending">Por confirmar</span> Lista provisional de especialidades. La clínica define cuáles ofrece realmente.</p>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros">
+    <div class="wrap">
+      <div class="team-intro reveal">
+        <div>
+          <span class="eyebrow">Nosotros</span>
+          <h2>Una clínica de especialistas que trabajan en equipo</h2>
+          <p class="lead">En JO SMILE distintos especialistas atienden cada caso según lo que necesita. Nuestro enfoque es explicarte con claridad tu diagnóstico y tus opciones antes de empezar cualquier tratamiento.</p>
+          <p><span class="pending">Historia de la clínica, año de apertura y significado de "JO"</span></p>
+        </div>
+        <div class="ph" role="img" aria-label="Foto pendiente" style="aspect-ratio:16/10">Foto del consultorio<br>(sala de atención o equipos)</div>
+      </div>
+
+      <h3 style="margin:48px 0 24px;text-align:center">Nuestro equipo</h3>
+      <div class="grid grid-2 grid-3">
+        <div class="doc reveal"><div class="ph">Foto del<br>especialista</div><h3><span class="pending">Dr(a). Nombre Apellido</span></h3><p>Especialidad · Universidad</p></div>
+        <div class="doc reveal"><div class="ph">Foto del<br>especialista</div><h3><span class="pending">Dr(a). Nombre Apellido</span></h3><p>Especialidad · Universidad</p></div>
+        <div class="doc reveal"><div class="ph">Foto del<br>especialista</div><h3><span class="pending">Dr(a). Nombre Apellido</span></h3><p>Especialidad · Universidad</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRIMERA CITA -->
+  <section class="first-visit">
+    <div class="wrap">
+      <span class="eyebrow">Tu primera cita</span>
+      <h2>Así funciona la valoración</h2>
+      <ol class="steps" style="margin-top:28px">
+        <li class="reveal"><h3>Nos escribes</h3><p>Por WhatsApp acordamos el día y la hora que te queden mejor.</p></li>
+        <li class="reveal"><h3>Te revisamos</h3><p>Revisamos tu boca y, si hace falta, pedimos radiografías.</p></li>
+        <li class="reveal"><h3>Te explicamos</h3><p>Diagnóstico, opciones de tratamiento, tiempos y costo, con palabras claras.</p></li>
+        <li class="reveal"><h3>Tú decides</h3><p>Sin presión: decides con calma si quieres empezar.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section id="testimonios">
+    <div class="wrap">
+      <span class="eyebrow">Testimonios</span>
+      <h2>Lo que dicen nuestros pacientes</h2>
+      <div class="rating-box">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span><span class="pending">Calificación y número de reseñas en Google</span></span>
+      </div>
+      <div class="grid grid-2 grid-3">
+        <article class="card review"><span class="stars" aria-hidden="true">★★★★★</span><div class="ph">Reseña real de Google<br>(texto tal cual)</div><cite><span class="pending">Nombre o inicial</span></cite></article>
+        <article class="card review"><span class="stars" aria-hidden="true">★★★★★</span><div class="ph">Reseña real de Google<br>(texto tal cual)</div><cite><span class="pending">Nombre o inicial</span></cite></article>
+        <article class="card review"><span class="stars" aria-hidden="true">★★★★★</span><div class="ph">Reseña real de Google<br>(texto tal cual)</div><cite><span class="pending">Nombre o inicial</span></cite></article>
+      </div>
+      <p style="margin-top:24px"><a class="btn btn-ghost" href="https://maps.google.com/?cid=8167462572874941632" target="_blank" rel="noopener">Ver todas las reseñas en Google</a></p>
+    </div>
+  </section>
+
+  <!-- PREGUNTAS FRECUENTES -->
+  <section class="faq" id="preguntas">
+    <div class="wrap">
+      <span class="eyebrow">Preguntas frecuentes</span>
+      <h2>Resolvemos tus dudas</h2>
+      <div class="faq-list reveal" style="margin-top:24px">
+        <details><summary>¿Cuánto cuesta la valoración?</summary><div class="answer"><p>La valoración tiene un costo de <span class="pending">$ por confirmar</span> e incluye <span class="pending">por confirmar</span>.</p></div></details>
+        <details><summary>¿Cuánto cuesta un tratamiento?</summary><div class="answer"><p>Cada caso es distinto. Después de la valoración te entregamos un presupuesto claro, sin compromiso.</p></div></details>
+        <details><summary>¿Los tratamientos duelen?</summary><div class="answer"><p>La mayoría de procedimientos se hacen con anestesia local. Puede haber molestias leves después, y te explicamos cómo manejarlas. Si sientes nervios, cuéntanos y vamos a tu ritmo.</p></div></details>
+        <details><summary>¿Cuánto dura un tratamiento?</summary><div class="answer"><p>Depende del tratamiento y de cada boca. En la valoración te damos un estimado de tiempos y número de citas.</p></div></details>
+        <details><summary>¿Qué formas de pago tienen? ¿Hay financiación?</summary><div class="answer"><p><span class="pending">Medios de pago y opciones de financiación por confirmar</span></p></div></details>
+        <details><summary>¿Atienden urgencias?</summary><div class="answer"><p><span class="pending">Por confirmar: si atienden urgencias, en qué horario y cómo escribir</span></p></div></details>
+        <details><summary>¿Atienden por EPS o medicina prepagada?</summary><div class="answer"><p><span class="pending">Por confirmar según convenios</span></p></div></details>
+        <details><summary>¿Qué debo llevar a la primera cita?</summary><div class="answer"><p>Tu documento de identidad y, si los tienes, radiografías o exámenes anteriores.</p></div></details>
+      </div>
+      <p style="margin-top:20px">¿Tienes otra pregunta? <a href="#" class="wa-link" data-msg="Hola, tengo una pregunta.">Escríbenos por WhatsApp</a>.</p>
+    </div>
+  </section>
+
+  <!-- UBICACIÓN Y CONTACTO -->
+  <section id="contacto">
+    <div class="wrap contact-grid reveal">
+      <div>
+        <span class="eyebrow">Ubicación y contacto</span>
+        <h2>Visítanos</h2>
+        <ul class="info">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12Z"/><circle cx="12" cy="9" r="2.5"/></svg><div><strong>Dirección</strong><span class="pending">Calle, número, edificio y consultorio</span><br><span class="pending">Barrio y municipio</span></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><div><strong>Horario</strong><span class="pending">Días y horas de atención</span></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg><div><strong>Teléfono y WhatsApp</strong><span class="pending">Número por confirmar</span></div></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg><div><strong>Correo</strong><span class="pending">Correo por confirmar</span></div></li>
+        </ul>
+        <div class="contact-ctas">
+          <a class="btn btn-wa wa-link" href="#" data-msg="Hola, quisiera agendar una valoración.">Escríbenos por WhatsApp</a>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/dir/?api=1&destination=7.0677676,-73.1075523" target="_blank" rel="noopener">Cómo llegar</a>
+        </div>
+      </div>
+      <iframe class="map" title="Mapa de ubicación de JO SMILE" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=7.0677676,-73.1075523&z=17&output=embed"></iframe>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="final">
+    <div class="wrap">
+      <h2>¿Listo para tu valoración?</h2>
+      <p>Escríbenos por WhatsApp, cuéntanos qué necesitas y te ayudamos a encontrar un espacio en la agenda.</p>
+      <a class="btn btn-wa wa-link" href="#" data-msg="Hola, quisiera agendar una valoración.">Agenda por WhatsApp</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <div>
+      <strong style="color:#fff;font-size:1.05rem">JO SMILE</strong><br>
+      Clínica de Especialidades Odontológicas<br>
+      <span class="pending">Municipio, Santander</span>
+    </div>
+    <div>
+      <a href="#servicios">Servicios</a><br>
+      <a href="#nosotros">Nosotros</a><br>
+      <a href="#preguntas">Preguntas frecuentes</a><br>
+      <a href="#contacto">Ubicación</a>
+    </div>
+    <div>
+      <a href="#">Política de tratamiento de datos personales</a> <span class="pending">documento pendiente</span><br>
+      <span class="pending">Código de habilitación (opcional)</span><br>
+      © <span id="year"></span> JO SMILE
+    </div>
+  </div>
+</footer>
+
+<a class="wa-float wa-link" href="#" data-msg="Hola, quisiera agendar una valoración." aria-label="Escríbenos por WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2c-1.6 0-3.1-.4-4.4-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2c0 1.3.9 2.5 1 2.7.1.2 1.8 2.8 4.4 3.9 1.6.7 2.3.8 3.1.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg>
+  <span>Agenda por WhatsApp</span>
+</a>
+
+<div class="wa-tip" role="status">¿Tienes dudas? Escríbenos 👋<button aria-label="Cerrar">×</button></div>
+
+<script>
+  // Número de WhatsApp de la clínica (pendiente). Formato: 57 + celular, sin espacios. Ej: "573001234567".
+  var WHATSAPP = "";
+  document.querySelectorAll(".wa-link").forEach(function (a) {
+    var msg = encodeURIComponent(a.dataset.msg || "Hola, quisiera agendar una valoración.");
+    a.href = "https://wa.me/" + WHATSAPP + "?text=" + msg;
+    a.target = "_blank";
+    a.rel = "noopener";
+  });
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  (function () {
+    var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    var header = document.querySelector("header");
+    var bar = document.querySelector(".progress");
+    var float = document.querySelector(".wa-float");
+    var heroCta = document.querySelector(".hero-ctas .btn-wa");
+
+    // Encabezado con sombra + barra de progreso de lectura
+    function onScroll() {
+      var y = window.scrollY, max = document.documentElement.scrollHeight - innerHeight;
+      header.classList.toggle("scrolled", y > 10);
+      bar.style.transform = "scaleX(" + (max > 0 ? y / max : 0) + ")";
+    }
+    addEventListener("scroll", onScroll, { passive: true });
+    onScroll();
+
+    // Aparición de secciones al hacer scroll
+    var items = document.querySelectorAll(".reveal");
+    if ("IntersectionObserver" in window && !reduce) {
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+      items.forEach(function (el, i) {
+        // escalonar tarjetas dentro de una misma rejilla
+        var sibs = el.parentElement.querySelectorAll(":scope > .reveal");
+        if (sibs.length > 1) el.style.transitionDelay = (Array.prototype.indexOf.call(sibs, el) % 3) * 0.1 + "s";
+        io.observe(el);
+      });
+    } else {
+      items.forEach(function (el) { el.classList.add("in"); });
+    }
+
+    // Resaltar la sección actual en el menú
+    var links = document.querySelectorAll(".menu a");
+    if ("IntersectionObserver" in window) {
+      var spy = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          if (!e.isIntersecting) return;
+          links.forEach(function (a) { a.classList.toggle("active", a.getAttribute("href") === "#" + e.target.id); });
+        });
+      }, { rootMargin: "-45% 0px -50% 0px" });
+      ["servicios", "nosotros", "testimonios", "preguntas", "contacto"].forEach(function (id) {
+        var el = document.getElementById(id); if (el) spy.observe(el);
+      });
+      // En celular, ocultar el botón flotante mientras se ve el botón principal del inicio
+      new IntersectionObserver(function (entries) {
+        if (innerWidth < 760) float.classList.toggle("hide", entries[0].isIntersecting);
+        else float.classList.remove("hide");
+      }).observe(heroCta);
+    }
+
+    // Menú móvil
+    var burger = document.querySelector(".burger");
+    burger.addEventListener("click", function () {
+      var open = header.classList.toggle("menu-open");
+      burger.setAttribute("aria-expanded", open);
+      burger.setAttribute("aria-label", open ? "Cerrar menú" : "Abrir menú");
+    });
+    document.querySelectorAll(".mobile-menu a").forEach(function (a) {
+      a.addEventListener("click", function () {
+        header.classList.remove("menu-open");
+        burger.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Onda al tocar los botones
+    document.querySelectorAll(".btn").forEach(function (btn) {
+      btn.addEventListener("pointerdown", function (ev) {
+        if (reduce) return;
+        var r = btn.getBoundingClientRect(), size = Math.max(r.width, r.height);
+        var dot = document.createElement("span");
+        dot.className = "ripple";
+        dot.style.width = dot.style.height = size + "px";
+        dot.style.left = ev.clientX - r.left - size / 2 + "px";
+        dot.style.top = ev.clientY - r.top - size / 2 + "px";
+        btn.appendChild(dot);
+        setTimeout(function () { dot.remove(); }, 650);
+      });
+    });
+
+    // Preguntas frecuentes: solo una abierta a la vez
+    var faqs = document.querySelectorAll(".faq details");
+    faqs.forEach(function (d) {
+      d.addEventListener("toggle", function () {
+        if (d.open) faqs.forEach(function (o) { if (o !== d) o.open = false; });
+      });
+    });
+
+    // Selector "¿Qué te gustaría resolver?"
+    var cards = document.querySelectorAll("#servicios .card");
+    var chips = document.querySelectorAll(".chip");
+    var result = document.querySelector(".finder-result");
+    var title = document.getElementById("finder-title");
+    var cta = document.getElementById("finder-cta");
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        var active = chip.getAttribute("aria-pressed") === "true";
+        chips.forEach(function (c) { c.setAttribute("aria-pressed", "false"); });
+        cards.forEach(function (c) { c.classList.remove("highlight"); });
+        if (active) { result.classList.remove("open"); return; }
+        chip.setAttribute("aria-pressed", "true");
+        var card = cards[+chip.dataset.svc];
+        var name = card.querySelector("h3").textContent;
+        card.classList.add("highlight");
+        title.textContent = "Te puede interesar: " + name;
+        var msg = "Hola, quisiera agendar una valoración. " + chip.dataset.txt;
+        cta.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(msg);
+        result.classList.add("open");
+      });
+    });
+
+    // Globo de ayuda junto al botón flotante (escritorio), una sola vez
+    var tip = document.querySelector(".wa-tip");
+    var closed = false;
+    try { closed = sessionStorage.getItem("tipClosed") === "1"; } catch (e) {}
+    if (!closed) setTimeout(function () { tip.classList.add("show"); }, 4000);
+    tip.querySelector("button").addEventListener("click", function () {
+      tip.classList.remove("show");
+      try { sessionStorage.setItem("tipClosed", "1"); } catch (e) {}
+    });
+  })();
+</script>
+</body>
+</html>
