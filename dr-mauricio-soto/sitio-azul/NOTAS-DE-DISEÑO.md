@@ -4,7 +4,7 @@
 
 **Canal de contacto:** WhatsApp +57 318 708 0343 (`https://wa.me/573187080343`), con mensaje precargado según el servicio. Sin formularios.
 
-**Paleta:** verde petróleo profundo `#1F3D3B` (principal, sereno y distinto del "azul clínico"), durazno `#F2B08A` (acento; viene del color de resaltado del sitio actual), terracota `#96481F` (acento para textos pequeños, cumple AA), fondo hueso `#FBF7F2`, crema `#F5E8DE`, texto `#1F2A29` y `#4A5654`. Todos los pares de texto cumplen AA (mínimo 4,5:1).
+**Paleta:** verde petróleo profundo `#0E4C7A` (principal, sereno y distinto del "azul clínico"), durazno `#5CBDEB` (acento; viene del color de resaltado del sitio actual), terracota `#1B6CA8` (acento para textos pequeños, cumple AA), fondo hueso `#F5F8FB`, crema `#EAF2F8`, texto `#16263A` y `#4F5F70`. Todos los pares de texto cumplen AA (mínimo 4,5:1).
 
 **Fuentes:** *Cormorant Garamond* para titulares, porque da continuidad con la serif elegante del sitio actual y transmite estética; *Figtree* para el texto, una sans cálida y muy legible en el celular. Ninguna de las dos es Inter, Roboto ni Arial.
 
@@ -21,8 +21,3 @@
 - Animaciones: View Transitions entre páginas, aparición al hacer scroll con IntersectionObserver, encabezado que se compacta, preguntas con apertura animada. Todo se apaga con `prefers-reduced-motion`. Sin JavaScript, el contenido se ve igual (las animaciones solo se activan si JS carga).
 - Git: la carpeta `sitio/` vive dentro del repositorio existente `Odontologiaboceto`, así que hice el commit ahí en vez de crear un repositorio anidado. Para GitHub Pages, la carpeta `sitio/` puede subirse tal cual como raíz de un repositorio propio.
 - Imagen para compartir el link (`assets/compartir.png`, 1200×630): se generó desde el mismo diseño; la ruta es relativa y debe pasar a absoluta cuando haya dominio.
-
-## Variante azul (`../sitio-azul/`, publicada en `docs/azul/`)
-- Pedida por el usuario como alternativa: azul, blanco y gris claro, más asociada a salud.
-- Paleta: azul profundo `#0E4C7A` (principal), celeste `#5CBDEB` (acento), azul medio `#1B6CA8` (texto de acento, AA), fondo gris muy claro `#F5F8FB`, celeste suave `#EAF2F8`, texto `#16263A`/`#4F5F70`, pie `#0B2E4C`. Todos los textos cumplen AA.
-- Titulares en *Plus Jakarta Sans* (sans moderna, típica de marcas de salud actuales) y texto en *Figtree*. Mismo contenido, estructura y animaciones que la versión verde.
