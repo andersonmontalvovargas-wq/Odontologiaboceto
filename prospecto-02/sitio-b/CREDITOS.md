@@ -9,7 +9,21 @@ Recursos de terceros y recursos propios usados en esta versión del boceto (CLAU
 | Atkinson Hyperlegible (texto) | Google Fonts | SIL Open Font License 1.1 | Se carga desde fonts.googleapis.com; se puede alojar en el propio dominio. |
 | Ícono de WhatsApp | Marca de WhatsApp (Meta) | Marca registrada | Se usa solo para identificar el botón de contacto por WhatsApp, sin modificar su forma. |
 
-## Recursos propios (hechos para este boceto)
+## Fotos de referencia (Pexels)
+Licencia de Pexels: uso gratuito, también comercial, sin atribución obligatoria (https://www.pexels.com/license/). Se enlazan desde images.pexels.com, sin descargarlas. Todas muestran objetos o espacios, sin personas identificables, y llevan en la página el letrero "Foto de referencia". Ninguna es de la clínica: hay que reemplazarlas por fotos propias antes del sitio final. Si una no carga, se muestra la ilustración propia.
+
+| Foto | Página en Pexels | Dónde se usa |
+|---|---|---|
+| Juego de instrumentos dentales | https://www.pexels.com/photo/305566/ | Servicios: valoracion-general |
+| Modelo dental con brackets | https://www.pexels.com/photo/6529216/ | Servicios: ortodoncia |
+| Piezas de mano dentales en primer plano | https://www.pexels.com/photo/6502549/ | Servicios: endodoncia |
+| Cepillo de dientes con crema dental | https://www.pexels.com/photo/298611/ | Servicios: periodoncia |
+| Equipo dental en primer plano | https://www.pexels.com/photo/6627668/ | Servicios: rehabilitacion-oral |
+| Instrumentos dentales en primer plano | https://www.pexels.com/photo/4269359/ | Servicios: estetica-dental |
+| Sillón odontológico en un consultorio | https://www.pexels.com/photo/6812479/ | Inicio: tu primera cita |
+| Consultorio odontológico moderno con su equipo | https://www.pexels.com/photo/30902075/ | Nosotros |
+
+ (hechos para este boceto)
 | Recurso | Archivo | Nota |
 |---|---|---|
 | Ilustraciones de servicios (6) | `assets/servicio-*.svg` | Ilustraciones originales. Las fotos reales de la clínica pueden reemplazarlas. |
