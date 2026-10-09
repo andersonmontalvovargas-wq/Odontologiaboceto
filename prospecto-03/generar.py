@@ -13,9 +13,9 @@ CONSULTORIO = "Consultorio Dra. Vanesa Gutiérrez"
 TEL_VISIBLE = "324 492 5383"
 TEL = "+573244925383"
 WA = "573244925383"
-DIRECCION = "Cra. 34 # 36-31, local 2, Edificio Alto Prado"
+DIRECCION = "Edificio Alto Prado, Cra. 34 # 36-31, local 2 y Cra. 34 # 36-33"
 CIUDAD = "Bucaramanga, Santander"
-MAPS = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote("Consultorio Dra Vanesa Gutiérrez Cra 34 36-31 Bucaramanga")
+MAPS = "https://www.google.com/maps/search/?api=1&query=" + urllib.parse.quote("Consultorio Dra Vanesa Gutiérrez Edificio Alto Prado Bucaramanga")
 WAZE = "https://waze.com/ul?q=" + urllib.parse.quote("Carrera 34 #36-31 Bucaramanga") + "&navigate=yes"
 NOTA = "5,0"
 OPINIONES = 61
@@ -64,7 +64,7 @@ PAGINAS = [
     ("tratamientos.html", "Tratamientos"),
     ("la-doctora.html", "La doctora"),
     ("preguntas.html", "Preguntas frecuentes"),
-    ("contacto.html", "Contacto y horario"),
+    ("contacto.html", "Contacto"),
 ]
 
 HORARIO = [("Lunes", "8:00 a. m. – 8:00 p. m."), ("Martes", "8:00 a. m. – 8:00 p. m."), ("Miércoles", "8:00 a. m. – 8:00 p. m."),
@@ -80,7 +80,7 @@ JSONLD = {
     "@type": "Dentist",
     "name": CONSULTORIO,
     "telephone": TEL,
-    "address": {"@type": "PostalAddress", "streetAddress": "Carrera 34 # 36-31, local 2, Edificio Alto Prado",
+    "address": {"@type": "PostalAddress", "streetAddress": "Edificio Alto Prado, Carrera 34 # 36-31, local 2 y Carrera 34 # 36-33",
                 "addressLocality": "Bucaramanga", "addressRegion": "Santander", "addressCountry": "CO"},
     "openingHoursSpecification": [
         {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"], "opens": "08:00", "closes": "20:00"},
@@ -130,10 +130,10 @@ def pagina(archivo, titulo, descripcion, cuerpo, jsonld=False):
 <div class="aviso-propuesta" role="note"><strong>Propuesta de diseño</strong> para el {CONSULTORIO}. No es el sitio oficial.</div>
 <header class="encabezado">
   <div class="contenedor">
-    <a class="marca" href="index.html" aria-label="{NOMBRE}, ir al inicio">
+    <a class="marca" href="index.html" aria-label="{CONSULTORIO}, ir al inicio">
       <!-- PENDIENTE: monograma provisional; reemplazar por el logo real si lo tiene. -->
       <span class="monograma" aria-hidden="true">VG</span>
-      <span class="marca-texto">{NOMBRE}<small>Estética dental · Bucaramanga</small></span>
+      <span class="marca-texto">{CONSULTORIO}<small>Estética dental · Bucaramanga</small></span>
     </a>
     <nav class="nav" aria-label="Principal"><ul>{nav}</ul></nav>
     <a class="btn btn--sm" href="{wa()}" target="_blank" rel="noopener">{I_WA}Escribir por WhatsApp</a>
@@ -165,7 +165,7 @@ def pagina(archivo, titulo, descripcion, cuerpo, jsonld=False):
     <p class="pie-legal">Este sitio no tiene formularios ni recoge datos personales. La información de contacto y el horario se tomaron del perfil público del consultorio en Google ({FECHA_NOTA}).</p>
   </div>
 </footer>
-<a class="wa-flotante" href="{wa()}" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp a la {NOMBRE}">{I_WA}WhatsApp</a>
+<a class="wa-flotante" href="{wa()}" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp al {CONSULTORIO}">{I_WA}WhatsApp</a>
 </body>
 </html>
 '''
@@ -228,7 +228,7 @@ def bloque_ubicacion(h="h2"):
           <a class="btn" href="{MAPS}" target="_blank" rel="noopener">{I_PIN}Abrir en Google Maps</a>
           <a class="btn btn--linea" href="{WAZE}" target="_blank" rel="noopener">Abrir en Waze</a>
         </div>
-        <!-- PENDIENTE: confirmar la placa exacta (en Google aparecen 36-31 local 2 y 36-33), si hay parqueadero y acceso para silla de ruedas. -->
+        <!-- PENDIENTE: confirmar si hay parqueadero y acceso para silla de ruedas. -->
       </div>
       <div>
         <{h}>Horario de atención</{h}>
@@ -242,7 +242,7 @@ inicio = f'''
   <div class="contenedor heroe-grid">
     <div>
       <p class="antetitulo">Odontología estética en Bucaramanga</p>
-      <h1>{NOMBRE}: <em>diseño de sonrisa</em> y lentes cerámicos</h1>
+      <h1>{CONSULTORIO}: <em>diseño de sonrisa</em> y lentes cerámicos</h1>
       <p class="intro">Odontóloga con especialización en estética de la UNICID (São Paulo, Brasil). En su consultorio también se atiende odontología general, ortodoncia, implantes, conductos y encías.</p>
       <div class="acciones">
         <a class="btn" href="{wa()}" target="_blank" rel="noopener">{I_WA}Agenda tu valoración por WhatsApp</a>
@@ -406,7 +406,7 @@ PREG = [
     ("¿Atienden ortodoncia, implantes y otros tratamientos además de estética?",
      'Sí. El consultorio atiende ortodoncia con brackets de autoligado y de zafiro, implantes y coronas, tratamiento de conductos, limpieza, encías y odontología general. Mira la lista completa en <a href="tratamientos.html">Tratamientos</a>.'),
     ("¿Dónde queda el consultorio?",
-     f'En la {DIRECCION}, {CIUDAD}. Puedes <a href="{MAPS}" target="_blank" rel="noopener">abrir la ubicación en Google Maps</a>.'),
+     f'En el {DIRECCION}, {CIUDAD}. Puedes <a href="{MAPS}" target="_blank" rel="noopener">abrir la ubicación en Google Maps</a>.'),
     ("¿Cuál es el horario?",
      "Lunes a sábado de 8:00 a. m. a 8:00 p. m. y domingo de 9:00 a. m. a 8:00 p. m. En festivos puede variar."),
     ("¿Cómo pido una cita?",
@@ -449,7 +449,6 @@ contacto = f'''
     <div class="contacto-grid">
       <div class="contacto-tarjeta">{I_WA}<h2>WhatsApp</h2><p>La forma más rápida de agendar o resolver una duda.</p><a class="btn" href="{wa()}" target="_blank" rel="noopener">Escribir por WhatsApp</a></div>
       <div class="contacto-tarjeta">{I_TEL}<h2>Teléfono</h2><p>{TEL_VISIBLE}</p><a class="btn btn--linea" href="tel:{TEL}">Llamar ahora</a></div>
-      <div class="contacto-tarjeta">{I_PIN}<h2>Dirección</h2><p>{DIRECCION}, {CIUDAD}.</p><a class="btn btn--linea" href="{MAPS}" target="_blank" rel="noopener">Cómo llegar</a></div>
     </div>
   </div>
 </section>
@@ -461,16 +460,16 @@ contacto = f'''
 '''
 
 DESC = {
-    "index.html": ("Dra. Vanesa Gutiérrez | Diseño de sonrisa y lentes cerámicos en Bucaramanga",
+    "index.html": ("Consultorio Dra. Vanesa Gutiérrez | Diseño de sonrisa y lentes cerámicos en Bucaramanga",
                    "Odontóloga con especialización en estética (UNICID, Brasil). Diseño de sonrisa, carillas, lentes cerámicos, blanqueamiento e implantes en Bucaramanga. Agenda por WhatsApp."),
-    "tratamientos.html": ("Tratamientos de odontología y estética dental | Dra. Vanesa Gutiérrez",
+    "tratamientos.html": ("Tratamientos de odontología y estética dental | Consultorio Dra. Vanesa Gutiérrez",
                           "Diseño de sonrisa, carillas y lentes cerámicos, blanqueamiento, implantes, ortodoncia, conductos y limpieza en Bucaramanga, explicados en pocas palabras."),
     "la-doctora.html": ("Dra. Vanesa Gutiérrez, odontóloga especialista en estética | Bucaramanga",
                         "Conoce a la Dra. Vanesa Gutiérrez: odontóloga con especialización en estética de la UNICID (Brasil). Consultorio en el Edificio Alto Prado, Bucaramanga."),
-    "preguntas.html": ("Preguntas frecuentes sobre carillas, blanqueamiento y citas | Dra. Vanesa Gutiérrez",
+    "preguntas.html": ("Preguntas frecuentes sobre carillas, blanqueamiento y citas | Consultorio Dra. Vanesa Gutiérrez",
                        "Qué son los lentes cerámicos, diferencia entre carillas de cerámica y resina, costo del diseño de sonrisa, horario y cómo pedir una cita."),
-    "contacto.html": ("Contacto, dirección y horario | Dra. Vanesa Gutiérrez, Bucaramanga",
-                      "Cra. 34 # 36-31, local 2, Edificio Alto Prado, Bucaramanga. Teléfono y WhatsApp 324 492 5383. Lunes a sábado 8 a. m. – 8 p. m., domingo 9 a. m. – 8 p. m."),
+    "contacto.html": ("Contacto, dirección y horario | Consultorio Dra. Vanesa Gutiérrez, Bucaramanga",
+                      "Edificio Alto Prado, Cra. 34 # 36-31, local 2 y Cra. 34 # 36-33, Bucaramanga. Teléfono y WhatsApp 324 492 5383. Lunes a sábado 8 a. m. – 8 p. m., domingo 9 a. m. – 8 p. m."),
 }
 CUERPOS = {"index.html": inicio, "tratamientos.html": tratamientos, "la-doctora.html": doctora,
            "preguntas.html": preguntas, "contacto.html": contacto}

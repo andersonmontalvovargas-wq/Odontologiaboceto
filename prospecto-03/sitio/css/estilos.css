@@ -85,7 +85,7 @@ p { margin: 0 0 1em; }
 .nav ul { display: flex; gap: 6px; list-style: none; margin: 0; padding: 0; }
 .nav a {
   display: inline-block; padding: 8px 12px; border-radius: 999px;
-  text-decoration: none; color: var(--tinta); font-weight: 500;
+  text-decoration: none; color: var(--tinta); font-weight: 500; white-space: nowrap;
 }
 .nav a:hover, .nav a[aria-current="page"] { background: var(--arena); color: var(--vino-900); }
 .menu-boton {
@@ -109,6 +109,7 @@ p { margin: 0 0 1em; }
 .btn svg { width: 20px; height: 20px; flex: none; }
 .btn--linea { background: transparent; color: var(--vino); }
 .btn--linea:hover { background: var(--vino-claro); color: var(--vino-900); border-color: var(--vino); }
+.encabezado .btn { white-space: nowrap; }
 .btn--sm { min-height: 42px; padding: 8px 16px; font-size: .95rem; }
 
 /* ---------- Inicio: primera pantalla ---------- */
@@ -242,7 +243,7 @@ p { margin: 0 0 1em; }
 .pregunta h2 { font-size: clamp(1.35rem, 2.6vw, 1.7rem); margin-bottom: .4em; }
 .pregunta p:last-child { margin-bottom: 0; }
 
-.contacto-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.contacto-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
 .contacto-tarjeta { background: var(--blanco); border: 1px solid var(--linea); border-radius: var(--radio); padding: 28px; display: flex; flex-direction: column; gap: 6px; }
 .contacto-tarjeta svg { width: 28px; height: 28px; color: var(--vino); margin-bottom: 8px; }
 .contacto-tarjeta h2 { font-size: 1.4rem; margin: 0; }
@@ -277,7 +278,7 @@ p { margin: 0 0 1em; }
   .tratamiento--destacado { grid-column: auto; }
   .contacto-grid { grid-template-columns: 1fr; }
 }
-@media (max-width: 860px) {
+@media (max-width: 1100px) {
   .nav, .encabezado .btn { display: none; }
   .menu-boton { display: inline-flex; align-items: center; }
   .menu-movil { border-top: 1px solid var(--linea); background: var(--porcelana); }
@@ -285,11 +286,16 @@ p { margin: 0 0 1em; }
   .menu-movil ul { list-style: none; margin: 0; padding: 8px 16px 16px; }
   .menu-movil a { display: block; padding: 12px 4px; font-size: 1.1rem; text-decoration: none; color: var(--tinta); border-bottom: 1px solid var(--linea); }
   .menu-movil a[aria-current="page"] { color: var(--vino); font-weight: 600; }
+}
+@media (max-width: 860px) {
   .heroe-grid, .doctora, .opiniones, .ubicacion { grid-template-columns: 1fr; }
   .heroe .retrato { max-width: 360px; width: 100%; margin-inline: auto; aspect-ratio: 5 / 5; }
   .datos ul { grid-template-columns: 1fr; }
   .datos li + li { border-left: 0; border-top: 1px solid var(--linea); }
   .pasos { grid-template-columns: 1fr; }
+  .doctora .retrato { order: 2; max-width: 360px; width: 100%; margin-inline: auto; }
+  .indice { gap: 6px; }
+  .indice a { padding: 6px 12px; font-size: .9rem; }
   .detalle { grid-template-columns: 1fr; gap: 8px; }
   .pie-grid { grid-template-columns: 1fr; }
   .wa-flotante { display: inline-flex; }
