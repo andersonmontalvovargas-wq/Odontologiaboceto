@@ -1,31 +1,26 @@
-# Notas de diseño: versión B ("Ciruela y menta")
+# Notas de diseño: versión B (estilo de bloques redondeados, en azul, gris y blanco)
 
-Misma estructura, páginas, textos y huecos que la versión A (`../sitio/`). Solo cambia el diseño.
+Misma estructura, páginas, textos y huecos que la versión A (`../sitio/`). Primero se hizo en ciruela y menta; a pedido del cliente se pasó a azul, gris y blanco, manteniendo el estilo.
 
 ## Paleta
 | Token | Color | Uso |
 |---|---|---|
-| `--ciruela` | `#3B2150` | Principal: ciruela profunda, seria pero cálida, poco común entre clínicas |
-| `--menta` | `#5CC9A7` | Acento: menta, asociada a frescura y limpieza dental (resaltados, íconos, botones secundarios) |
-| `--menta-texto` | `#1A7A60` | Menta oscura para texto (4.8:1 sobre el fondo) |
-| `--fondo` | `#F5F3F9` | Fondo lavanda grisáceo; los bloques van en blanco |
-| `--tinta` | `#21182B` | Texto |
+| `--azul` | `#1D4F91` | Principal: azul medio-oscuro (ni celeste ni azul marino) |
+| `--azul-900` | `#163C6E` | Pie de página y fondos más profundos |
+| `--acento` | `#B4D2F6` | Azul claro: solo como detalle sobre fondos azules (íconos, botones claros) |
+| `--acento-100` | `#D3E3F8` | Resaltador de titulares y fondo de íconos |
+| `--fondo` | `#F3F5F8` | Gris muy claro de fondo; los bloques van en blanco |
+| `--tinta` | `#1E2A38` | Texto principal (13:1) |
+| `--tinta-suave` | `#485565` | Texto secundario (7:1): legible, sin verse pálido |
 
-Contraste verificado: blanco sobre ciruela 13.8:1, texto secundario 6.9:1, menta sobre ciruela 6.8:1 (todo AA).
+Contraste: blanco sobre azul 8.1:1, texto azul sobre gris 7.5:1, etiquetas azules sobre su fondo claro 5.3:1, azul claro sobre azul profundo 8:1 (todo AA).
+
+## Legibilidad
+- Títulos un grado más livianos que en la primera versión de B (700 → 600, y 800 → 700 en el principal), para que no se vean demasiado remarcados.
+- El texto secundario se oscureció para que no quede "clarito".
 
 ## Tipografía
-- **Bricolage Grotesque** para titulares: grotesca moderna con carácter, se siente actual y cercana.
-- **Atkinson Hyperlegible** para el texto: diseñada para máxima legibilidad, ideal para leer en celular.
+- **Bricolage Grotesque** para titulares y **Atkinson Hyperlegible** para el texto (máxima legibilidad en celular).
 
-## Diferencias con la versión A
-- Encabezado flotante redondeado, con el menú en forma de "pastillas".
-- Las secciones son bloques redondeados separados del fondo (sin curvas).
-- El acento de los titulares es un resaltador menta que se dibuja al aparecer (en A era cursiva terracota).
-- Etiquetas de sección en forma de chip menta, y pasos numerados en cuadros ciruela unidos por una línea punteada.
-- Servicios en tarjetas grandes; el selector de servicio va sobre fondo ciruela.
-- Barra de WhatsApp flotante en celular, separada de los bordes.
-- La textura es una trama de puntos finos (en A era grano de papel).
-
-## Técnica
-- El HTML es el de la versión A con los colores de las ilustraciones cambiados; solo el CSS es nuevo.
-- `js/main.js` es idéntico al de la versión A; el número de WhatsApp se configura igual.
+## Estilo
+Encabezado flotante redondeado, secciones en bloques con esquinas suaves, resaltador bajo las palabras destacadas, pasos en cuadros unidos por línea punteada y barra de WhatsApp flotante en celular.
