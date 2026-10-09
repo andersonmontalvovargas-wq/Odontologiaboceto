@@ -477,3 +477,6 @@ a.tarjeta { text-decoration: none; color: inherit; }
 .servicio-arte .etiqueta-ref { left: 50%; bottom: 14px; transform: translateX(-50%); white-space: nowrap; }
 .escena .etiqueta-ref { bottom: 12px; left: 12px; }
 .escena figcaption + .etiqueta-ref, .escena--ancha .etiqueta-ref { bottom: 48px; }
+.foto-heroe { position: absolute; left: 7.69%; top: 7.14%; width: 84.62%; height: 89.29%; border-radius: 16.4% / 14.4%; object-fit: cover; z-index: 1; }
+.etiqueta-heroe { left: 50%; bottom: 16px; transform: translateX(-50%); white-space: nowrap; z-index: 2; }
+.heroe-visual .flotante { z-index: 3; }

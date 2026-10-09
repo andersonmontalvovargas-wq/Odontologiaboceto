@@ -14,6 +14,7 @@ Licencia de Pexels: uso gratuito, también comercial, sin atribución obligatori
 
 | Foto | Página en Pexels | Dónde se usa |
 |---|---|---|
+| Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | Inicio: imagen principal |
 | Juego de instrumentos dentales | https://www.pexels.com/photo/305566/ | Servicios: valoracion-general |
 | Modelo dental con brackets | https://www.pexels.com/photo/6529216/ | Servicios: ortodoncia |
 | Piezas de mano dentales en primer plano | https://www.pexels.com/photo/6502549/ | Servicios: endodoncia |
