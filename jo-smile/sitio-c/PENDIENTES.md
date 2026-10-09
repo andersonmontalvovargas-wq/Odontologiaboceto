@@ -11,7 +11,7 @@ Ordenado por importancia. En el código, cada hueco está marcado con `<!-- PEND
 ## Muy recomendable (es lo que más genera confianza)
 5. **Los especialistas.** Por cada uno: foto, nombre completo, especialidad, universidad y, si quieren, registro profesional.
 6. **3 a 5 opiniones reales de Google**, copiadas tal cual con nombre o inicial, y la calificación promedio.
-7. **Fotos reales**: fachada o entrada, recepción, sala de atención y equipo de trabajo.
+7. **Fotos reales**: fachada o entrada, recepción, sala de atención y equipo de trabajo. Hoy el sitio usa ilustraciones propias (una escena de consultorio y una por servicio), que se pueden reemplazar o combinar con las fotos.
 8. **Horario de atención.**
 9. **Precio de la valoración** y si incluye radiografías.
 10. **Formas de pago y financiación.**

@@ -418,3 +418,18 @@ a.tarjeta { text-decoration: none; color: inherit; }
 /* Ajustes de la ilustración principal */
 .heroe-visual > svg { width: 100%; height: auto; }
 @media (max-width: 959px) { .heroe-visual { max-width: 380px; } }
+
+
+/* ---------- Ilustraciones ---------- */
+.tarjeta-img { width: 132px; height: 132px; margin: -8px 0 14px -8px; transition: transform .5s cubic-bezier(.34, 1.4, .64, 1); }
+.tarjeta:hover .tarjeta-img { transform: scale(1.07) rotate(-3deg); }
+.servicio-arte img { position: relative; z-index: 1; width: 92%; height: auto; transition: transform .6s cubic-bezier(.22, .7, .2, 1); }
+.servicio:hover .servicio-arte img { transform: scale(1.05) rotate(2deg); }
+.con-figura { display: grid; gap: 32px; align-items: center; margin-bottom: 44px; }
+@media (min-width: 900px) { .con-figura { grid-template-columns: 1fr 1fr; gap: 56px; } }
+.con-figura .cabecera-seccion { margin-bottom: 0; }
+.escena { margin: 0; }
+.escena img { width: 100%; height: auto; border-radius: var(--radio); }
+.escena figcaption { margin-top: 10px; font-size: .92rem; color: inherit; opacity: .9; }
+.escena--ancha { margin-bottom: 8px; }
+@media (min-width: 900px) { .escena--ancha img { max-height: 460px; object-fit: cover; } }
