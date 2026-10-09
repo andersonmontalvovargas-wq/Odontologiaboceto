@@ -2,7 +2,7 @@
 (function () {
   "use strict";
 
-  var WHATSAPP = "573187080343";
+  var WHATSAPP = "573000000000";
   var reducido = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   /* 1. Enlaces de WhatsApp con mensaje según el contexto.

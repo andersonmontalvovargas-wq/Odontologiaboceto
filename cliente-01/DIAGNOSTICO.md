@@ -10,11 +10,11 @@
 
 | | |
 |---|---|
-| **Qué es** | Consultorio odontológico de un solo profesional a la vista: Dr. Nombre Apellido, ortodoncia y odontología estética, en Bucaramanga (Barrio El Prado). |
+| **Qué es** | Consultorio odontológico de un solo profesional a la vista: Dr. Nombre Apellido, ortodoncia y odontología estética, en Bucaramanga (Barrio Ejemplo). |
 | **Qué hace** | Carillas de porcelana (E.max / Empress), diseño de sonrisa, ortodoncia (incluida ortodoncia invisible con marca propia "PuraLigners"), implantes dentales. También ofrece un curso/masterclass de carillas para odontólogos. |
 | **A quién le habla hoy** | Sobre todo a **pacientes extranjeros (EE. UU./Canadá) que buscan turismo dental**: la página está en inglés, el precio está en dólares, y hay paquetes con hotel, vuelo y traslados. |
 | **A quién debería hablarle en este proyecto** | Al paciente de Bucaramanga y Santander, en español, sin perder la puerta para el paciente de afuera (ver "Decisiones"). |
-| **Objetivo de contacto** | **WhatsApp** al +57 318 708 0343 (es el único canal directo que aparece; no hay botón "Agendar cita"). |
+| **Objetivo de contacto** | **WhatsApp** al +57 300 000 0000 (es el único canal directo que aparece; no hay botón "Agendar cita"). |
 
 ## 2. Lo que el sitio actual hace bien (se conserva)
 
@@ -23,7 +23,7 @@
 - **Ya tiene preguntas frecuentes** que responden precio, materiales, tiempo de tratamiento e idioma, es decir, lo que de verdad se pregunta.
 - **Precio transparente** para el paquete de carillas (5.000 USD por 20 carillas), cosa poco común y que genera confianza.
 - **Tecnología concreta:** escaneo 3D, diseño digital de sonrisa, impresión 3D y CAD/CAM. Le da al paciente algo tangible.
-- **Dirección completa y coherente** en el pie y en los datos estructurados (Carrera 33 #37-31, Tercer Piso, El Prado), con parqueadero privado gratuito.
+- **Dirección completa y coherente** en el pie y en los datos estructurados (Calle 00 #00-00, Tercer Piso, Ejemplo), con parqueadero privado gratuito.
 - **Cada servicio tiene su propia página** en el menú.
 - **Menciones en medios** (Portafolio, New York Style Guide) y enlace a Instagram con casos.
 - **Política de Tratamiento de Datos** y Términos y Condiciones enlazados en el pie.

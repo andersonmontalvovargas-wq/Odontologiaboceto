@@ -20,8 +20,8 @@
 | Elemento | Valor | Origen |
 |---|---|---|
 | Canal principal | WhatsApp | [EXTRAÍDO] |
-| Número | +57 318 708 0343 | [EXTRAÍDO] |
-| Enlace | `https://wa.me/573187080343?text=Hola%20Dr.%20Apellido%2C%20quisiera%20agendar%20una%20valoraci%C3%B3n` | número [EXTRAÍDO], mensaje [SUGERIDO] |
+| Número | +57 300 000 0000 | [EXTRAÍDO] |
+| Enlace | `https://wa.me/573000000000?text=Hola%20Dr.%20Apellido%2C%20quisiera%20agendar%20una%20valoraci%C3%B3n` | número [EXTRAÍDO], mensaje [SUGERIDO] |
 | Texto del botón principal | "Escríbenos por WhatsApp" / "Agenda tu valoración por WhatsApp" | [SUGERIDO] |
 | Dónde va el botón | Encabezado (visible sin hacer scroll), botón flotante fijo en celular, al final de cada servicio y en la sección de contacto | [SUGERIDO] |
 
@@ -34,18 +34,18 @@
 | Nombre comercial | Dr. Nombre Apellido | [EXTRAÍDO] |
 | Línea descriptiva | Diseño de Sonrisa y Odontología Estética en Bucaramanga, Colombia | [EXTRAÍDO] (pie de página) |
 | Línea alterna | Dr. Nombre Apellido · Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (meta descripción) |
-| Dirección | Carrera 33 #37-31, Tercer Piso, Barrio El Prado, Bucaramanga, Santander | [EXTRAÍDO] |
+| Dirección | Calle 00 #00-00, Tercer Piso, Barrio Ejemplo, Bucaramanga, Santander | [EXTRAÍDO] |
 | Código postal | 680002 | [EXTRAÍDO] (datos estructurados) |
-| WhatsApp | +57 318 708 0343 | [EXTRAÍDO] |
+| WhatsApp | +57 300 000 0000 | [EXTRAÍDO] |
 | Teléfono fijo | — | [PENDIENTE] (no aparece; preguntar si existe) |
-| Correo | disenodesonrisabucaramanga@gmail.com | [EXTRAÍDO] |
+| Correo | correo@example.com | [EXTRAÍDO] |
 | Horario de atención | — | [PENDIENTE] |
 | Parqueadero | Parqueadero privado gratuito para pacientes | [EXTRAÍDO – traducido] ("complimentary private parking") |
-| Zona | Barrio El Prado; el sitio la describe como "segura y de fácil acceso" | [EXTRAÍDO – traducido] |
+| Zona | Barrio Ejemplo; el sitio la describe como "segura y de fácil acceso" | [EXTRAÍDO – traducido] |
 | Nombre en Google Maps | Dr. Nombre Apellido Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (enlace del perfil entregado por el usuario) |
-| Enlace Google Maps (limpio) | `https://www.google.com/maps?cid=6574127976607366725` | [EXTRAÍDO] (ID del perfil del enlace entregado) |
-| Coordenadas | 7.1230637, -73.1120744 | [EXTRAÍDO] (del enlace) |
-| Mapa embebido | `https://maps.google.com/maps?q=7.1230637,-73.1120744&z=17&output=embed` | [SUGERIDO] (construido con las coordenadas) |
+| Enlace Google Maps (limpio) | `https://www.google.com/maps?q=Bucaramanga` | [EXTRAÍDO] (ID del perfil del enlace entregado) |
+| Coordenadas | 7.1193,-73.1227 | [EXTRAÍDO] (del enlace) |
+| Mapa embebido | `https://maps.google.com/maps?q=7.1193,-73.1227&z=17&output=embed` | [SUGERIDO] (construido con las coordenadas) |
 | Idiomas de atención | Español e inglés ("fully bilingual") | [EXTRAÍDO – traducido] |
 | Idiomas del sitio | Español (principal) + inglés con selector ES / EN | Decisión del cliente |
 | Formas de pago | Tarjeta débito y transferencia | Solo en Doctoralia según el resumen de un buscador → [PENDIENTE] confirmar con el cliente |
@@ -102,7 +102,7 @@
 - **Subtítulo:** "Dr. Nombre Apellido, odontólogo especialista egresado de la Universidad Nacional de Colombia." [EXTRAÍDO – traducido]
 - **Apoyo:** "Agenda una valoración y resolvemos tus dudas antes de empezar cualquier tratamiento." [SUGERIDO]
 - **Botón:** "Escríbenos por WhatsApp" → enlace de la sección 0. [SUGERIDO]
-- **Datos rápidos bajo el botón:** "Barrio El Prado, Bucaramanga · Parqueadero gratuito · Atención en español e inglés" [EXTRAÍDO – traducido]
+- **Datos rápidos bajo el botón:** "Barrio Ejemplo, Bucaramanga · Parqueadero gratuito · Atención en español e inglés" [EXTRAÍDO – traducido]
 - **Imagen:** foto del Dr. Apellido en el consultorio [PENDIENTE]. No usar el escudo de la UNAL como imagen principal.
 
 ### 3.2 Servicios
@@ -197,12 +197,12 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 
 ### 3.8 Ubicación y contacto
 - **Título:** "¿Dónde estamos?" [SUGERIDO]
-- **Dirección:** Carrera 33 #37-31, Tercer Piso, Barrio El Prado, Bucaramanga, Santander. [EXTRAÍDO]
-- **Mapa:** Google Maps embebido con las coordenadas de la sección 1, más el botón "Cómo llegar" → `https://www.google.com/maps?cid=6574127976607366725` [EXTRAÍDO]
+- **Dirección:** Calle 00 #00-00, Tercer Piso, Barrio Ejemplo, Bucaramanga, Santander. [EXTRAÍDO]
+- **Mapa:** Google Maps embebido con las coordenadas de la sección 1, más el botón "Cómo llegar" → `https://www.google.com/maps?q=Bucaramanga` [EXTRAÍDO]
 - **Parqueadero:** privado y gratuito. [EXTRAÍDO – traducido]
 - **Horario:** [PENDIENTE]
-- **WhatsApp:** +57 318 708 0343, con botón grande. [EXTRAÍDO]
-- **Correo:** disenodesonrisabucaramanga@gmail.com [EXTRAÍDO]
+- **WhatsApp:** +57 300 000 0000, con botón grande. [EXTRAÍDO]
+- **Correo:** correo@example.com [EXTRAÍDO]
 - **Cierre:** "Escríbenos y te respondemos para agendar tu valoración." [SUGERIDO] (no prometer tiempos de respuesta)
 
 ### 3.9 Pie de página
@@ -283,7 +283,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 - **¿Daña mis dientes?** "En los diseños de resina generalmente no se realiza ningún desgaste del esmalte. En los casos de porcelana se hace una micropreparación mínima y controlada." [EXTRAÍDO, pulido; se quita el "No." inicial porque contradice la lista de diferencias]
 - **Reparación de carillas:** "¿Se te partió o se te despegó una carilla? Te la reparamos. Reparamos carillas en resina y en porcelana." [EXTRAÍDO, pulido]
 - **Financiación:** "Ofrecemos diferentes planes de financiación." [EXTRAÍDO]
-- **Ubicación:** "Encuéntranos en el corazón del Barrio El Prado, una zona segura y de fácil acceso, con parqueadero gratuito." [EXTRAÍDO]
+- **Ubicación:** "Encuéntranos en el corazón del Barrio Ejemplo, una zona segura y de fácil acceso, con parqueadero gratuito." [EXTRAÍDO]
 - **Galería:** remite a Instagram. [EXTRAÍDO]
 
 ### 7.2 Ortodoncia (`/ortodoncia-bucaramanga`)
