@@ -365,7 +365,19 @@ h4{font-size:1.15rem}
 /* ===== Fotos de referencia (Pexels) ===== */
 .servicio__visual,.marco__arco{position:relative}
 .foto-ref{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;display:block}
-.foto-ref--retrato{object-position:50% 18%}
+.foto-ref--retrato{object-position:50% 0%}
+.marco__arco:has(.foto-ref--retrato){border-radius:180px 180px var(--r-l) var(--r-l);background:#DCE8F2}
+@media (min-width:960px){.marco__arco:has(.foto-ref--retrato){border-radius:220px 220px var(--r-l) var(--r-l)}}
+.marco__arco:has(.foto-ref--retrato) > svg{display:none}
 .servicio__visual::after,.marco__arco::after{z-index:2;opacity:.06}
 .etiqueta-ref{position:absolute;left:14px;bottom:14px;z-index:3;background:rgba(11,46,76,.74);color:#fff;font:500 .72rem/1 var(--f-texto);letter-spacing:.03em;padding:.5em .8em;border-radius:999px;backdrop-filter:blur(4px)}
 .marco__arco .etiqueta-ref{left:50%;transform:translateX(-50%);top:22px;bottom:auto;white-space:nowrap}
+
+.tarjeta--foto{padding-top:0;overflow:hidden}
+.tarjeta__foto{position:relative;display:block;margin:0 -24px 20px;aspect-ratio:16/10;overflow:hidden;background:var(--crema)}
+.tarjeta__foto img{width:100%;height:100%;object-fit:cover;transition:transform .6s var(--curva)}
+.tarjeta--foto:hover .tarjeta__foto img{transform:scale(1.05)}
+.tarjeta--foto .icono{display:none}
+.subservicio__foto{position:relative;display:block;margin:-22px -22px 16px;aspect-ratio:16/9;overflow:hidden;border-radius:var(--r-m) var(--r-m) 0 0;background:var(--crema)}
+.subservicio__foto img{width:100%;height:100%;object-fit:cover}
+.tarjeta__foto .etiqueta-ref,.subservicio__foto .etiqueta-ref{left:10px;bottom:10px;top:auto;font-size:.66rem}
