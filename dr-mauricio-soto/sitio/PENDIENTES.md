@@ -4,6 +4,8 @@ Ordenados por importancia. En el código, cada hueco está marcado con `<!-- PEN
 
 ## Lo más importante (cambia cuánto confía la gente)
 
+> **Fotos de referencia:** la versión azul 2 usa fotos genéricas de Pexels (licencia libre), marcadas en la página con "Imagen de referencia" y en el código con `<!-- REFERENCIA -->`. Son solo para mostrar cómo se vería; hay que reemplazarlas todas por fotos reales antes de publicar el sitio final.
+
 1. **Fotos reales del doctor.** Un retrato profesional para el inicio y para "Conoce al doctor". Hoy esos espacios tienen un arco de color con su nombre.
 2. **Reseñas de Google.** De 3 a 6 opiniones reales copiadas tal cual (texto y nombre o inicial). Las secciones de testimonios del inicio y de "Conoce al doctor" están listas para recibirlas.
 3. **Fotos del consultorio.** Recepción, sillón, escáner 3D y la entrada del edificio (3 o 4 fotos).
