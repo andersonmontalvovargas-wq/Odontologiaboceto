@@ -1,4 +1,4 @@
-# Diagnóstico — Dr. Mauricio Soto (doctormauriciosoto.com)
+# Diagnóstico — Dr. Nombre Apellido (example.com)
 
 **Fecha:** 6 de octubre de 2026
 **Fuente analizada:** texto completo de una página del sitio pegado por el usuario + 1 captura del encabezado en escritorio (`fuente/captura-encabezado-escritorio.png`). El sitio no se pudo abrir directamente (la red del entorno bloquea el dominio). Las páginas de Ortodoncia, Implantes, Diseño de Sonrisa, About, Blog y Términos/Datos **no se leyeron**.
@@ -10,7 +10,7 @@
 
 | | |
 |---|---|
-| **Qué es** | Consultorio odontológico de un solo profesional a la vista: Dr. Mauricio Soto, ortodoncia y odontología estética, en Bucaramanga (Barrio El Prado). |
+| **Qué es** | Consultorio odontológico de un solo profesional a la vista: Dr. Nombre Apellido, ortodoncia y odontología estética, en Bucaramanga (Barrio El Prado). |
 | **Qué hace** | Carillas de porcelana (E.max / Empress), diseño de sonrisa, ortodoncia (incluida ortodoncia invisible con marca propia "PuraLigners"), implantes dentales. También ofrece un curso/masterclass de carillas para odontólogos. |
 | **A quién le habla hoy** | Sobre todo a **pacientes extranjeros (EE. UU./Canadá) que buscan turismo dental**: la página está en inglés, el precio está en dólares, y hay paquetes con hotel, vuelo y traslados. |
 | **A quién debería hablarle en este proyecto** | Al paciente de Bucaramanga y Santander, en español, sin perder la puerta para el paciente de afuera (ver "Decisiones"). |
@@ -38,7 +38,7 @@
 | 1 | Credenciales visibles | **1** | Hay UNAL, especialidad y sociedades, pero se contradice en los años (dice "10 years" y "over 25 years since 1998" en la misma página) y todo está en inglés. |
 | 2 | Fotos reales del equipo y consultorio | **0** ⚠️ | La imagen principal es el escudo de la Universidad Nacional, no el doctor ni el consultorio; la galería se manda a Instagram. |
 | 3 | Testimonios o reseñas reales | **0** | Dice dos veces que tiene "excelentes calificaciones en Google", pero no muestra ni una reseña ni enlace a ellas. |
-| 4 | Quién atiende y cómo es la primera cita | **1** | Queda claro que atiende el Dr. Soto; la sección "What's the Process" no explica el proceso, solo repite elogios. |
+| 4 | Quién atiende y cómo es la primera cita | **1** | Queda claro que atiende el Dr. Apellido; la sección "What's the Process" no explica el proceso, solo repite elogios. |
 | 5 | Contacto completo y consistente | **1** | WhatsApp, dirección y correo coinciden; faltan horarios y teléfono fijo, y solo aparecen al final de la página. |
 
 ### B. Conversión
@@ -92,7 +92,7 @@ Tiene buenas credenciales y buena información sobre carillas, pero le habla a u
 - **El curso o masterclass para odontólogos sale del menú principal** y queda como enlace en el pie, porque no es un servicio para pacientes.
 - **El escudo de la UNAL no va como imagen principal.** Puede ir pequeño junto a la credencial; la imagen principal debe ser el doctor o el consultorio (pendiente).
 - **No se muestra ningún precio:** en todo el sitio, y en ambos idiomas, se dice "El valor de tu tratamiento se define en la valoración". *(Confirmado por el usuario.)*
-- **Google Maps:** se usa el perfil "Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia" del enlace entregado. Ese enlace también traía, de una búsqueda anterior, el nombre de otra clínica (BEODONTO); se descartó y se usa solo el ID del perfil del Dr. Soto.
+- **Google Maps:** se usa el perfil "Dr. Nombre Apellido Diseño de Sonrisa y Ortodoncia" del enlace entregado. Ese enlace también traía, de una búsqueda anterior, el nombre de otra clínica (BEODONTO); se descartó y se usa solo el ID del perfil del Dr. Apellido.
 - **Escala del veredicto:** 0–14 crítico · 15–26 mejorable · 27–36 sólido.
 - **Puntajes con ⚠️:** califiqué solo lo visible; se ajustan si llegan capturas del celular.
 - **Página analizada:** por el menú resaltado en la captura, el texto pegado parece ser `/porcelain-veneers-colombia`, no la raíz (en el menú, "Diseño de Sonrisa" apunta a `/`). El diagnóstico describe esa página y el menú, que son comunes a todo el sitio.

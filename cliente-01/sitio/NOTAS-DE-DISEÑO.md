@@ -1,4 +1,4 @@
-# Notas de diseño — Dr. Mauricio Soto (boceto v2)
+# Notas de diseño — Dr. Nombre Apellido (boceto v2)
 
 **Páginas:** `index.html` (Inicio) · `servicios.html` · `nosotros.html` (titulada "Conoce al doctor": hay un solo odontólogo) · `preguntas.html` (hay más de 4 preguntas) · `contacto.html` · `english.html` (una página en inglés para pacientes del exterior, porque el cliente pidió español e inglés).
 
@@ -10,7 +10,7 @@
 
 **Decisiones:**
 - Actualicé `CONTENIDO.md` (sección 7) con las páginas internas que entregó el usuario antes de construir, para que siga siendo la fuente única.
-- No hay fotos disponibles (la red del entorno bloquea el sitio viejo): en su lugar uso marcos en arco con textura de grano y monograma "MS", y formas orgánicas en SVG. No uso fotos de stock.
+- No hay fotos disponibles (la red del entorno bloquea el sitio viejo): en su lugar uso marcos en arco con textura de grano y monograma "NA", y formas orgánicas en SVG. No uso fotos de stock.
 - No hay precios en ninguna página (decisión del cliente). Se dice "el valor se define en la valoración" y se menciona que hay financiación.
 - Los años de experiencia y el número de casos no aparecen porque el sitio actual los contradice.
 - Botón flotante de WhatsApp en escritorio; en el celular lo reemplaza una barra fija abajo (WhatsApp + Cómo llegar), para no tapar contenido con dos elementos.

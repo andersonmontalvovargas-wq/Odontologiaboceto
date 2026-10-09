@@ -1,4 +1,4 @@
-# Contenido para el boceto — Dr. Mauricio Soto, Bucaramanga
+# Contenido para el boceto — Dr. Nombre Apellido, Bucaramanga
 
 > Este archivo es la única fuente para construir el boceto. Todo elemento lleva etiqueta de origen:
 > - `[EXTRAÍDO]` textual o casi textual del sitio actual.
@@ -21,7 +21,7 @@
 |---|---|---|
 | Canal principal | WhatsApp | [EXTRAÍDO] |
 | Número | +57 318 708 0343 | [EXTRAÍDO] |
-| Enlace | `https://wa.me/573187080343?text=Hola%20Dr.%20Soto%2C%20quisiera%20agendar%20una%20valoraci%C3%B3n` | número [EXTRAÍDO], mensaje [SUGERIDO] |
+| Enlace | `https://wa.me/573187080343?text=Hola%20Dr.%20Apellido%2C%20quisiera%20agendar%20una%20valoraci%C3%B3n` | número [EXTRAÍDO], mensaje [SUGERIDO] |
 | Texto del botón principal | "Escríbenos por WhatsApp" / "Agenda tu valoración por WhatsApp" | [SUGERIDO] |
 | Dónde va el botón | Encabezado (visible sin hacer scroll), botón flotante fijo en celular, al final de cada servicio y en la sección de contacto | [SUGERIDO] |
 
@@ -31,9 +31,9 @@
 
 | Dato | Valor | Origen |
 |---|---|---|
-| Nombre comercial | Dr. Mauricio Soto | [EXTRAÍDO] |
+| Nombre comercial | Dr. Nombre Apellido | [EXTRAÍDO] |
 | Línea descriptiva | Diseño de Sonrisa y Odontología Estética en Bucaramanga, Colombia | [EXTRAÍDO] (pie de página) |
-| Línea alterna | Dr. Mauricio Soto · Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (meta descripción) |
+| Línea alterna | Dr. Nombre Apellido · Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (meta descripción) |
 | Dirección | Carrera 33 #37-31, Tercer Piso, Barrio El Prado, Bucaramanga, Santander | [EXTRAÍDO] |
 | Código postal | 680002 | [EXTRAÍDO] (datos estructurados) |
 | WhatsApp | +57 318 708 0343 | [EXTRAÍDO] |
@@ -42,7 +42,7 @@
 | Horario de atención | — | [PENDIENTE] |
 | Parqueadero | Parqueadero privado gratuito para pacientes | [EXTRAÍDO – traducido] ("complimentary private parking") |
 | Zona | Barrio El Prado; el sitio la describe como "segura y de fácil acceso" | [EXTRAÍDO – traducido] |
-| Nombre en Google Maps | Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (enlace del perfil entregado por el usuario) |
+| Nombre en Google Maps | Dr. Nombre Apellido Diseño de Sonrisa y Ortodoncia | [EXTRAÍDO] (enlace del perfil entregado por el usuario) |
 | Enlace Google Maps (limpio) | `https://www.google.com/maps?cid=6574127976607366725` | [EXTRAÍDO] (ID del perfil del enlace entregado) |
 | Coordenadas | 7.1230637, -73.1120744 | [EXTRAÍDO] (del enlace) |
 | Mapa embebido | `https://maps.google.com/maps?q=7.1230637,-73.1120744&z=17&output=embed` | [SUGERIDO] (construido con las coordenadas) |
@@ -54,11 +54,11 @@
 ### Redes y perfiles
 | Red | URL | Origen |
 |---|---|---|
-| Instagram | https://www.instagram.com/doctormauriciosoto/ | [EXTRAÍDO] |
-| YouTube (1) | https://www.youtube.com/@doctormauriciosoto | [EXTRAÍDO] (datos estructurados) |
+| Instagram | https://www.instagram.com/nombreapellido/ | [EXTRAÍDO] |
+| YouTube (1) | https://www.youtube.com/@nombreapellido | [EXTRAÍDO] (datos estructurados) |
 | YouTube (2) | https://www.youtube.com/@smile-design-dental-aesthetic | [EXTRAÍDO] (datos estructurados); [PENDIENTE] confirmar cuál es el canal vigente |
-| LinkedIn | https://www.linkedin.com/in/doctormauriciosoto | [EXTRAÍDO] |
-| Doctoralia | https://www.doctoralia.co/mauricio-soto/odontologo/bucaramanga | [EXTRAÍDO] |
+| LinkedIn | https://www.linkedin.com/in/nombreapellido | [EXTRAÍDO] |
+| Doctoralia | https://www.doctoralia.co/nombre-apellido/odontologo/bucaramanga | [EXTRAÍDO] |
 
 ### Menciones en medios (para una franja de "Lo han mencionado")
 | Medio | Título / enlace | Origen |
@@ -99,11 +99,11 @@
 
 ### 3.1 Inicio (hero)
 - **Título:** "Diseño de sonrisa y ortodoncia en Bucaramanga" [SUGERIDO, basado en la línea [EXTRAÍDO] del pie]
-- **Subtítulo:** "Dr. Mauricio Soto, odontólogo especialista egresado de la Universidad Nacional de Colombia." [EXTRAÍDO – traducido]
+- **Subtítulo:** "Dr. Nombre Apellido, odontólogo especialista egresado de la Universidad Nacional de Colombia." [EXTRAÍDO – traducido]
 - **Apoyo:** "Agenda una valoración y resolvemos tus dudas antes de empezar cualquier tratamiento." [SUGERIDO]
 - **Botón:** "Escríbenos por WhatsApp" → enlace de la sección 0. [SUGERIDO]
 - **Datos rápidos bajo el botón:** "Barrio El Prado, Bucaramanga · Parqueadero gratuito · Atención en español e inglés" [EXTRAÍDO – traducido]
-- **Imagen:** foto del Dr. Soto en el consultorio [PENDIENTE]. No usar el escudo de la UNAL como imagen principal.
+- **Imagen:** foto del Dr. Apellido en el consultorio [PENDIENTE]. No usar el escudo de la UNAL como imagen principal.
 
 ### 3.2 Servicios
 
@@ -125,7 +125,7 @@
 
 #### Ortodoncia (incluye ortodoncia invisible PuraLigners)
 - **Qué es:** "La ortodoncia corrige la posición de los dientes y la forma en que muerden, con brackets o con alineadores transparentes." [SUGERIDO]
-- **Especialidad:** "El Dr. Soto es especialista en ortodoncia y miembro de la Sociedad Colombiana de Ortodoncia." [EXTRAÍDO – traducido]
+- **Especialidad:** "El Dr. Apellido es especialista en ortodoncia y miembro de la Sociedad Colombiana de Ortodoncia." [EXTRAÍDO – traducido]
 - **PuraLigners:** "Creador de PuraLigners, ortodoncia invisible." [EXTRAÍDO] Qué es exactamente y en qué se diferencia: [PENDIENTE]
 - **Tipos de ortodoncia que ofrece (brackets metálicos, estéticos, autoligado, alineadores…):** [PENDIENTE — página `/ortodoncia-bucaramanga` no leída]
 - **Duración típica:** "La duración depende de cada caso y se estima en la valoración." [SUGERIDO]
@@ -143,7 +143,7 @@
 - **Consulta virtual previa:** el sitio menciona "first virtual consultation" para pacientes del exterior [EXTRAÍDO – traducido]; si aplica también para locales: [PENDIENTE]
 
 ### 3.3 El doctor (Nosotros)
-- **Nombre:** Dr. Mauricio Soto [EXTRAÍDO]. Nombre completo y número de tarjeta profesional / registro: [PENDIENTE]
+- **Nombre:** Dr. Nombre Apellido [EXTRAÍDO]. Nombre completo y número de tarjeta profesional / registro: [PENDIENTE]
 - **Formación:** "Odontólogo egresado de la Universidad Nacional de Colombia, especialista en ortodoncia y odontología estética." [EXTRAÍDO – traducido]. Año: el sitio dice "Especialista de la Universidad Nacional de Colombia (1998)" [EXTRAÍDO]. Qué título obtuvo en 1998 (pregrado o especialización): [PENDIENTE]
 - **Sociedades:** Sociedad Colombiana de Ortodoncia; "American Association of Cosmetic Dentistry" [EXTRAÍDO – traducido]. Confirmar el nombre exacto de la segunda: [PENDIENTE]
 - **Años de experiencia:** [PENDIENTE]. El sitio dice "10 years" y "over 25 years… since 1998"; Doctoralia dice 30. No usar ninguna cifra hasta confirmar.
@@ -159,9 +159,9 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 
 ### 3.5 Testimonios
 - **Testimonios en el sitio:** ninguno. [PENDIENTE]
-- **Fuente confirmada:** perfil de Google Maps "Dr. Mauricio Soto Diseño de Sonrisa y Ortodoncia". No se pudo leer desde este entorno: faltan de 3 a 6 reseñas textuales con nombre o inicial, y la calificación promedio y número de reseñas tal como aparecen. [PENDIENTE]
+- **Fuente confirmada:** perfil de Google Maps "Dr. Nombre Apellido Diseño de Sonrisa y Ortodoncia". No se pudo leer desde este entorno: faltan de 3 a 6 reseñas textuales con nombre o inicial, y la calificación promedio y número de reseñas tal como aparecen. [PENDIENTE]
 - **Mientras tanto en el boceto:** 3 tarjetas marcadas "[Reseña de Google pendiente]" y el botón "Ver reseñas en Google" → enlace del perfil. No escribir reseñas de ejemplo.
-- **Antes y después:** el sitio remite a Instagram (https://www.instagram.com/doctormauriciosoto/) [EXTRAÍDO]. Para el boceto: 3 a 4 casos con autorización del paciente [PENDIENTE]; mientras tanto, botón "Ver casos en Instagram".
+- **Antes y después:** el sitio remite a Instagram (https://www.instagram.com/nombreapellido/) [EXTRAÍDO]. Para el boceto: 3 a 4 casos con autorización del paciente [PENDIENTE]; mientras tanto, botón "Ver casos en Instagram".
 - **Texto introductorio:** "Lo que dicen nuestros pacientes" [SUGERIDO]
 
 ### 3.6 Preguntas frecuentes
@@ -170,7 +170,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 1. **¿Cuánto cuestan las carillas de porcelana?** "Depende de cuántas carillas necesites y de tu caso. El valor de tu tratamiento se define en la valoración." [Decisión del cliente]. No incluir cifras ni la comparación con EE. UU.
 2. **¿Qué materiales usan para las carillas?** "Usamos porcelanas E.max y Empress." [EXTRAÍDO – traducido]
 3. **¿Cuánto tiempo toma un tratamiento completo de carillas?** "Normalmente de 5 a 7 días hábiles." [EXTRAÍDO – traducido]
-4. **¿Atienden en inglés?** "Sí. El Dr. Soto y su equipo son bilingües." [EXTRAÍDO – traducido]
+4. **¿Atienden en inglés?** "Sí. El Dr. Apellido y su equipo son bilingües." [EXTRAÍDO – traducido]
 5. **¿Es seguro Bucaramanga para pacientes de afuera?** → Solo en la sección internacional, reescrita sin "la ciudad más segura de Colombia". [EXTRAÍDO – traducido, suavizado]
 
 **Sugeridas (lo que se pregunta por WhatsApp):**
@@ -206,7 +206,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 - **Cierre:** "Escríbenos y te respondemos para agendar tu valoración." [SUGERIDO] (no prometer tiempos de respuesta)
 
 ### 3.9 Pie de página
-- "© 2026 Dr. Mauricio Soto. Todos los derechos reservados. Diseño de Sonrisa y Odontología Estética en Bucaramanga, Colombia." [EXTRAÍDO]
+- "© 2026 Dr. Nombre Apellido. Todos los derechos reservados. Diseño de Sonrisa y Odontología Estética en Bucaramanga, Colombia." [EXTRAÍDO]
 - Enlaces: Términos y Condiciones (`/terminos-condiciones`) y Política de Tratamiento de Datos (`/tratamiento-de-datos`). [EXTRAÍDO]
 - Enlace secundario: "Curso de carillas para odontólogos" (`/dental-veneers-masterclass`). [EXTRAÍDO]
 - Blog: `/blog-estetica-dental-ortodoncia-bucaramanga` [EXTRAÍDO]
@@ -222,11 +222,11 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 |---|---|---|
 | Escudo/logo Universidad Nacional de Colombia (blanco sobre gris) | Encabezado de la página de carillas (ver `fuente/captura-encabezado-escritorio.png`) | Solo pequeño, junto a la credencial. No como imagen principal; es la marca de la universidad. |
 | Imagen del negocio en datos estructurados | `https://static.wixstatic.com/media/887ec21c-ae1a-4c96-a1d0-3c8940c6acef.png` | Contenido desconocido (posible logo). [PENDIENTE] verificar |
-| Galería de casos | Instagram @doctormauriciosoto | Antes y después, con autorización |
+| Galería de casos | Instagram @nombreapellido | Antes y después, con autorización |
 | Resto de imágenes del sitio | No vistas | [PENDIENTE] (pedir capturas o acceso) |
 
 ### Faltan (pedir al cliente)
-1. Foto profesional del Dr. Soto (retrato, fondo limpio) para el inicio y "El doctor".
+1. Foto profesional del Dr. Apellido (retrato, fondo limpio) para el inicio y "El doctor".
 2. Fotos reales del consultorio: recepción, sillón, fachada o entrada del edificio.
 3. Fotos de la tecnología: escáner intraoral, impresora 3D.
 4. De 3 a 4 casos de antes y después con autorización escrita del paciente.
@@ -267,7 +267,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 
 ## 7. Contenido de las páginas internas (entregado por el usuario el 6-oct-2026)
 
-> Este bloque **complementa y prevalece** sobre lo anterior cuando hay diferencias. Viene de las páginas `/` (Diseño de Sonrisa, en español), `/ortodoncia-bucaramanga`, `/dental-implants-colombia`, `/doctor-mauricio-soto`, `/dental-veneers-masterclass`, el blog y `/links`.
+> Este bloque **complementa y prevalece** sobre lo anterior cuando hay diferencias. Viene de las páginas `/` (Diseño de Sonrisa, en español), `/ortodoncia-bucaramanga`, `/dental-implants-colombia`, `/doctor-nombre-apellido`, `/dental-veneers-masterclass`, el blog y `/links`.
 > Se mantiene la decisión del cliente: **no mostrar precios** (las cifras del sitio actual se contradicen entre sí y no se usan).
 
 ### 7.1 Diseño de sonrisa (página de inicio actual, en español)
@@ -293,7 +293,7 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 - **Alineadores invisibles:** "Son placas de plástico transparente fabricadas a medida con escaneo intraoral 3D. A diferencia de los brackets, son removibles, estéticos y prácticamente imperceptibles, y corrigen la posición de los dientes sin alambres ni metales." [EXTRAÍDO, pulido]. "Al ser removibles, facilitan la higiene bucal." [EXTRAÍDO]
 - **Brackets transparentes:** "Son menos visibles que los metálicos; una opción para adultos y adolescentes que quieren un tratamiento más discreto." [EXTRAÍDO, pulido]
 - **Alineadores vs. brackets:** "Los alineadores son transparentes y removibles, y permiten una mejor higiene. Los brackets son fijos y pueden ser más visibles, pero son muy eficaces para corregir casos más complicados. La elección depende de las necesidades de cada paciente." [EXTRAÍDO, pulido]
-- **PuraLigners:** "Sistema propio de alineadores transparentes impresos en 3D, creado por el Dr. Soto. Cada caso se diseña digitalmente en Bucaramanga, con tecnología DLP y resinas biocompatibles." [EXTRAÍDO – traducido, pulido]. Sitio: http://www.puraligners.com/ [EXTRAÍDO]. No usar "resultados en 6 meses".
+- **PuraLigners:** "Sistema propio de alineadores transparentes impresos en 3D, creado por el Dr. Apellido. Cada caso se diseña digitalmente en Bucaramanga, con tecnología DLP y resinas biocompatibles." [EXTRAÍDO – traducido, pulido]. Sitio: http://www.puraligners.com/ [EXTRAÍDO]. No usar "resultados en 6 meses".
 - **Retenedores:** "Los retenedores mantienen la alineación de los dientes después del tratamiento y evitan que vuelvan a su posición original. Tipos: fijos (un alambre adherido detrás de los dientes), removibles transparentes y Hawley (arco de metal con base de acrílico)." [EXTRAÍDO, pulido]
 - **Duración:** "En promedio de 12 a 24 meses; con flujo digital, algunos casos leves se resuelven en 8 a 10 meses." [EXTRAÍDO]
 - **Molestias:** "Usamos arcos térmicos que aplican fuerzas leves y constantes." [EXTRAÍDO, sin la cifra "70%"]
@@ -309,11 +309,11 @@ Explicación corta: "Con estas herramientas el tratamiento se planea en el compu
 - **Proceso:** "Primero, una cirugía corta para colocar el implante; luego unos cuatro meses de cicatrización; finalmente se colocan las prótesis sobre los implantes." [EXTRAÍDO – traducido]
 - **Pagos:** "Aceptamos todas las tarjetas de crédito y PayPal." [EXTRAÍDO – traducido] → choca con Doctoralia (débito y transferencia): [PENDIENTE] confirmar.
 
-### 7.4 El doctor (`/doctor-mauricio-soto`, en inglés)
+### 7.4 El doctor (`/doctor-nombre-apellido`, en inglés)
 - **Formación:** "Mi formación profesional comenzó en la Universidad Nacional de Colombia, donde desarrollé un compromiso con la excelencia clínica y el rigor científico." [EXTRAÍDO – traducido]
 - **Áreas:** ortodoncia y ortopedia dentofacial; odontología estética; implantología oral. [EXTRAÍDO – traducido]. Títulos formales de cada área: [PENDIENTE]
 - **Creador de PuraLigners.** [EXTRAÍDO]
-- **Canal de YouTube** "Dr. Mauricio Soto Smile Design & Veneers Colombia", fundado en 2010, con más de 2 millones de vistas y más de 10 mil suscriptores. [EXTRAÍDO – traducido]. No usar "el canal número uno del mundo".
+- **Canal de YouTube** "Dr. Nombre Apellido Smile Design & Veneers Colombia", fundado en 2010, con más de 2 millones de vistas y más de 10 mil suscriptores. [EXTRAÍDO – traducido]. No usar "el canal número uno del mundo".
 - **Docencia:** "Ha dictado más de 100 cursos de formación profesional." [EXTRAÍDO – traducido]. Ofrece residencias clínicas para odontólogos (carillas cerámicas, carillas impresas en 3D, carillas en resina). [EXTRAÍDO]
 - **Prensa:** Portafolio (enero de 2026) sobre impresión 3D en odontología estética. [EXTRAÍDO]
 - **Años de experiencia:** el sitio dice 10, 20, 25, 28 y "casi 30" → [PENDIENTE], no usar.

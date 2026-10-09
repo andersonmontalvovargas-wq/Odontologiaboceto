@@ -1,4 +1,4 @@
-/* Dr. Mauricio Soto · comportamiento compartido (boceto) */
+/* Dr. Nombre Apellido · comportamiento compartido (boceto) */
 (function () {
   "use strict";
 
@@ -12,8 +12,8 @@
     if (!texto) {
       var tema = a.getAttribute("data-wa");
       texto = tema
-        ? "Hola Dr. Soto, quiero agendar una valoración para " + tema + "."
-        : "Hola Dr. Soto, quiero agendar una valoración.";
+        ? "Hola Dr. Apellido, quiero agendar una valoración para " + tema + "."
+        : "Hola Dr. Apellido, quiero agendar una valoración.";
     }
     a.href = "https://wa.me/" + WHATSAPP + "?text=" + encodeURIComponent(texto);
     a.target = "_blank";

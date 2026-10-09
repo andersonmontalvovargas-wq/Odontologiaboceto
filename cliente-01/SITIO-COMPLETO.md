@@ -1,4 +1,4 @@
-# Sitio completo — Dr. Mauricio Soto (boceto)
+# Sitio completo — Dr. Nombre Apellido (boceto)
 
 Este archivo reúne **todo el texto de las 6 páginas** del boceto, en orden, para revisarlo en un solo lugar.
 Cada página aparece con su título, su descripción para Google y su contenido sección por sección.
@@ -13,13 +13,13 @@ Los botones aparecen así: **[Botón: texto → a dónde lleva]**. Los botones d
 
 # PÁGINA: Inicio (index.html)
 
-- **Título en Google:** Diseño de sonrisa y ortodoncia en Bucaramanga | Dr. Mauricio Soto
-- **Descripción en Google:** Diseño de sonrisa, carillas, ortodoncia, alineadores invisibles e implantes en Bucaramanga. Dr. Mauricio Soto, egresado de la Universidad Nacional. Agenda tu valoración por WhatsApp.
+- **Título en Google:** Diseño de sonrisa y ortodoncia en Bucaramanga | Dr. Nombre Apellido
+- **Descripción en Google:** Diseño de sonrisa, carillas, ortodoncia, alineadores invisibles e implantes en Bucaramanga. Dr. Nombre Apellido, egresado de la Universidad Nacional. Agenda tu valoración por WhatsApp.
 _BARRIO EL PRADO · BUCARAMANGA_
 
 ## Diseño de sonrisa y ortodoncia en Bucaramanga
-El Dr. Mauricio Soto es odontólogo egresado de la Universidad Nacional de Colombia y especialista en ortodoncia. Agenda una valoración: revisamos tu caso y te explicamos tus opciones antes de empezar.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+El Dr. Nombre Apellido es odontólogo egresado de la Universidad Nacional de Colombia y especialista en ortodoncia. Agenda una valoración: revisamos tu caso y te explicamos tus opciones antes de empezar.
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 **[Botón: Ver tratamientos → página servicios.html]**
 - Universidad Nacional de Colombia
 - Parqueadero gratuito
@@ -42,7 +42,7 @@ _POR QUÉ CONFIAR_
 
 ### Formación, especialidad y un consultorio habilitado
 - **Universidad Nacional de Colombia:** Odontólogo egresado y especialista en ortodoncia.
-- **Sociedad Colombiana de Ortodoncia:** El Dr. Soto es miembro activo.
+- **Sociedad Colombiana de Ortodoncia:** El Dr. Apellido es miembro activo.
 - **Creador de PuraLigners:** Su propio sistema de alineadores transparentes impresos en 3D.
 - **Consultorio habilitado:** Cumple los estándares de habilitación de la Secretaría de Salud de Santander.
 - **Esterilización en autoclave:** Todo el instrumental pasa por lavado ultrasónico, empaquetado y autoclave.
@@ -60,7 +60,7 @@ Revisamos tus dientes y encías y escuchamos lo que quieres lograr.
 
 #### Te explicamos tus opciones
 El tratamiento indicado, el tiempo aproximado y el valor, para que decidas con calma.
-**[Botón: Quiero agendar mi valoración → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Quiero agendar mi valoración → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 _TECNOLOGÍA DIGITAL_
 
 ### Tu sonrisa se planea antes de empezar
@@ -110,13 +110,13 @@ _TU PRIMERA CITA_
 
 ### ¿Tienes dudas? Escríbenos.
 Cuéntanos qué te gustaría mejorar y agendamos tu valoración.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ---
 
 # PÁGINA: Servicios (servicios.html)
 
-- **Título en Google:** Carillas, ortodoncia e implantes en Bucaramanga | Dr. Mauricio Soto
+- **Título en Google:** Carillas, ortodoncia e implantes en Bucaramanga | Dr. Nombre Apellido
 - **Descripción en Google:** Diseño de sonrisa en resina y porcelana, ortodoncia con brackets, alineadores invisibles PuraLigners, implantes y reparación de carillas en el Barrio El Prado, Bucaramanga.
 Inicio / Servicios
 
@@ -137,7 +137,7 @@ En la primera cita revisamos tus dientes y encías, escuchamos qué quieres mejo
 - Te explicamos cada opción con calma.
 - Sabes el valor antes de empezar.
 - Si vives en el exterior, puedes empezar con una consulta virtual.
-**[Botón: Agenda tu valoración → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 _(Ilustración)_
 _ESTÉTICA DENTAL_
 
@@ -157,12 +157,12 @@ Láminas delgadas hechas a la medida en porcelana de alta resistencia (IPS e.max
 | Duración promedio | Unos 5 años | Unos 15 años |
 | Manchas y fracturas | Menos resistente | Más resistente |
 _La duración depende del cuidado de cada paciente. Qué material te conviene se define en la valoración._
-**[Botón: Agenda tu valoración de diseño de sonrisa → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración para diseño de sonrisa."]**
+**[Botón: Agenda tu valoración de diseño de sonrisa → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración para diseño de sonrisa."]**
 _(Ilustración)_
 _ESPECIALIDAD_
 
 ### Ortodoncia
-La ortodoncia va más allá de la estética. Problemas de mordida, dientes apiñados o dificultad para masticar o hablar se pueden corregir con el tratamiento adecuado. El Dr. Soto es especialista en ortodoncia de la Universidad Nacional de Colombia.
+La ortodoncia va más allá de la estética. Problemas de mordida, dientes apiñados o dificultad para masticar o hablar se pueden corregir con el tratamiento adecuado. El Dr. Apellido es especialista en ortodoncia de la Universidad Nacional de Colombia.
 - Brackets metálicos
 - Brackets transparentes (cerámica o zafiro)
 - Alineadores invisibles
@@ -172,13 +172,13 @@ La ortodoncia va más allá de la estética. Problemas de mordida, dientes apiñ
 - Desde los 7 años para prevención. La mayoría de nuestros pacientes son adultos de 30 a 50 años.
 - Financiación directa con cuota inicial y mensualidades.
 Retenedores. Al terminar, los retenedores mantienen los dientes en su nueva posición. Pueden ser fijos (un alambre detrás de los dientes), removibles transparentes o tipo Hawley.
-**[Botón: Agenda tu valoración de ortodoncia → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración para ortodoncia."]**
+**[Botón: Agenda tu valoración de ortodoncia → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración para ortodoncia."]**
 _(Ilustración)_
 _ORTODONCIA INVISIBLE_
 
 ### Alineadores invisibles PuraLigners
 Los alineadores son placas de plástico transparente fabricadas a medida con escaneo intraoral 3D. Son removibles, estéticos y prácticamente imperceptibles, y corrigen la posición de los dientes sin alambres ni metales.
-PuraLigners es el sistema propio de alineadores creado por el Dr. Soto: cada caso se diseña digitalmente en Bucaramanga y se fabrica con impresión 3D y resinas biocompatibles.
+PuraLigners es el sistema propio de alineadores creado por el Dr. Apellido: cada caso se diseña digitalmente en Bucaramanga y se fabrica con impresión 3D y resinas biocompatibles.
 
 ##### Alineadores
 Transparentes y removibles. Te los quitas para comer y cepillarte, lo que facilita la higiene.
@@ -186,7 +186,7 @@ Transparentes y removibles. Te los quitas para comer y cepillarte, lo que facili
 ##### Brackets
 Fijos y más visibles, pero muy eficaces en casos más complejos.
 La elección entre alineadores y brackets depende de tu caso; te la explicamos en la valoración.
-**[Botón: Agenda tu valoración de alineadores invisibles → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración para alineadores invisibles."]**
+**[Botón: Agenda tu valoración de alineadores invisibles → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración para alineadores invisibles."]**
 _(Ilustración)_
 _REHABILITACIÓN_
 
@@ -202,7 +202,7 @@ Alrededor de cuatro meses.
 #### Corona o prótesis
 Se coloca sobre el implante.
 Si el implante es posible en tu caso se define en la valoración.
-**[Botón: Agenda tu valoración de implantes → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración para implantes."]**
+**[Botón: Agenda tu valoración de implantes → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración para implantes."]**
 _(Ilustración)_
 _TE AYUDAMOS_
 
@@ -210,29 +210,29 @@ _TE AYUDAMOS_
 ¿Se te partió o se te despegó una carilla? Te la reparamos. Reparamos carillas en resina y en porcelana.
 - Escríbenos por WhatsApp con una foto de cómo está.
 - Te decimos si se puede reparar o si conviene cambiarla.
-**[Botón: Pregunta por la reparación → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración para reparación de carillas."]**
+**[Botón: Pregunta por la reparación → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración para reparación de carillas."]**
 _CASOS REALES_
 
 ### Antes y después
 Aquí irán casos reales de nuestros pacientes, publicados con su autorización. Mientras tanto, puedes ver casos actualizados en Instagram.
-**[Botón: Ver casos en Instagram → https://www.instagram.com/doctormauriciosoto/]**
+**[Botón: Ver casos en Instagram → https://www.instagram.com/nombreapellido/]**
 _TU PRIMERA CITA_
 
 ### ¿No sabes qué tratamiento necesitas?
 No tienes que saberlo. Escríbenos, cuéntanos qué te gustaría mejorar y en la valoración te orientamos.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ---
 
 # PÁGINA: Conoce al doctor (nosotros.html)
 
-- **Título en Google:** Conoce al Dr. Mauricio Soto, ortodoncista en Bucaramanga
+- **Título en Google:** Conoce al Dr. Nombre Apellido, ortodoncista en Bucaramanga
 - **Descripción en Google:** Odontólogo de la Universidad Nacional de Colombia, especialista en ortodoncia, miembro de la Sociedad Colombiana de Ortodoncia y creador de los alineadores PuraLigners.
 Inicio / Conoce al doctor
 
-## Conoce al Dr. Mauricio Soto
+## Conoce al Dr. Nombre Apellido
 Su formación empezó en la Universidad Nacional de Colombia, donde desarrolló un compromiso con la excelencia clínica y el rigor científico. Hoy combina la ortodoncia y la odontología estética con tecnología digital.
-**[Botón: Agenda con el Dr. Soto → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda con el Dr. Apellido → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 _(Espacio reservado para la foto real del doctor)_
 _FORMACIÓN Y ÁREAS_
 
@@ -262,11 +262,11 @@ _ENSEÑANZA Y MEDIOS_
 
 #### Docencia
 Ha dictado más de 100 cursos de formación profesional y ofrece residencias clínicas de carillas para odontólogos.
-**[Botón: Ver cursos → https://www.doctormauriciosoto.com/dental-veneers-masterclass]**
+**[Botón: Ver cursos → https://www.example.com/dental-veneers-masterclass]**
 
 #### Canal de YouTube
 Fundado en 2010 y dedicado a las carillas dentales: más de 2 millones de vistas y más de 10 mil suscriptores.
-**[Botón: Ver el canal → https://www.youtube.com/@doctormauriciosoto]**
+**[Botón: Ver el canal → https://www.youtube.com/@nombreapellido]**
 
 #### En la prensa
 Entrevistado por Portafolio sobre impresión 3D en odontología estética (enero de 2026).
@@ -289,15 +289,15 @@ Aquí irán las opiniones de nuestros pacientes, tomadas de sus reseñas en Goog
 **[Botón: Ver reseñas en Google → https://www.google.com/maps?cid=6574127976607366725]**
 _TU PRIMERA CITA_
 
-### Agenda tu valoración con el Dr. Soto
+### Agenda tu valoración con el Dr. Apellido
 Escríbenos por WhatsApp y te damos una cita en el consultorio del Barrio El Prado.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ---
 
 # PÁGINA: Preguntas frecuentes (preguntas.html)
 
-- **Título en Google:** Preguntas frecuentes sobre diseño de sonrisa y ortodoncia | Dr. Mauricio Soto
+- **Título en Google:** Preguntas frecuentes sobre diseño de sonrisa y ortodoncia | Dr. Nombre Apellido
 - **Descripción en Google:** Precios y valoración, financiación, duración de la ortodoncia, resina o porcelana, implantes y cómo llegar al consultorio en Bucaramanga.
 Inicio / Preguntas frecuentes
 
@@ -383,24 +383,24 @@ R:
 **P: Vivo fuera de Bucaramanga, ¿me pueden atender?**
 R: 
 ¿No encontraste tu pregunta?
-**[Botón: Pregúntanos por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, tengo una pregunta:"]**
+**[Botón: Pregúntanos por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, tengo una pregunta:"]**
 _TU PRIMERA CITA_
 
 ### Resolvamos tus dudas en persona
 En la valoración revisamos tu caso y te explicamos todo con calma.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ---
 
 # PÁGINA: Contacto (contacto.html)
 
-- **Título en Google:** Contacto y ubicación en el Barrio El Prado, Bucaramanga | Dr. Mauricio Soto
+- **Título en Google:** Contacto y ubicación en el Barrio El Prado, Bucaramanga | Dr. Nombre Apellido
 - **Descripción en Google:** Agenda tu valoración por WhatsApp al +57 318 708 0343. Carrera 33 #37-31, Barrio El Prado, Bucaramanga. Parqueadero gratuito.
 Inicio / Contacto
 
 ## Agenda tu valoración en Bucaramanga
 La forma más rápida de agendar es por WhatsApp. Estamos en el Barrio El Prado, con parqueadero gratuito.
-**[Botón: Escríbenos por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Escríbenos por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ### Ubicación y contacto
 - DIRECCIÓN Carrera 33 #37-31, Tercer Piso, Barrio El Prado, Bucaramanga, Santander
@@ -427,24 +427,24 @@ Te recomendamos hoteles en buenas zonas de la ciudad.
 
 ##### Atención bilingüe
 El doctor y su equipo hablan inglés. English page
-**[Botón: Escríbenos desde donde estés → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, vivo fuera de Bucaramanga y quiero información para agendar una valoración."]**
+**[Botón: Escríbenos desde donde estés → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, vivo fuera de Bucaramanga y quiero información para agendar una valoración."]**
 _TU PRIMERA CITA_
 
 ### Te esperamos en El Prado
 Escríbenos, cuéntanos qué te gustaría mejorar y agendamos tu valoración.
-**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Soto, quiero agendar una valoración."]**
+**[Botón: Agenda tu valoración por WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hola Dr. Apellido, quiero agendar una valoración."]**
 
 ---
 
 # PÁGINA: English (pacientes del exterior) (english.html)
 
-- **Título en Google:** Porcelain veneers & orthodontics in Bucaramanga, Colombia | Dr. Mauricio Soto
-- **Descripción en Google:** Porcelain veneers, orthodontics and implants in Bucaramanga, Colombia, with Dr. Mauricio Soto. Bilingual care, airport pickup and a virtual first consultation.
+- **Título en Google:** Porcelain veneers & orthodontics in Bucaramanga, Colombia | Dr. Nombre Apellido
+- **Descripción en Google:** Porcelain veneers, orthodontics and implants in Bucaramanga, Colombia, with Dr. Nombre Apellido. Bilingual care, airport pickup and a virtual first consultation.
 _INTERNATIONAL PATIENTS · BUCARAMANGA, COLOMBIA_
 
 ## Porcelain veneers & orthodontics in Colombia
-Dr. Mauricio Soto is a dentist and orthodontics specialist from the National University of Colombia. He and his team are fully bilingual.
-**[Botón: Message us on WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Soto, I would like to book a consultation."]**
+Dr. Nombre Apellido is a dentist and orthodontics specialist from the National University of Colombia. He and his team are fully bilingual.
+**[Botón: Message us on WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Apellido, I would like to book a consultation."]**
 - National University of Colombia
 - English spoken
 - El Prado, Bucaramanga
@@ -459,7 +459,7 @@ Porcelain veneers are thin, custom-made shells of high-quality ceramic, bonded t
 - A full makeover usually includes 16 to 20 veneers (upper and lower arches).
 - Treatment typically takes 5 to 7 business days.
 The cost of your treatment is defined during your consultation, which can start virtually.
-**[Botón: Ask about veneers → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Soto, I would like information about porcelain veneers."]**
+**[Botón: Ask about veneers → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Apellido, I would like information about porcelain veneers."]**
 _YOUR TRIP_
 
 ### Travel & logistics
@@ -484,7 +484,7 @@ _ALSO AVAILABLE_
 Metal braces, clear braces (ceramic or sapphire) and retainers.
 
 #### PuraLigners clear aligners
-Dr. Soto's own 3D-printed clear aligner system, designed in Bucaramanga.
+Dr. Apellido's own 3D-printed clear aligner system, designed in Bucaramanga.
 
 #### Dental implants
 A short surgery, about four months of healing, then the crown or prosthesis.
@@ -507,14 +507,14 @@ _GET STARTED_
 
 ### Start with a virtual consultation
 Message us on WhatsApp and tell us what you would like to improve.
-**[Botón: Message us on WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Soto, I live abroad and would like to start with a virtual consultation."]**
+**[Botón: Message us on WhatsApp → WhatsApp +57 318 708 0343, mensaje: "Hello Dr. Apellido, I live abroad and would like to start with a virtual consultation."]**
 
 ---
 
 # PIE DE PÁGINA (igual en todas las páginas)
 
-MS
-Dr. Mauricio Soto
+NA
+Dr. Nombre Apellido
 DISEÑO DE SONRISA Y ORTODONCIA
 
 Diseño de sonrisa y odontología estética en Bucaramanga, Colombia.
@@ -543,5 +543,5 @@ LinkedIn
 Doctoralia
 Cursos para odontólogos
 Blog
-© 2026 Dr. Mauricio Soto. Todos los derechos reservados.
+© 2026 Dr. Nombre Apellido. Todos los derechos reservados.
 Términos y condiciones · Política de tratamiento de datos

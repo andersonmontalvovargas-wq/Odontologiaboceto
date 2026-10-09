@@ -1,4 +1,4 @@
-# Pendientes para pedirle al Dr. Mauricio Soto
+# Pendientes para pedirle al Dr. Nombre Apellido
 
 Ordenados por importancia. En el código, cada hueco está marcado con `<!-- PENDIENTE: ... -->`.
 
@@ -19,7 +19,7 @@ Ordenados por importancia. En el código, cada hueco está marcado con `<!-- PEN
 10. **Número de tarjeta profesional y código de habilitación (REPS)** ante la Secretaría de Salud de Santander, para ponerlos en el pie de página.
 11. **Nombre exacto de la asociación estadounidense** de la que es miembro (el sitio dice "American Association of Cosmetic Dentistry").
 12. **Enlace a la nota de Vanguardia Liberal** que menciona su sitio actual.
-13. **Logo** en buena calidad, si tiene uno. Si no, se queda el monograma "MS".
+13. **Logo** en buena calidad, si tiene uno. Si no, se queda el monograma "NA".
 
 ## Antes de publicar el sitio final
 
