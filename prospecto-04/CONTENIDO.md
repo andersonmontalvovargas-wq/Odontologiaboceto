@@ -99,4 +99,4 @@ No se publican precios: el único dato visto (cirugía preprotésica en Doctoral
 
 ## 5. Lo que falta pedir o extraer
 
- odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
+Odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
