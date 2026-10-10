@@ -1,0 +1,55 @@
+/* =========================================================
+   Propuesta A · "La vía": verde azulado y menta, titulares Sora, texto Manrope.
+   Primera pantalla con la ilustración del camino; especialidades en 4 grupos.
+   ========================================================= */
+:root {
+  --fondo: #F6FBFA;
+  --superficie: #FFFFFF;
+  --suave: #E3F2EF;
+  --encabezado: rgba(246, 251, 250, .94);
+  --tinta: #13292D;
+  --tinta-titulo: #0B2A30;
+  --tinta-suave: #4A6166;
+  --primario: #0E6170;
+  --primario-oscuro: #0E4A55;
+  --acento: #F2A48C;
+  --foco: #E0603F;
+  --estrella: #9A6410;
+  --linea: #D5E7E3;
+  --linea-fuerte: #9DBFB9;
+  --oscuro: #0E4A55;
+  --sobre-oscuro: #D9EEEB;
+  --pie: #0B2A30;
+
+  --f-titulo: "Sora", system-ui, sans-serif;
+  --f-texto: "Manrope", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --peso-titulo: 600;
+  --espaciado-titulo: -.02em;
+  --estilo-em: normal;
+  --radio: 20px;
+  --radio-btn: 12px;
+  --radio-monograma: 14px;
+  --btn-mayus: none;
+  --btn-espaciado: 0;
+}
+
+.heroe { padding: clamp(40px, 7vw, 88px) 0 clamp(40px, 6vw, 72px); }
+.heroe-grid { display: grid; grid-template-columns: 1.15fr .85fr; gap: clamp(32px, 5vw, 72px); align-items: center; }
+.heroe .espacio-foto { aspect-ratio: 480 / 520; box-shadow: 0 24px 60px -30px rgba(14, 74, 85, .45); }
+.heroe h1 em { background: linear-gradient(transparent 62%, #FAD3C6 62%); color: var(--tinta-titulo); }
+
+.grupos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
+.grupo { background: var(--superficie); border: 1px solid var(--linea); border-radius: var(--radio); padding: 24px; }
+.grupo .grupo-icono { margin-bottom: 16px; }
+.grupo h3 { font-size: 1.15rem; }
+.grupo ul { list-style: none; margin: 0; padding: 0; }
+.grupo li a { display: flex; justify-content: space-between; align-items: center; padding: 10px 0; border-top: 1px solid var(--linea); text-decoration: none; font-weight: 600; min-height: 44px; }
+.grupo li a::after { content: "→"; color: var(--tinta-suave); }
+.grupo li a:hover { color: var(--primario-oscuro); }
+
+@media (max-width: 1000px) { .grupos { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 860px) {
+  .heroe-grid { grid-template-columns: 1fr; }
+  .heroe .espacio-foto { max-width: 420px; width: 100%; margin-inline: auto; }
+}
+@media (max-width: 560px) { .grupos { grid-template-columns: 1fr; } }

@@ -1,0 +1,77 @@
+/* =========================================================
+   Propuesta C · "Editorial": verde bosque, marfil y dorado,
+   titulares Instrument Serif, texto Albert Sans.
+   Primera pantalla centrada sobre fondo oscuro con banda panorámica;
+   especialidades como índice numerado por grupos.
+   ========================================================= */
+:root {
+  --fondo: #F7F4EE;
+  --superficie: #FFFFFF;
+  --suave: #EDE6D9;
+  --encabezado: rgba(247, 244, 238, .95);
+  --tinta: #1D2723;
+  --tinta-titulo: #16302A;
+  --tinta-suave: #52605A;
+  --primario: #1E5A46;
+  --primario-oscuro: #163F33;
+  --acento: #E2C48F;
+  --foco: #1E5A46;
+  --estrella: #8A5A12;
+  --linea: #E0D8C8;
+  --linea-fuerte: #B9AE97;
+  --oscuro: #1E3F33;
+  --sobre-oscuro: #E3EBE6;
+  --pie: #15291F;
+
+  --f-titulo: "Instrument Serif", Georgia, "Times New Roman", serif;
+  --f-texto: "Albert Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --peso-titulo: 400;
+  --espaciado-titulo: -.005em;
+  --estilo-em: italic;
+  --radio: 4px;
+  --radio-btn: 2px;
+  --radio-monograma: 2px;
+  --btn-mayus: uppercase;
+  --btn-espaciado: .08em;
+}
+h1 { font-size: clamp(2.5rem, 6vw, 4.6rem); line-height: 1.04; }
+h2 { font-size: clamp(2rem, 4vw, 3rem); }
+.btn { font-size: .88rem; }
+.monograma { font-family: var(--f-texto); font-size: .9rem; background: var(--oscuro); color: var(--acento); }
+
+.heroe { background: var(--oscuro); color: var(--sobre-oscuro); padding: clamp(56px, 9vw, 112px) 0 0; }
+.heroe-centro { text-align: center; max-width: 880px; }
+.heroe h1 { color: #FFFFFF; }
+.heroe h1 em { color: var(--acento); }
+.heroe .antetitulo { color: var(--acento); }
+.heroe .intro { color: var(--sobre-oscuro); margin-inline: auto; }
+.heroe .acciones { justify-content: center; }
+.heroe .btn { background: var(--acento); border-color: var(--acento); color: #16302A; }
+.heroe .btn:hover { background: #F0D9AE; border-color: #F0D9AE; color: #16302A; }
+.heroe .btn--linea { background: transparent; color: #FFFFFF; border-color: rgba(255, 255, 255, .6); }
+.heroe .btn--linea:hover { background: rgba(255, 255, 255, .1); color: #FFFFFF; border-color: #FFFFFF; }
+.heroe .calificacion { background: transparent; color: #FFFFFF; border-color: rgba(255, 255, 255, .35); }
+.heroe .calificacion .estrellas { color: var(--acento); }
+.heroe .espacio-foto { margin-top: clamp(40px, 6vw, 64px); aspect-ratio: 1200 / 440; border-radius: 0; transform: translateY(1px); }
+
+.indice-grande { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px 56px; }
+.indice-grupo h3 { font-size: 1.6rem; border-bottom: 1px solid var(--tinta-titulo); padding-bottom: 8px; margin: 24px 0 0; }
+.indice-grupo ol { list-style: none; margin: 0; padding: 0; }
+.indice-grupo a {
+  display: grid; grid-template-columns: 48px 1fr 24px; align-items: center; gap: 8px;
+  padding: 14px 0; min-height: 52px; border-bottom: 1px solid var(--linea);
+  color: var(--tinta); text-decoration: none; font-size: 1.1rem; font-weight: 500;
+}
+.indice-grupo a svg { width: 20px; height: 20px; color: var(--primario); transition: transform .2s; }
+.indice-grupo a:hover { color: var(--primario); }
+.indice-grupo a:hover svg { transform: translateX(4px); }
+.num { font: italic 1.3rem var(--f-titulo); color: var(--primario); }
+
+.pasos li::before { font-style: italic; font-size: 2.6rem; }
+.nota-grande .cifra { font-size: 5rem; }
+
+@media (max-width: 860px) {
+  .indice-grande { grid-template-columns: 1fr; }
+  .heroe .espacio-foto { aspect-ratio: 16 / 9; }
+}
+h3, .equipo strong, .ventajas strong { font-size: 1.5rem; }
