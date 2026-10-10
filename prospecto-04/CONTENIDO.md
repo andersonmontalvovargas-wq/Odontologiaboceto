@@ -30,7 +30,7 @@ Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Falta
 | WhatsApp | 314 394 3828 · enlace: `https://wa.me/573143943828?text=Hola%2C%20quisiera%20agendar%20una%20cita` | [EXTRAÍDO] (indicado por el usuario) |
 | Calificación en Google | 5,0 con 322 opiniones | [EXTRAÍDO] |
 | Coordenadas (para `geo`) | — | [PENDIENTE] |
-| Instagram | Tiene cuenta (biografía abajo); falta el usuario exacto para el enlace y `sameAs` | [PENDIENTE] usuario |
+| Instagram | @clinicaviaoralbga · `https://www.instagram.com/clinicaviaoralbga/` (usar también en `sameAs`) | [EXTRAÍDO] |
 | Correo, sitio web | No encontrados | [PENDIENTE] |
 | Otros perfiles | Doctoralia: "Clinica odontológica Via Oral", misma dirección | [EXTRAÍDO] |
 
@@ -99,4 +99,4 @@ No se publican precios: el único dato visto (cirugía preprotésica en Doctoral
 
 ## 5. Lo que falta pedir o extraer
 
-Usuario de Instagram; odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
+ odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
