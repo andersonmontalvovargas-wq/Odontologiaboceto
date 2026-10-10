@@ -32,3 +32,23 @@ Mismos textos, datos, horario, fotos con su descripción y las 5 páginas que A,
 
 Las dos muestran si el consultorio está **abierto ahora**, calculado con la hora de Bogotá y el horario de Google (`js/main.js`). Sin JavaScript no aparece y el horario sigue visible.
 Contraste AA comprobado: el más bajo es 5:1 en texto normal.
+
+## Propuesta F · Porcelana (durazno y cacao)
+
+Mismos textos, datos, horario y 5 páginas (salen de `generar.py`); estructura propia en `generar_f.py`. La idea parte de la guía de color que usa la odontóloga para elegir el tono de una carilla.
+
+| | F · Porcelana |
+|---|---|
+| Colores | Crema `#FFF8F3`, durazno `#FBE4D8`, cacao `#34202A`, rosa `#A3354B`, coral `#F4B6A6` |
+| Titulares / texto | Cormorant / Manrope |
+| Primera pantalla | Nombre grande a la izquierda; foto en óvalo que se abre al cargar y un sello circular que gira mientras se baja. Debajo, una franja cacao con dirección, teléfono y horario (con "abierto ahora") |
+| Tratamientos (inicio) | Muestrario que se desliza de lado, con botones anterior/siguiente: cada tarjeta lleva un tono de la guía de color, foto con su descripción, qué es y "también lo buscas como" |
+| Tratamientos (página) | Foto grande en arco que se queda fija y cambia según el tratamiento que se lee; barra de accesos rápidos a los 8 |
+| La doctora | Foto en arco y ficha de datos |
+| Primera cita | Línea vertical que se llena al bajar |
+| Opiniones | "5,0" grande sobre fondo cacao |
+| Ubicación | Las dos placas del Edificio Alto Prado como letreros; horario con una barra por día y el día de hoy marcado |
+| Preguntas | Título fijo a la izquierda y las 9 preguntas numeradas a la derecha, todas visibles |
+
+Nada se mueve solo: el sello y la línea de pasos se mueven con el desplazamiento, así que no necesitan botón de pausa. Con `prefers-reduced-motion` todo queda quieto. Sin JavaScript el contenido se ve completo.
+Contraste AA comprobado: el más bajo en texto normal es 5,4:1 (rosa sobre durazno). Los números de las preguntas, en coral, son decorativos (`aria-hidden`).

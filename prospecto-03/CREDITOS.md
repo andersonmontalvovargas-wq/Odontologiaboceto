@@ -10,15 +10,16 @@ Recursos usados en el boceto (CLAUDE.md, sección 9).
 | Bodoni Moda y Jost (propuesta C) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Instrument Serif e Inter Tight (propuesta D) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Young Serif y Hanken Grotesk (propuesta E) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
+| Cormorant y Manrope (propuesta F) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Ícono de WhatsApp | Marca de WhatsApp (Meta) | Marca registrada | Solo identifica el botón de contacto, sin modificar su forma. |
 
 ## Recursos propios (hechos para este boceto)
 | Recurso | Archivo | Nota |
 |---|---|---|
-| Ilustraciones (arco de sonrisa, diente, línea de sonrisa) | SVG dentro del HTML | Originales. Marcan el espacio de la foto real; no representan a la doctora. |
+| Ilustraciones (arco de sonrisa, diente, línea de sonrisa, sello circular de F) | SVG dentro del HTML | Originales. Marcan el espacio de la foto real; no representan a la doctora. |
 | Monograma "VG" | Encabezado y `assets/favicon.svg` | Provisional hasta tener el logo real, si lo tiene. |
 | Íconos de líneas | En el HTML | Dibujados para este proyecto. |
-| CSS, JavaScript y `generar.py` | `sitio-*/css`, `sitio-*/js`, `generar_de.py`, `generar.py` | Propios, sin librerías externas. |
+| CSS, JavaScript y `generar.py` | `sitio-*/css`, `sitio-*/js`, `generar_de.py`, `generar_f.py`, `generar.py` | Propios, sin librerías externas. |
 
 ## Fotos de referencia (Pexels)
 Licencia de Pexels: uso gratuito, también comercial, sin atribución obligatoria (https://www.pexels.com/license/). Se enlazan desde images.pexels.com, sin descargarlas, y la página avisa que son de referencia. Si una no carga, se muestra la ilustración propia.
@@ -27,7 +28,7 @@ Las fotos se eligieron por la descripción de su página en Pexels; desde el ent
 
 | Foto | Página en Pexels | Dónde se usa |
 |---|---|---|
-| Mujer sonriendo con los ojos cerrados | https://www.pexels.com/photo/3762400/ | A y E: primera pantalla · B y D: blanqueamiento |
+| Mujer sonriendo con los ojos cerrados | https://www.pexels.com/photo/3762400/ | A y E: primera pantalla · B, D y F: blanqueamiento |
 | Mujer con labios rosados sonriendo | https://www.pexels.com/photo/3762408/ | B y D: primera pantalla · A, C y E: blanqueamiento |
 | Sonrisa de una mujer con labios rojos | https://www.pexels.com/photo/3762453/ | Diseño de sonrisa |
 | Guía de colores de dientes artificiales | https://www.pexels.com/photo/6627604/ | Carillas y lentes cerámicos |
@@ -36,10 +37,11 @@ Las fotos se eligieron por la descripción de su página en Pexels; desde el ent
 | Piezas de mano dentales | https://www.pexels.com/photo/6502549/ | Conductos |
 | Paciente sonriendo en una revisión dental | https://www.pexels.com/photo/3845682/ | Limpieza y encías |
 | Juego de instrumentos dentales | https://www.pexels.com/photo/305566/ | Odontología general |
-| Sillón odontológico | https://www.pexels.com/photo/6812479/ | A: espacio de la doctora |
+| Sillón odontológico | https://www.pexels.com/photo/6812479/ | A y F: espacio de la doctora |
 | Sillón odontológico visto desde atrás | https://www.pexels.com/photo/4269276/ | B y E: espacio de la doctora |
 | Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | C: espacio de la doctora |
 | Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | C: primera pantalla · D: espacio de la doctora |
+| Labios de una mujer sonriendo | https://www.pexels.com/photo/11956948/ | F: primera pantalla (descripción tomada de la búsqueda web; no se pudo ver la foto) |
 
 Las fotos de la ficha de Google Maps no se usaron: muchas las suben los pacientes. Antes del sitio final todas se reemplazan por fotos reales, alojadas en el propio dominio.
 
