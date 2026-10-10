@@ -6,8 +6,9 @@ Los textos se cambian aquí, no en los HTML, para no tener que repetir el cambio
 import json, sys, urllib.parse
 from pathlib import Path
 
-DESTINO = Path(sys.argv[1])
-VARIANTE = sys.argv[2] if len(sys.argv) > 2 else "a"
+DESTINO = Path(sys.argv[1]) if len(sys.argv) > 1 else None
+# generar_de.py importa este archivo para reutilizar los textos; las variantes d y e no se generan aquí.
+VARIANTE = sys.argv[2] if len(sys.argv) > 2 and sys.argv[2] in ("a", "b", "c") else "a"
 
 # Fotos de referencia de Pexels (https://www.pexels.com/license/). Se enlazan, no se descargan.
 # Ninguna muestra a la doctora: los espacios de su foto usan fotos del consultorio.
@@ -559,12 +560,13 @@ DESC = {
 CUERPOS = {"index.html": inicio, "tratamientos.html": tratamientos, "la-doctora.html": doctora,
            "preguntas.html": preguntas, "contacto.html": contacto}
 
-for archivo, cuerpo in CUERPOS.items():
-    t, d = DESC[archivo]
-    (DESTINO / archivo).write_text(pagina(archivo, t, d, cuerpo, jsonld=archivo in ("index.html", "contacto.html")), encoding="utf-8")
-fondo, letra = CONF["favicon"]
-(DESTINO / "assets").mkdir(parents=True, exist_ok=True)
-(DESTINO / "assets" / "favicon.svg").write_text(
-    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="{fondo}" stroke="{letra}" stroke-width="3"/>'
-    f'<text x="32" y="41" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="24" fill="{letra}">VG</text></svg>\n', encoding="utf-8")
-print("ok", VARIANTE)
+if __name__ == "__main__":
+    for archivo, cuerpo in CUERPOS.items():
+        t, d = DESC[archivo]
+        (DESTINO / archivo).write_text(pagina(archivo, t, d, cuerpo, jsonld=archivo in ("index.html", "contacto.html")), encoding="utf-8")
+    fondo, letra = CONF["favicon"]
+    (DESTINO / "assets").mkdir(parents=True, exist_ok=True)
+    (DESTINO / "assets" / "favicon.svg").write_text(
+        f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="{fondo}" stroke="{letra}" stroke-width="3"/>'
+        f'<text x="32" y="41" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="24" fill="{letra}">VG</text></svg>\n', encoding="utf-8")
+    print("ok", VARIANTE)
