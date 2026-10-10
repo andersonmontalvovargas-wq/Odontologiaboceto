@@ -1,0 +1,367 @@
+{
+  "fuente": "Perfil público de Google (Google Maps) y biografía pública de la doctora, consultados el 9 y 10 de octubre de 2026; horario y confirmaciones dadas por el usuario.",
+  "tipo_de_marca": "Marca personal (la doctora es la marca) con nombre de consultorio",
+  "nombre_a_mostrar": "Consultorio Dra. Vanesa Gutiérrez",
+  "nombre_profesional": "Dra. Vanesa Gutiérrez",
+  "nombre_completo_en_google": "Consultorio Dra Vanesa Gutiérrez/odontologia/Estetica dental/clínica dental/implantes/diseño de sonrisa/Lentes cerámicos/",
+  "categoria_google": "Clínica dental (dental_clinic)",
+  "profesion": "Odontóloga",
+  "especializacion": "Especialización en Estética — UNICID, Universidade Cidade de São Paulo (Brasil). Fuente: biografía pública ('ESP.ESTÉTICA 🇧🇷 UNICID'). Título exacto pendiente de confirmar.",
+  "biografia_publica": [
+    "Diseño de sonrisa / Smile Design",
+    "Lentes cerámicos / Porcelain Veneers",
+    "ESP. ESTÉTICA 🇧🇷 UNICID",
+    "🇨🇴 📍 Bucaramanga, Cra 34 # 36-31, Edificio Alto Prado"
+  ],
+  "telefono_visible": "324 492 5383",
+  "telefono_internacional": "+573244925383",
+  "whatsapp": {
+    "numero": "573244925383",
+    "confirmado_por_el_usuario": true,
+    "enlace_base": "https://wa.me/573244925383"
+  },
+  "direccion": {
+    "mostrar": "Edificio Alto Prado, Cra. 34 # 36-31, local 2 y Cra. 34 # 36-33",
+    "ciudad": "Bucaramanga, Santander",
+    "pais": "Colombia",
+    "variantes_en_google": [
+      "Edificio alto prado, Cra 34 # 36-33",
+      "Cra 34 #36-31 local 2"
+    ],
+    "nota": "El usuario pidió mostrar las dos direcciones."
+  },
+  "horario": [
+    {
+      "dia": "Lunes",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Martes",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Miércoles",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Jueves",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Viernes",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Sábado",
+      "horas": "8:00 a. m. – 8:00 p. m."
+    },
+    {
+      "dia": "Domingo",
+      "horas": "9:00 a. m. – 8:00 p. m."
+    }
+  ],
+  "horario_nota": "En festivos puede variar (Google: 'El horario puede variar'; ejemplo: lunes festivo Día de la Raza 8 a. m.–8 p. m.).",
+  "google": {
+    "calificacion": "5,0",
+    "opiniones": 61,
+    "fecha_consulta": "octubre de 2026",
+    "enlace_busqueda_maps": "https://www.google.com/maps/search/?api=1&query=Consultorio%20Dra%20Vanesa%20Guti%C3%A9rrez%20Edificio%20Alto%20Prado%20Bucaramanga"
+  },
+  "waze": "https://waze.com/ul?q=Carrera%2034%20%2336-31%20Bucaramanga&navigate=yes",
+  "servicios_tal_cual_en_google": [
+    "Blanqueamiento dental",
+    "Carillas y coronas",
+    "Cirugía oral",
+    "Implantes dentales",
+    "Ortodoncia",
+    "Brackets",
+    "Aclaramiento",
+    "Diseño de sonrisa",
+    "Lentes ceramicos",
+    "Cerámica",
+    "Calzas",
+    "Resinas",
+    "Rehabilitación",
+    "Implantes",
+    "Implante",
+    "Limpieza",
+    "Limpieza profunda",
+    "Perfeccionamiento de sonrisa",
+    "Conductos",
+    "Retratamientos",
+    "Periodoncista",
+    "Porcelana",
+    "Veneer",
+    "Smile",
+    "Dentis",
+    "Odontólogo",
+    "Odontóloga",
+    "Odontología general",
+    "Bordes en resina",
+    "Autoligado",
+    "Zafiro",
+    "Coronas",
+    "Detartraje"
+  ],
+  "tratamientos_agrupados": [
+    {
+      "id": "diseno-de-sonrisa",
+      "nombre": "Diseño de sonrisa",
+      "que_es": "Es un plan para cambiar la forma, el color, el tamaño o la proporción de los dientes que se ven al sonreír. Se planea según tu cara, tus labios y tus encías, y puede combinar varios tratamientos: carillas, blanqueamiento, resinas o coronas.",
+      "tambien_lo_buscan_como": "Smile design, perfeccionamiento de sonrisa, estética dental",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre diseño de sonrisa."
+    },
+    {
+      "id": "carillas",
+      "nombre": "Carillas y lentes cerámicos",
+      "que_es": "Son láminas delgadas que se adhieren a la cara visible de los dientes. Pueden ser de cerámica (porcelana), también llamadas lentes cerámicos, o de resina. En la valoración se revisa si tus dientes y encías permiten ponerlas y qué material conviene en tu caso.",
+      "tambien_lo_buscan_como": "Carillas de porcelana, porcelain veneers, carillas en resina, bordes en resina",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre carillas y lentes cerámicos."
+    },
+    {
+      "id": "blanqueamiento",
+      "nombre": "Blanqueamiento dental",
+      "que_es": "Aclara el color natural de los dientes con un gel que aplica la odontóloga. Antes se revisa que no haya caries ni sensibilidad que tratar primero. El blanqueamiento no cambia el color de resinas, coronas ni carillas que ya tengas.",
+      "tambien_lo_buscan_como": "Aclaramiento dental",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre blanqueamiento dental."
+    },
+    {
+      "id": "implantes-y-coronas",
+      "nombre": "Implantes dentales y coronas",
+      "que_es": "Un implante reemplaza la raíz de un diente perdido, y sobre él se pone una corona. Las coronas también sirven para cubrir y proteger un diente muy desgastado o tratado. Antes de un implante se estudia el hueso con imágenes radiográficas.",
+      "tambien_lo_buscan_como": "Implante, rehabilitación oral, coronas en cerámica",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre implantes y coronas."
+    },
+    {
+      "id": "ortodoncia",
+      "nombre": "Ortodoncia y brackets",
+      "que_es": "Corrige la posición de los dientes y la mordida. En el consultorio se ofrecen brackets de autoligado y brackets de zafiro, que son transparentes.",
+      "tambien_lo_buscan_como": "Brackets, autoligado, brackets de zafiro",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre ortodoncia y brackets."
+    },
+    {
+      "id": "conductos",
+      "nombre": "Tratamiento de conductos",
+      "que_es": "Cuando el nervio de un diente está inflamado o infectado, se limpia por dentro y se sella para conservar el diente. Si un diente con conductos tratados vuelve a dar molestias, se puede hacer un retratamiento.",
+      "tambien_lo_buscan_como": "Endodoncia, conductos, retratamientos",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero información sobre tratamiento de conductos."
+    },
+    {
+      "id": "limpieza-y-encias",
+      "nombre": "Limpieza dental y encías",
+      "que_es": "La limpieza retira la placa y el sarro (detartraje). Si tus encías sangran o se retraen, se hace una limpieza profunda y el control de las encías, que es el campo de la periodoncia.",
+      "tambien_lo_buscan_como": "Limpieza profunda, detartraje, periodoncia, periodoncista",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero agendar una limpieza dental."
+    },
+    {
+      "id": "odontologia-general",
+      "nombre": "Odontología general y cirugía oral",
+      "que_es": "Revisión de tu boca, calzas en resina del color del diente y procedimientos de cirugía oral. En la valoración se define qué necesitas y en qué orden.",
+      "tambien_lo_buscan_como": "Odontóloga, calzas, resinas, cirugía oral",
+      "mensaje_whatsapp": "Hola, Dra. Vanesa. Quiero agendar una valoración general."
+    }
+  ],
+  "preguntas_frecuentes": [
+    {
+      "pregunta": "¿Qué son los lentes cerámicos?",
+      "respuesta": "Son carillas de cerámica: láminas muy delgadas de porcelana que se pegan a la cara visible de los dientes para cambiar su color, forma o tamaño. En otros países se conocen como porcelain veneers."
+    },
+    {
+      "pregunta": "¿Carillas de cerámica o de resina: cuál es la diferencia?",
+      "respuesta": "La cerámica mantiene mejor el color con el tiempo y es más resistente a las manchas. La resina suele costar menos y es más fácil de reparar. Cuál te conviene depende de tus dientes, tu mordida y lo que buscas; eso se define en la valoración."
+    },
+    {
+      "pregunta": "¿Hay que desgastar los dientes para poner carillas?",
+      "respuesta": "Depende de cada caso. A veces se necesita un desgaste mínimo y a veces ninguno. La doctora te lo explica en la valoración, antes de decidir."
+    },
+    {
+      "pregunta": "¿Cuánto cuesta un diseño de sonrisa?",
+      "respuesta": "Depende de cuántos dientes se tratan y del material. Por eso el costo se da después de la valoración, cuando ya se sabe qué necesitas."
+    },
+    {
+      "pregunta": "¿El blanqueamiento daña los dientes?",
+      "respuesta": "Hecho y controlado por un odontólogo, el blanqueamiento no debería dañar el esmalte. Puede dar sensibilidad durante unos días. Antes se revisa que no haya caries ni encías inflamadas."
+    },
+    {
+      "pregunta": "¿Atienden ortodoncia, implantes y otros tratamientos además de estética?",
+      "respuesta": "Sí. El consultorio atiende ortodoncia con brackets de autoligado y de zafiro, implantes y coronas, tratamiento de conductos, limpieza, encías y odontología general. Mira la lista completa en Tratamientos."
+    },
+    {
+      "pregunta": "¿Dónde queda el consultorio?",
+      "respuesta": "En el Edificio Alto Prado, Cra. 34 # 36-31, local 2 y Cra. 34 # 36-33, Bucaramanga, Santander. Puedes abrir la ubicación en Google Maps."
+    },
+    {
+      "pregunta": "¿Cuál es el horario?",
+      "respuesta": "Lunes a sábado de 8:00 a. m. a 8:00 p. m. y domingo de 9:00 a. m. a 8:00 p. m. En festivos puede variar."
+    },
+    {
+      "pregunta": "¿Cómo pido una cita?",
+      "respuesta": "Escribe por WhatsApp o llama al 324 492 5383."
+    }
+  ],
+  "primera_cita": [
+    {
+      "paso": "Escribes o llamas",
+      "texto": "Por WhatsApp o al 324 492 5383. Cuéntanos qué te gustaría mejorar y elige el día."
+    },
+    {
+      "paso": "Valoración",
+      "texto": "La doctora revisa tus dientes y encías y escucha lo que quieres cambiar de tu sonrisa."
+    },
+    {
+      "paso": "Tu plan",
+      "texto": "Te explica las opciones, los tiempos y el costo antes de empezar cualquier tratamiento."
+    }
+  ],
+  "seo_por_pagina": {
+    "index.html": {
+      "title": "Consultorio Dra. Vanesa Gutiérrez | Diseño de sonrisa y lentes cerámicos en Bucaramanga",
+      "description": "Odontóloga con especialización en estética (UNICID, Brasil). Diseño de sonrisa, carillas, lentes cerámicos, blanqueamiento e implantes en Bucaramanga. Agenda por WhatsApp."
+    },
+    "tratamientos.html": {
+      "title": "Tratamientos de odontología y estética dental | Consultorio Dra. Vanesa Gutiérrez",
+      "description": "Diseño de sonrisa, carillas y lentes cerámicos, blanqueamiento, implantes, ortodoncia, conductos y limpieza en Bucaramanga, explicados en pocas palabras."
+    },
+    "la-doctora.html": {
+      "title": "Dra. Vanesa Gutiérrez, odontóloga especialista en estética | Bucaramanga",
+      "description": "Conoce a la Dra. Vanesa Gutiérrez: odontóloga con especialización en estética de la UNICID (Brasil). Consultorio en el Edificio Alto Prado, Bucaramanga."
+    },
+    "preguntas.html": {
+      "title": "Preguntas frecuentes sobre carillas, blanqueamiento y citas | Consultorio Dra. Vanesa Gutiérrez",
+      "description": "Qué son los lentes cerámicos, diferencia entre carillas de cerámica y resina, costo del diseño de sonrisa, horario y cómo pedir una cita."
+    },
+    "contacto.html": {
+      "title": "Contacto, dirección y horario | Consultorio Dra. Vanesa Gutiérrez, Bucaramanga",
+      "description": "Edificio Alto Prado, Cra. 34 # 36-31, local 2 y Cra. 34 # 36-33, Bucaramanga. Teléfono y WhatsApp 324 492 5383. Lunes a sábado 8 a. m. – 8 p. m., domingo 9 a. m. – 8 p. m."
+    }
+  },
+  "json_ld_dentist": {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "Consultorio Dra. Vanesa Gutiérrez",
+    "telephone": "+573244925383",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Edificio Alto Prado, Carrera 34 # 36-31, local 2 y Carrera 34 # 36-33",
+      "addressLocality": "Bucaramanga",
+      "addressRegion": "Santander",
+      "addressCountry": "CO"
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "09:00",
+        "closes": "20:00"
+      }
+    ],
+    "employee": {
+      "@type": "Person",
+      "name": "Vanesa Gutiérrez",
+      "jobTitle": "Odontóloga"
+    }
+  },
+  "fotos_de_referencia_pexels": [
+    {
+      "id": 3762400,
+      "descripcion": "Mujer sonriendo con los ojos cerrados",
+      "pagina": "https://www.pexels.com/photo/3762400/",
+      "url_imagen": "https://images.pexels.com/photos/3762400/pexels-photo-3762400.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 3762408,
+      "descripcion": "Mujer con labios rosados sonriendo",
+      "pagina": "https://www.pexels.com/photo/3762408/",
+      "url_imagen": "https://images.pexels.com/photos/3762408/pexels-photo-3762408.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 3762453,
+      "descripcion": "Sonrisa de una mujer con labios rojos",
+      "pagina": "https://www.pexels.com/photo/3762453/",
+      "url_imagen": "https://images.pexels.com/photos/3762453/pexels-photo-3762453.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6627604,
+      "descripcion": "Guía de colores de dientes artificiales",
+      "pagina": "https://www.pexels.com/photo/6627604/",
+      "url_imagen": "https://images.pexels.com/photos/6627604/pexels-photo-6627604.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6502305,
+      "descripcion": "Modelo de un implante dental",
+      "pagina": "https://www.pexels.com/photo/6502305/",
+      "url_imagen": "https://images.pexels.com/photos/6502305/pexels-photo-6502305.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6502309,
+      "descripcion": "Modelo dental con brackets",
+      "pagina": "https://www.pexels.com/photo/6502309/",
+      "url_imagen": "https://images.pexels.com/photos/6502309/pexels-photo-6502309.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6502549,
+      "descripcion": "Piezas de mano dentales en primer plano",
+      "pagina": "https://www.pexels.com/photo/6502549/",
+      "url_imagen": "https://images.pexels.com/photos/6502549/pexels-photo-6502549.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 3845682,
+      "descripcion": "Paciente sonriendo durante una revisión dental",
+      "pagina": "https://www.pexels.com/photo/3845682/",
+      "url_imagen": "https://images.pexels.com/photos/3845682/pexels-photo-3845682.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 305566,
+      "descripcion": "Juego de instrumentos dentales",
+      "pagina": "https://www.pexels.com/photo/305566/",
+      "url_imagen": "https://images.pexels.com/photos/305566/pexels-photo-305566.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6812479,
+      "descripcion": "Sillón odontológico en un consultorio",
+      "pagina": "https://www.pexels.com/photo/6812479/",
+      "url_imagen": "https://images.pexels.com/photos/6812479/pexels-photo-6812479.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 4269276,
+      "descripcion": "Sillón odontológico visto desde atrás",
+      "pagina": "https://www.pexels.com/photo/4269276/",
+      "url_imagen": "https://images.pexels.com/photos/4269276/pexels-photo-4269276.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 6812453,
+      "descripcion": "Equipo dental en un consultorio",
+      "pagina": "https://www.pexels.com/photo/6812453/",
+      "url_imagen": "https://images.pexels.com/photos/6812453/pexels-photo-6812453.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    },
+    {
+      "id": 30902075,
+      "descripcion": "Consultorio odontológico moderno",
+      "pagina": "https://www.pexels.com/photo/30902075/",
+      "url_imagen": "https://images.pexels.com/photos/30902075/pexels-photo-30902075.jpeg?auto=compress&cs=tinysrgb&fit=crop&w=1200&h=900"
+    }
+  ],
+  "foto_por_tratamiento": {
+    "diseno-de-sonrisa": 3762453,
+    "carillas": 6627604,
+    "implantes-y-coronas": 6502305,
+    "ortodoncia": 6502309,
+    "conductos": 6502549,
+    "limpieza-y-encias": 3845682,
+    "odontologia-general": 305566,
+    "blanqueamiento": "3762408 o 3762400 (según la propuesta)"
+  }
+}
