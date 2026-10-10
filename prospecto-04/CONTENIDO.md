@@ -27,13 +27,26 @@ Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Falta
 | Google Maps (enlace corto, derivado del ID de la ficha) | `https://maps.google.com/?cid=8339109239465121267` | [EXTRAÍDO] |
 | ID de Google (Knowledge Graph) | `/g/11bbrs0dzb` | [EXTRAÍDO] |
 | Teléfono | 314 394 3828 · para enlaces: `tel:+573143943828` | [EXTRAÍDO] |
-| WhatsApp | Probablemente el mismo número: `https://wa.me/573143943828` | [PENDIENTE] confirmar |
+| WhatsApp | Su Instagram usa el enlace `https://wa.link/rriglm` para agendar. No se pudo abrir para ver el número; si es el 314 394 3828, en la página usar `https://wa.me/573143943828` | [EXTRAÍDO] enlace · número [PENDIENTE] |
 | Calificación en Google | 5,0 con 322 opiniones | [EXTRAÍDO] |
 | Coordenadas (para `geo`) | — | [PENDIENTE] |
-| Correo, sitio web, redes | No encontrados | [PENDIENTE] |
+| Instagram | Tiene cuenta (biografía abajo); falta el usuario exacto para el enlace y `sameAs` | [PENDIENTE] usuario |
+| Correo, sitio web | No encontrados | [PENDIENTE] |
 | Otros perfiles | Doctoralia: "Clinica odontológica Via Oral", misma dirección | [EXTRAÍDO] |
 
 Frase de reseñas para la página (CLAUDE.md, sección 3): "Mira nuestras más de 300 reseñas en Google", con enlace a la ficha. No marcar las reseñas con datos estructurados.
+
+### Biografía de Instagram [EXTRAÍDO]
+
+> CLÍNICA VÍA ORAL · Todas las especialidades · Líderes en ortodoncia invisible · Salvamos tus dientes · Diseños de sonrisa estéticos · Bucaramanga · ¡Agenda tu cita!
+
+Cómo usarla en la página (CLAUDE.md, secciones 3 y 8):
+- **Nombre que se muestra:** "Clínica Vía Oral" (así se presenta ella misma).
+- **Acción principal confirmada:** agendar cita por WhatsApp.
+- **"Todas las especialidades":** se puede decir como "Especialidades odontológicas en un solo lugar", respaldado por la lista de servicios.
+- **"Líderes en ortodoncia invisible":** no usarlo en el boceto. Es una afirmación de liderazgo sin respaldo (Ley 1480, arts. 29 y 30). Sí se puede destacar la ortodoncia con alineadores como servicio principal.
+- **"Salvamos tus dientes":** no usarlo como promesa. Se puede decir: "Tratamos de conservar tu diente natural siempre que sea posible (endodoncia, periodoncia)" `[SUGERIDO]`.
+- **Servicios destacados para la portada:** ortodoncia con alineadores, endodoncia y diseño de sonrisa (los que ella resalta).
 
 ## 3. Horario
 
@@ -86,4 +99,4 @@ No se publican precios: el único dato visto (cirugía preprotésica en Doctoral
 
 ## 5. Lo que falta pedir o extraer
 
-Confirmar que el 314 394 3828 recibe WhatsApp; odontólogos y especialistas con nombre y formación; sitio web o redes; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
+Número detrás de `wa.link/rriglm` y usuario de Instagram; odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
