@@ -20,9 +20,9 @@ VERSION = "20261010"  # Se cambia en cada publicación para que el navegador no 
 FUENTES = "family=Cormorant:ital,wght@0,500;0,600;1,500;1,600&family=Manrope:wght@400;500;600;700"
 TEMA = "#34202A"
 
-# Fotos de referencia (Pexels). 11956948 no se usó en A–E.
-g.FOTO_DESC[11956948] = "Labios de una mujer sonriendo"
-HEROE, DOCTORA, BLANQUEAMIENTO = 11956948, 6812479, 3762400
+# Fotos genéricas de referencia (Pexels), las mismas que ya se vieron cargar en A–E.
+HEROE, DOCTORA, BLANQUEAMIENTO = 3762408, 6812479, 3762400
+CITA, PREGUNTAS, CONTACTO = 4269276, 6812453, 30902075
 NOTA_REF = "Foto de referencia, de un banco de imágenes"
 NOTA_DOCTORA = "Foto de referencia del consultorio · aquí va la foto real de la doctora"
 
@@ -225,6 +225,7 @@ def pasos(h="h2"):
         <{h} id="t-pasos">Así es tu primera cita</{h}>
         <p>No necesitas saber qué tratamiento quieres. Para eso es la valoración.</p>
         <a class="btn" href="{g.wa()}" target="_blank" rel="noopener">{g.I_WA}Pedir mi valoración</a>
+        {figura(CITA, "foto-lateral", 640, 480, NOTA_REF)}
       </div>
       <!-- PENDIENTE: confirmar con la doctora cómo es la valoración, cuánto cuesta y si incluye radiografías. -->
       <ol class="pasos" data-progreso>{items}</ol>
@@ -437,6 +438,7 @@ preguntas = f'''
       <h1>Preguntas frecuentes sobre <em>carillas</em>, blanqueamiento y citas</h1>
       <p class="intro">Respuestas cortas a lo que más se pregunta antes de la primera cita.</p>
       <a class="btn" href="{g.wa('Hola, Dra. Vanesa. Tengo una pregunta.')}" target="_blank" rel="noopener">{g.I_WA}¿Otra pregunta? Escríbenos</a>
+      {figura(PREGUNTAS, "foto-lateral", 640, 480, NOTA_REF)}
     </div>
     <!-- PENDIENTE: que la doctora revise estas respuestas (tema de salud) y agregue precio de la valoración, formas de pago y financiación. -->
     <div class="preguntas">
@@ -458,6 +460,8 @@ contacto = f'''
       <a class="canal canal--wa" href="{g.wa()}" target="_blank" rel="noopener">{g.I_WA}<span><strong>WhatsApp</strong>La forma más rápida de agendar o resolver una duda.</span>{I_FLECHA}</a>
       <a class="canal" href="tel:{g.TEL}">{g.I_TEL}<span><strong>Llamar al <span class="nowrap">{g.TEL_VISIBLE}</span></strong>Teléfono del consultorio, el mismo del WhatsApp.</span>{I_FLECHA}</a>
     </div>
+    {figura(CONTACTO, "foto-banda", 1400, 600, NOTA_REF)}
+    <!-- PENDIENTE: foto real de la fachada o la entrada del Edificio Alto Prado. -->
   </div>
 </section>
 <section class="seccion seccion--durazno" aria-label="Ubicación y horario">

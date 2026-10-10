@@ -29,7 +29,7 @@ Las fotos se eligieron por la descripción de su página en Pexels; desde el ent
 | Foto | Página en Pexels | Dónde se usa |
 |---|---|---|
 | Mujer sonriendo con los ojos cerrados | https://www.pexels.com/photo/3762400/ | A y E: primera pantalla · B, D y F: blanqueamiento |
-| Mujer con labios rosados sonriendo | https://www.pexels.com/photo/3762408/ | B y D: primera pantalla · A, C y E: blanqueamiento |
+| Mujer con labios rosados sonriendo | https://www.pexels.com/photo/3762408/ | B, D y F: primera pantalla · A, C y E: blanqueamiento |
 | Sonrisa de una mujer con labios rojos | https://www.pexels.com/photo/3762453/ | Diseño de sonrisa |
 | Guía de colores de dientes artificiales | https://www.pexels.com/photo/6627604/ | Carillas y lentes cerámicos |
 | Modelo de un implante dental | https://www.pexels.com/photo/6502305/ | Implantes y coronas |
@@ -38,10 +38,9 @@ Las fotos se eligieron por la descripción de su página en Pexels; desde el ent
 | Paciente sonriendo en una revisión dental | https://www.pexels.com/photo/3845682/ | Limpieza y encías |
 | Juego de instrumentos dentales | https://www.pexels.com/photo/305566/ | Odontología general |
 | Sillón odontológico | https://www.pexels.com/photo/6812479/ | A y F: espacio de la doctora |
-| Sillón odontológico visto desde atrás | https://www.pexels.com/photo/4269276/ | B y E: espacio de la doctora |
-| Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | C: espacio de la doctora |
-| Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | C: primera pantalla · D: espacio de la doctora |
-| Labios de una mujer sonriendo | https://www.pexels.com/photo/11956948/ | F: primera pantalla (descripción tomada de la búsqueda web; no se pudo ver la foto) |
+| Sillón odontológico visto desde atrás | https://www.pexels.com/photo/4269276/ | B y E: espacio de la doctora · F: primera cita |
+| Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | C: espacio de la doctora · F: preguntas frecuentes |
+| Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | C: primera pantalla · D: espacio de la doctora · F: contacto |
 
 Las fotos de la ficha de Google Maps no se usaron: muchas las suben los pacientes. Antes del sitio final todas se reemplazan por fotos reales, alojadas en el propio dominio.
 

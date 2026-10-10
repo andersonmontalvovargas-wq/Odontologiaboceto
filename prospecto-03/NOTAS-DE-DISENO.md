@@ -50,5 +50,7 @@ Mismos textos, datos, horario y 5 páginas (salen de `generar.py`); estructura p
 | Ubicación | Las dos placas del Edificio Alto Prado como letreros; horario con una barra por día y el día de hoy marcado |
 | Preguntas | Título fijo a la izquierda y las 9 preguntas numeradas a la derecha, todas visibles |
 
+Fotos genéricas de referencia (Pexels) en todas las páginas, cada una con su descripción visible: primera pantalla, los 8 tratamientos, la doctora (foto del consultorio con el letrero de la foto real), primera cita, preguntas frecuentes y contacto. Son las mismas fotos que ya cargaron en A–E.
+
 Nada se mueve solo: el sello y la línea de pasos se mueven con el desplazamiento, así que no necesitan botón de pausa. Con `prefers-reduced-motion` todo queda quieto. Sin JavaScript el contenido se ve completo.
 Contraste AA comprobado: el más bajo en texto normal es 5,4:1 (rosa sobre durazno). Los números de las preguntas, en coral, son decorativos (`aria-hidden`).
