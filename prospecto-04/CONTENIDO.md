@@ -5,7 +5,7 @@
 > `[PENDIENTE]` = dato real que falta. En el boceto, muéstralo como marcador visible y **nunca lo rellenes con datos inventados**.
 > No prometas resultados clínicos (nada de "sin dolor", "garantizado", "sonrisa perfecta").
 
-Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Faltan WhatsApp, equipo, redes y reseñas para citar.
+Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Faltan equipo, redes y reseñas para citar.
 
 ## 1. Contexto (CLAUDE.md, sección 1)
 
@@ -14,7 +14,7 @@ Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Falta
 | Tipo de entrega | Boceto | — |
 | Sector | Salud (odontología): sensibilidad alta | [EXTRAÍDO] categoría de Google "clínica dental" |
 | Acción principal | Agendar valoración | [SUGERIDO] |
-| Canal | Llamada o WhatsApp al 314 394 3828 (celular). Falta confirmar que recibe WhatsApp | [PENDIENTE] confirmar |
+| Canal | WhatsApp y llamada al 314 394 3828 | [EXTRAÍDO] |
 | Presencia física | Consultorio con local; la búsqueda filtraba por "entrada accesible para silla de ruedas", así que la ficha probablemente lo tiene marcado | [PENDIENTE] confirmar |
 | Tipo de marca | Marca de negocio (nombre comercial "Vía Oral"); el equipo acompaña como respaldo | [EXTRAÍDO] nombre · enfoque [SUGERIDO] |
 
@@ -27,7 +27,7 @@ Estado: datos básicos extraídos de la ficha de Google (octubre de 2026). Falta
 | Google Maps (enlace corto, derivado del ID de la ficha) | `https://maps.google.com/?cid=8339109239465121267` | [EXTRAÍDO] |
 | ID de Google (Knowledge Graph) | `/g/11bbrs0dzb` | [EXTRAÍDO] |
 | Teléfono | 314 394 3828 · para enlaces: `tel:+573143943828` | [EXTRAÍDO] |
-| WhatsApp | Su Instagram usa el enlace `https://wa.link/rriglm` para agendar. No se pudo abrir para ver el número; si es el 314 394 3828, en la página usar `https://wa.me/573143943828` | [EXTRAÍDO] enlace · número [PENDIENTE] |
+| WhatsApp | 314 394 3828 · enlace: `https://wa.me/573143943828?text=Hola%2C%20quisiera%20agendar%20una%20cita` | [EXTRAÍDO] (indicado por el usuario) |
 | Calificación en Google | 5,0 con 322 opiniones | [EXTRAÍDO] |
 | Coordenadas (para `geo`) | — | [PENDIENTE] |
 | Instagram | Tiene cuenta (biografía abajo); falta el usuario exacto para el enlace y `sameAs` | [PENDIENTE] usuario |
@@ -42,7 +42,7 @@ Frase de reseñas para la página (CLAUDE.md, sección 3): "Mira nuestras más d
 
 Cómo usarla en la página (CLAUDE.md, secciones 3 y 8):
 - **Nombre que se muestra:** "Clínica Vía Oral" (así se presenta ella misma).
-- **Acción principal confirmada:** agendar cita por WhatsApp.
+- **Acción principal confirmada:** agendar cita por WhatsApp, al 314 394 3828 (no se usa el enlace `wa.link` de la biografía).
 - **"Todas las especialidades":** se puede decir como "Especialidades odontológicas en un solo lugar", respaldado por la lista de servicios.
 - **"Líderes en ortodoncia invisible":** no usarlo en el boceto. Es una afirmación de liderazgo sin respaldo (Ley 1480, arts. 29 y 30). Sí se puede destacar la ortodoncia con alineadores como servicio principal.
 - **"Salvamos tus dientes":** no usarlo como promesa. Se puede decir: "Tratamos de conservar tu diente natural siempre que sea posible (endodoncia, periodoncia)" `[SUGERIDO]`.
@@ -99,4 +99,4 @@ No se publican precios: el único dato visto (cirugía preprotésica en Doctoral
 
 ## 5. Lo que falta pedir o extraer
 
-Número detrás de `wa.link/rriglm` y usuario de Instagram; odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
+Usuario de Instagram; odontólogos y especialistas con nombre y formación; sitio web; coordenadas; atributos (accesibilidad, parqueadero, formas de pago), fotos del lugar (solo para referencia, no se usan en el boceto) y 3 reseñas representativas con autor y enlace.
