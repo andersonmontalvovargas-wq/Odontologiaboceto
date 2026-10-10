@@ -110,6 +110,8 @@ p { margin: 0 0 1em; }
 .btn--linea { background: transparent; color: var(--vino); }
 .btn--linea:hover { background: var(--vino-claro); color: var(--vino-900); border-color: var(--vino); }
 .encabezado .btn { white-space: nowrap; }
+.btn--claro { background: var(--blanco); color: var(--vino-900); border-color: var(--blanco); }
+.btn--claro:hover { background: var(--vino-claro); color: var(--vino-900); border-color: var(--vino-claro); }
 .btn--sm { min-height: 42px; padding: 8px 16px; font-size: .95rem; }
 
 /* ---------- Inicio: primera pantalla ---------- */

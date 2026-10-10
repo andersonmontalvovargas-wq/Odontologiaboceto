@@ -1,12 +1,23 @@
 """Genera las 5 páginas del boceto con encabezado y pie compartidos.
 
-Uso: python3 prospecto-03/generar.py prospecto-03/sitio
+Uso: python3 prospecto-03/generar.py prospecto-03/sitio-a a   (variantes: a, b, c)
 Los textos se cambian aquí, no en los HTML, para no tener que repetir el cambio en cada página.
 """
 import json, sys, urllib.parse
 from pathlib import Path
 
 DESTINO = Path(sys.argv[1])
+VARIANTE = sys.argv[2] if len(sys.argv) > 2 else "a"
+
+# Lo único que cambia entre las tres propuestas: fuentes, color del navegador, ilustración y barra superior.
+CONF = {
+    "a": {"fuentes": "family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600",
+          "tema": "#4A1B25", "barra": False, "favicon": ("#FAF6F1", "#7B2D3B")},
+    "b": {"fuentes": "family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Outfit:wght@500;600;700",
+          "tema": "#0E5163", "barra": True, "favicon": ("#0E5163", "#FFFFFF")},
+    "c": {"fuentes": "family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:wght@400;500;600",
+          "tema": "#1C1916", "barra": False, "favicon": ("#1C1916", "#C9A46A")},
+}[VARIANTE]
 
 NOMBRE = "Dra. Vanesa Gutiérrez"
 CONSULTORIO = "Consultorio Dra. Vanesa Gutiérrez"
@@ -36,6 +47,29 @@ ESTRELLAS = '<span class="estrellas">' + ESTRELLA * 5 + '</span>'
 
 # Arco de sonrisa: espacio reservado para la foto real (no simula a la doctora)
 def retrato(nota, alto=500, prioridad=False):
+    pendiente = f'<!-- PENDIENTE: foto real de la {NOMBRE} (WebP, width/height declarados' + (', fetchpriority="high", sin lazy' if prioridad else ', loading="lazy"') + '). -->'
+    if VARIANTE == "b":
+        return f'''<div class="retrato">
+        <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+          <g fill="#0E5163" opacity=".12">{"".join(f'<circle cx="{40 + 40*i}" cy="{40 + 40*j}" r="2.5"/>' for i in range(9) for j in range(9))}</g>
+          <circle cx="200" cy="200" r="118" fill="#FFFFFF"/>
+          <path d="M162 128c-28 0-47 21-47 51 0 35 18 59 25 94 6 30 13 52 28 52 18 0 19-36 29-61 4-11 9-16 13-16s9 5 13 16c10 25 11 61 29 61 15 0 22-22 28-52 7-35 25-59 25-94 0-30-19-51-47-51-23 0-31 12-48 12s-25-12-48-12Z" fill="none" stroke="#0E5163" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M282 92l6 14 14 6-14 6-6 14-6-14-14-6 14-6Z" fill="#2F8F83"/>
+        </svg>
+        {pendiente}
+        <p class="retrato-nota">{nota}</p>
+      </div>'''
+    if VARIANTE == "c":
+        return f'''<div class="retrato">
+        <svg viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+          <rect x="24" y="24" width="752" height="352" fill="none" stroke="#C9A46A" stroke-opacity=".45"/>
+          <path d="M170 170c120 150 340 150 460 0" fill="none" stroke="#C9A46A" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M215 182c100 90 270 90 370 0" fill="none" stroke="#C9A46A" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="400" cy="120" r="4" fill="#C9A46A"/>
+        </svg>
+        {pendiente}
+        <p class="retrato-nota">{nota}</p>
+      </div>'''
     dientes = ""
     import math
     n = 8
@@ -55,7 +89,7 @@ def retrato(nota, alto=500, prioridad=False):
           {dientes}
           <path d="M70 352c60 40 200 40 260 0" fill="none" stroke="#7B2D3B" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
         </svg>
-        <!-- PENDIENTE: foto real de la {NOMBRE} en su consultorio (WebP, 800x1000, width/height declarados{', fetchpriority="high", sin lazy' if prioridad else ', loading="lazy"'}). -->
+        {pendiente}
         <p class="retrato-nota">{nota}</p>
       </div>'''
 
@@ -98,6 +132,11 @@ def pagina(archivo, titulo, descripcion, cuerpo, jsonld=False):
         f'<li><a href="{a}"{" aria-current=\"page\"" if a == archivo else ""}>{n}</a></li>'
         for a, n in PAGINAS
     )
+    barra = ""
+    if CONF["barra"]:
+        barra = (f'  <div class="barra-info"><div class="contenedor"><a href="tel:{TEL}">{I_TEL}{TEL_VISIBLE}</a>'
+                 f'<span>{I_RELOJ}Lun a sáb 8 a. m. – 8 p. m. · Dom 9 a. m. – 8 p. m.</span>'
+                 f'<span>{I_PIN}Edificio Alto Prado, Bucaramanga</span></div></div>\n')
     ld = ""
     if jsonld:
         ld = ('\n<!-- Dentist (LocalBusiness). PENDIENTE: url, geo con 5 decimales e image cuando haya dominio y fotos reales. Sin aggregateRating: las opiniones son de Google. -->\n'
@@ -111,7 +150,7 @@ def pagina(archivo, titulo, descripcion, cuerpo, jsonld=False):
 <meta name="robots" content="noindex">
 <title>{titulo}</title>
 <meta name="description" content="{descripcion}">
-<meta name="theme-color" content="#4A1B25">
+<meta name="theme-color" content="{CONF['tema']}">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="es_CO">
 <meta property="og:title" content="{titulo}">
@@ -120,16 +159,16 @@ def pagina(archivo, titulo, descripcion, cuerpo, jsonld=False):
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?{CONF['fuentes']}&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/estilos.css">
 <script>document.documentElement.classList.add("js")</script>
 <script src="js/main.js" defer></script>{ld}
 </head>
 <body>
 <a class="sr" href="#contenido">Saltar al contenido</a>
-<div class="aviso-propuesta" role="note"><strong>Propuesta de diseño</strong> para el {CONSULTORIO}. No es el sitio oficial.</div>
+<div class="aviso-propuesta" role="note"><strong>Propuesta de diseño {VARIANTE.upper()}</strong> para el {CONSULTORIO}. No es el sitio oficial.</div>
 <header class="encabezado">
-  <div class="contenedor">
+{barra}  <div class="contenedor">
     <a class="marca" href="index.html" aria-label="{CONSULTORIO}, ir al inicio">
       <!-- PENDIENTE: monograma provisional; reemplazar por el logo real si lo tiene. -->
       <span class="monograma" aria-hidden="true">VG</span>
@@ -302,7 +341,7 @@ inicio = f'''
       <li class="revelar"><h3>Valoración</h3><p>La doctora revisa tus dientes y encías y escucha lo que quieres cambiar de tu sonrisa.</p></li>
       <li class="revelar"><h3>Tu plan</h3><p>Te explica las opciones, los tiempos y el costo antes de empezar cualquier tratamiento.</p></li>
     </ol>
-    <div class="acciones"><a class="btn" style="background:#FFFFFF;color:#4A1B25;border-color:#FFFFFF" href="{wa()}" target="_blank" rel="noopener">{I_WA}Pedir mi valoración</a></div>
+    <div class="acciones"><a class="btn btn--claro" href="{wa()}" target="_blank" rel="noopener">{I_WA}Pedir mi valoración</a></div>
   </div>
 </section>
 
@@ -477,4 +516,9 @@ CUERPOS = {"index.html": inicio, "tratamientos.html": tratamientos, "la-doctora.
 for archivo, cuerpo in CUERPOS.items():
     t, d = DESC[archivo]
     (DESTINO / archivo).write_text(pagina(archivo, t, d, cuerpo, jsonld=archivo in ("index.html", "contacto.html")), encoding="utf-8")
-print("ok")
+fondo, letra = CONF["favicon"]
+(DESTINO / "assets").mkdir(parents=True, exist_ok=True)
+(DESTINO / "assets" / "favicon.svg").write_text(
+    f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="{fondo}" stroke="{letra}" stroke-width="3"/>'
+    f'<text x="32" y="41" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="24" fill="{letra}">VG</text></svg>\n', encoding="utf-8")
+print("ok", VARIANTE)
