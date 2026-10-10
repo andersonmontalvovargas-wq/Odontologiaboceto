@@ -3,7 +3,7 @@
 ## Lo que pidió y aprobó el cliente (en orden)
 
 1. **Estructura primero:** cinco páginas — Inicio, Tratamientos, La doctora, Preguntas frecuentes, Contacto. Aprobada.
-2. **Nombre:** mostrar "Consultorio Dra. Vanesa Gutiérrez" (no solo "Dra. Vanesa Gutiérrez").
+2. **Nombre:** mostrar "Consultorio Dra. Vanesa Gutiérrez" (no solo "Dra. Vanesa Gutiérrez"). Se dedujo de la respuesta "Consultorio Dra Vanesa Gutiérrez usa ete" (ver `VERIFICACION.md`, nota 1).
 3. **Direcciones:** mostrar las dos placas del Edificio Alto Prado.
 4. **WhatsApp:** el 324 492 5383 recibe WhatsApp.
 5. **Tonos femeninos** en todas las propuestas.

@@ -33,7 +33,9 @@ URL de imagen: `https://images.pexels.com/photos/{ID}/pexels-photo-{ID}.jpeg?aut
 | 6812453 | Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | Espacio de la doctora (consultorio) |
 | 30902075 | Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | Primera pantalla panorámica o espacio de la doctora |
 
-Otras encontradas en la búsqueda y **no usadas** (también de Pexels, por descripción): 3845806 (dentista y paciente sonriendo; no se usó para no sugerir que es la doctora), 11956948 (labios sonriendo), 6502340 (implante en primer plano), 4269359 (instrumentos), 6627668 (equipo dental), 6529216 (modelo con brackets).
+**Origen de cada descripción:** 6502549 y 305566 vienen de los créditos de otro boceto del repositorio (prospecto-02); las otras 11 vienen de los resultados de búsqueda web hechos en esta conversación.
+
+Otras **no usadas**: de la búsqueda web, 3845806 (dentista y paciente sonriendo; no se usó para no sugerir que es la doctora), 11956948 (labios sonriendo) y 6502340 (implante en primer plano); de los créditos de prospecto-02, 4269359 (instrumentos), 6627668 (equipo dental) y 6529216 (modelo con brackets).
 
 ## Cómo se muestran (aprendido con el cliente)
 

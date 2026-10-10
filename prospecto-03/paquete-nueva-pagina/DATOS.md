@@ -1,27 +1,30 @@
 # Datos del consultorio
 
-**Fuentes:** perfil público del consultorio en Google Maps y biografía pública de la doctora, consultados el 9 y 10 de octubre de 2026. El horario lo copió el usuario desde Google. Lo marcado como "confirmado" lo confirmó el usuario.
+**Fuente:** todos los datos los copió el usuario en la conversación (9 de octubre de 2026), desde la ficha de Google del consultorio y desde un texto de presentación de la doctora. Claude no pudo abrir Google ni redes sociales (la red del entorno las bloquea), así que no los verificó por su cuenta. Lo marcado como "confirmado" lo confirmó el usuario. La comparación dato por dato está en `VERIFICACION.md`.
 
 ## Identidad
 
 | Dato | Valor | Estado |
 |---|---|---|
-| Nombre que se muestra | **Consultorio Dra. Vanesa Gutiérrez** | Confirmado por el usuario |
-| Profesional | Dra. Vanesa Gutiérrez | Público |
+| Nombre que se muestra | **Consultorio Dra. Vanesa Gutiérrez** | El usuario respondió "Consultorio Dra Vanesa Gutiérrez usa este". Ver nota en `VERIFICACION.md` |
+| Profesional | Dra. Vanesa Gutiérrez | Del nombre de la ficha de Google |
 | Nombre completo en Google | Consultorio Dra Vanesa Gutiérrez/odontologia/Estetica dental/clínica dental/implantes/diseño de sonrisa/Lentes cerámicos/ | Público (es el nombre de la ficha; en la página se usa el corto) |
-| Categoría en Google | Clínica dental | Público |
+| Categoría en Google | Clínica dental | Del nombre de la ficha ("clínica dental") y del código de Google que pegó el usuario ("dental_clinic") |
 | Tipo de marca | Marca personal: la doctora es la marca, con nombre de consultorio | Decisión de diseño |
-| Profesión | Odontóloga | Público |
-| Especialización | Estética, UNICID (Universidade Cidade de São Paulo, Brasil) | Público; **título exacto pendiente** |
+| Profesión | Odontóloga | De la ficha de Google ("Odontóloga" en servicios) |
+| Especialización | Estética, UNICID (Brasil). El texto original dice "ESP.ESTÉTICA🇧🇷UNICID" | **Título exacto pendiente.** "UNICID = Universidade Cidade de São Paulo" es una deducción de Claude, no un dato que dio el usuario |
 | Logo | No se tiene. Se usa un monograma provisional "VG" | Pendiente |
 
-**Biografía pública de la doctora** (tal cual, en dos idiomas):
-- Diseño de sonrisa / Smile Design
-- Lentes cerámicos / Porcelain Veneers
-- ESP. ESTÉTICA 🇧🇷 UNICID
-- 🇨🇴 📍 Bucaramanga, Cra 34 # 36-31, Edificio Alto Prado
+**Texto de presentación de la doctora** (copiado por el usuario, exactamente así, con su ortografía original; parece su biografía de redes):
 
-Que la biografía esté en inglés y español sugiere que puede atender pacientes extranjeros; **no está confirmado** (ver `PENDIENTES.md`).
+```
+Diseño de sonrisa/Smile Desing
+Lentes cerámicos/Porcelain Veneers
+ESP.ESTÉTICA🇧🇷UNICID
+🇨🇴📍Bucaramanga, CRA 34# 36-31 EDIFICIO ALTO PRADO
+```
+
+"Smile Desing" está escrito así en el original (en inglés correcto es "Smile Design"). Que el texto esté en inglés y español sugiere que puede atender pacientes extranjeros; **no está confirmado** (ver `PENDIENTES.md`).
 
 ## Contacto
 

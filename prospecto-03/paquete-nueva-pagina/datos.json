@@ -1,17 +1,17 @@
 {
-  "fuente": "Perfil público de Google (Google Maps) y biografía pública de la doctora, consultados el 9 y 10 de octubre de 2026; horario y confirmaciones dadas por el usuario.",
+  "fuente": "Datos copiados por el usuario en la conversación (9 de octubre de 2026) desde la ficha de Google del consultorio y un texto de presentación de la doctora. Claude no pudo abrir Google ni redes (bloqueados en el entorno). Confirmaciones dadas por el usuario.",
   "tipo_de_marca": "Marca personal (la doctora es la marca) con nombre de consultorio",
   "nombre_a_mostrar": "Consultorio Dra. Vanesa Gutiérrez",
   "nombre_profesional": "Dra. Vanesa Gutiérrez",
   "nombre_completo_en_google": "Consultorio Dra Vanesa Gutiérrez/odontologia/Estetica dental/clínica dental/implantes/diseño de sonrisa/Lentes cerámicos/",
   "categoria_google": "Clínica dental (dental_clinic)",
   "profesion": "Odontóloga",
-  "especializacion": "Especialización en Estética — UNICID, Universidade Cidade de São Paulo (Brasil). Fuente: biografía pública ('ESP.ESTÉTICA 🇧🇷 UNICID'). Título exacto pendiente de confirmar.",
+  "especializacion": "Estética, UNICID (Brasil). Texto original: 'ESP.ESTÉTICA🇧🇷UNICID'. Título exacto pendiente. 'Universidade Cidade de São Paulo' es una deducción, no un dato del usuario.",
   "biografia_publica": [
-    "Diseño de sonrisa / Smile Design",
-    "Lentes cerámicos / Porcelain Veneers",
-    "ESP. ESTÉTICA 🇧🇷 UNICID",
-    "🇨🇴 📍 Bucaramanga, Cra 34 # 36-31, Edificio Alto Prado"
+    "Diseño de sonrisa/Smile Desing",
+    "Lentes cerámicos/Porcelain Veneers",
+    "ESP.ESTÉTICA🇧🇷UNICID",
+    "🇨🇴📍Bucaramanga, CRA 34# 36-31 EDIFICIO ALTO PRADO"
   ],
   "telefono_visible": "324 492 5383",
   "telefono_internacional": "+573244925383",
@@ -363,5 +363,7 @@
     "limpieza-y-encias": 3845682,
     "odontologia-general": 305566,
     "blanqueamiento": "3762408 o 3762400 (según la propuesta)"
-  }
+  },
+  "biografia_nota": "Copiado exactamente como lo pegó el usuario; 'Smile Desing' es la ortografía original.",
+  "nombre_a_mostrar_nota": "El usuario respondió 'Consultorio Dra Vanesa Gutiérrez usa este' a la pregunta 3 (que preguntaba por el título de la especialización); se interpretó como el nombre a mostrar."
 }

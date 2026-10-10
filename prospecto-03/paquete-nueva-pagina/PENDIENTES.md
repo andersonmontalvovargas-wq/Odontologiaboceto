@@ -17,7 +17,7 @@ En el código, cada hueco está marcado con `<!-- PENDIENTE: ... -->`. Los texto
 5. 3 opiniones reales de Google para copiar con autor y enlace a la reseña original.
 6. Precio de la valoración, si incluye radiografías, formas de pago y financiación.
 7. Un texto corto de la doctora en primera persona sobre cómo trabaja.
-8. Si atiende en inglés (su biografía dice "Smile Design / Porcelain Veneers"). Si sí, se puede agregar una página en inglés.
+8. Si atiende en inglés (su texto de presentación dice "Smile Desing" y "Porcelain Veneers"). Si sí, se puede agregar una página en inglés.
 
 ## Para completar
 9. Logo, si tiene. Hoy hay un monograma provisional "VG".
