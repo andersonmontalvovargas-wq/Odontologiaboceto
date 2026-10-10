@@ -9,14 +9,49 @@ from pathlib import Path
 DESTINO = Path(sys.argv[1])
 VARIANTE = sys.argv[2] if len(sys.argv) > 2 else "a"
 
+# Fotos de referencia de Pexels (https://www.pexels.com/license/). Se enlazan, no se descargan.
+# Ninguna muestra a la doctora: los espacios de su foto usan fotos del consultorio.
+def pexels(id_, w, h):
+    return f"https://images.pexels.com/photos/{id_}/pexels-photo-{id_}.jpeg?auto=compress&cs=tinysrgb&fit=crop&w={w}&h={h}"
+
+FOTO_DESC = {
+    3762400: "Mujer sonriendo con los ojos cerrados",
+    3762408: "Mujer con labios rosados sonriendo",
+    3762453: "Sonrisa de una mujer con labios rojos",
+    6627604: "Guía de colores de dientes artificiales",
+    6502305: "Modelo de un implante dental",
+    6502309: "Modelo dental con brackets",
+    6502549: "Piezas de mano dentales en primer plano",
+    3845682: "Paciente sonriendo durante una revisión dental",
+    305566: "Juego de instrumentos dentales",
+    6812479: "Sillón odontológico en un consultorio",
+    4269276: "Sillón odontológico visto desde atrás",
+    6812453: "Equipo dental en un consultorio",
+    30902075: "Consultorio odontológico moderno",
+}
+FOTOS_VARIANTE = {
+    "a": {"heroe": 3762400, "doctora": 6812479, "blanqueamiento": 3762408},
+    "b": {"heroe": 3762408, "doctora": 4269276, "blanqueamiento": 3762400},
+    "c": {"heroe": 30902075, "doctora": 6812453, "blanqueamiento": 3762408},
+}
+FOTO_TRAT = {"diseno-de-sonrisa": 3762453, "carillas": 6627604, "implantes-y-coronas": 6502305, "ortodoncia": 6502309,
+             "conductos": 6502549, "limpieza-y-encias": 3845682, "odontologia-general": 305566}
+
+def img(id_, clase, w, h, prioridad=False):
+    carga = 'fetchpriority="high"' if prioridad else 'loading="lazy"'
+    return (f'<img class="{clase}" src="{pexels(id_, w, h)}" alt="{FOTO_DESC[id_]} (foto de referencia)" '
+            f'width="{w}" height="{h}" {carga} decoding="async" onerror="this.remove()">')
+
+AVISO_FOTOS = "Las fotos son de referencia, de un banco de imágenes; se reemplazan por fotos reales del consultorio."
+
 # Lo único que cambia entre las tres propuestas: fuentes, color del navegador, ilustración y barra superior.
 CONF = {
     "a": {"fuentes": "family=Figtree:wght@400;500;600;700&family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..600",
-          "tema": "#4A1B25", "barra": False, "favicon": ("#FAF6F1", "#7B2D3B")},
+          "tema": "#5E1F35", "barra": False, "favicon": ("#FDF7F7", "#A23E5E")},
     "b": {"fuentes": "family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700&family=Outfit:wght@500;600;700",
-          "tema": "#0E5163", "barra": True, "favicon": ("#0E5163", "#FFFFFF")},
+          "tema": "#6B3F86", "barra": True, "favicon": ("#6B3F86", "#FFFFFF")},
     "c": {"fuentes": "family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..600;1,6..96,400..600&family=Jost:wght@400;500;600",
-          "tema": "#1C1916", "barra": False, "favicon": ("#1C1916", "#C9A46A")},
+          "tema": "#2A1C24", "barra": False, "favicon": ("#2A1C24", "#E0AE9D")},
 }[VARIANTE]
 
 NOMBRE = "Dra. Vanesa Gutiérrez"
@@ -46,27 +81,30 @@ ESTRELLA = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><pat
 ESTRELLAS = '<span class="estrellas">' + ESTRELLA * 5 + '</span>'
 
 # Arco de sonrisa: espacio reservado para la foto real (no simula a la doctora)
-def retrato(nota, alto=500, prioridad=False):
+def retrato(nota, alto=500, prioridad=False, foto=None, w=800, h=1000):
+    imagen = img(foto, "foto", w, h, prioridad) if foto else ""
     pendiente = f'<!-- PENDIENTE: foto real de la {NOMBRE} (WebP, width/height declarados' + (', fetchpriority="high", sin lazy' if prioridad else ', loading="lazy"') + '). -->'
     if VARIANTE == "b":
         return f'''<div class="retrato">
         <svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-          <g fill="#0E5163" opacity=".12">{"".join(f'<circle cx="{40 + 40*i}" cy="{40 + 40*j}" r="2.5"/>' for i in range(9) for j in range(9))}</g>
+          <g fill="#6B3F86" opacity=".12">{"".join(f'<circle cx="{40 + 40*i}" cy="{40 + 40*j}" r="2.5"/>' for i in range(9) for j in range(9))}</g>
           <circle cx="200" cy="200" r="118" fill="#FFFFFF"/>
-          <path d="M162 128c-28 0-47 21-47 51 0 35 18 59 25 94 6 30 13 52 28 52 18 0 19-36 29-61 4-11 9-16 13-16s9 5 13 16c10 25 11 61 29 61 15 0 22-22 28-52 7-35 25-59 25-94 0-30-19-51-47-51-23 0-31 12-48 12s-25-12-48-12Z" fill="none" stroke="#0E5163" stroke-width="5" stroke-linejoin="round"/>
-          <path d="M282 92l6 14 14 6-14 6-6 14-6-14-14-6 14-6Z" fill="#2F8F83"/>
+          <path d="M162 128c-28 0-47 21-47 51 0 35 18 59 25 94 6 30 13 52 28 52 18 0 19-36 29-61 4-11 9-16 13-16s9 5 13 16c10 25 11 61 29 61 15 0 22-22 28-52 7-35 25-59 25-94 0-30-19-51-47-51-23 0-31 12-48 12s-25-12-48-12Z" fill="none" stroke="#6B3F86" stroke-width="5" stroke-linejoin="round"/>
+          <path d="M282 92l6 14 14 6-14 6-6 14-6-14-14-6 14-6Z" fill="#C2649A"/>
         </svg>
+        {imagen}
         {pendiente}
         <p class="retrato-nota">{nota}</p>
       </div>'''
     if VARIANTE == "c":
         return f'''<div class="retrato">
         <svg viewBox="0 0 800 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
-          <rect x="24" y="24" width="752" height="352" fill="none" stroke="#C9A46A" stroke-opacity=".45"/>
-          <path d="M170 170c120 150 340 150 460 0" fill="none" stroke="#C9A46A" stroke-width="2.5" stroke-linecap="round"/>
-          <path d="M215 182c100 90 270 90 370 0" fill="none" stroke="#C9A46A" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
-          <circle cx="400" cy="120" r="4" fill="#C9A46A"/>
+          <rect x="24" y="24" width="752" height="352" fill="none" stroke="#E0AE9D" stroke-opacity=".45"/>
+          <path d="M170 170c120 150 340 150 460 0" fill="none" stroke="#E0AE9D" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M215 182c100 90 270 90 370 0" fill="none" stroke="#E0AE9D" stroke-opacity=".5" stroke-width="1.5" stroke-linecap="round"/>
+          <circle cx="400" cy="120" r="4" fill="#E0AE9D"/>
         </svg>
+        {imagen}
         {pendiente}
         <p class="retrato-nota">{nota}</p>
       </div>'''
@@ -81,14 +119,15 @@ def retrato(nota, alto=500, prioridad=False):
         alto_d = 54 if i in (0, n - 1) else (62 if i in (1, n - 2) else 74)
         ang = (t - .5) * 50
         dientes += (f'<rect x="{x - ancho/2:.1f}" y="{y - alto_d/2:.1f}" width="{ancho}" height="{alto_d}" rx="{ancho/2.4:.1f}" '
-                    f'transform="rotate({ang:.1f} {x:.1f} {y:.1f})" fill="#FFFFFF" stroke="#D9C3B0" stroke-width="1.5"/>')
+                    f'transform="rotate({ang:.1f} {x:.1f} {y:.1f})" fill="#FFFFFF" stroke="#E8C9CF" stroke-width="1.5"/>')
     return f'''<div class="retrato">
         <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
           <circle cx="200" cy="170" r="120" fill="#FFFFFF" opacity=".35"/>
-          <path d="M40 230c50 120 270 120 320 0" fill="none" stroke="#B08A57" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
+          <path d="M40 230c50 120 270 120 320 0" fill="none" stroke="#C99384" stroke-width="1.5" stroke-dasharray="2 7" stroke-linecap="round"/>
           {dientes}
-          <path d="M70 352c60 40 200 40 260 0" fill="none" stroke="#7B2D3B" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+          <path d="M70 352c60 40 200 40 260 0" fill="none" stroke="#A23E5E" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
         </svg>
+        {imagen}
         {pendiente}
         <p class="retrato-nota">{nota}</p>
       </div>'''
@@ -245,6 +284,9 @@ TRAT = [
      "Hola, Dra. Vanesa. Quiero agendar una valoración general."),
 ]
 
+def foto_trat(id_):
+    return FOTO_TRAT.get(id_) or FOTOS_VARIANTE[VARIANTE]["blanqueamiento"]
+
 def tarjetas():
     out = []
     for i, (id_, nombre, texto, _, _) in enumerate(TRAT):
@@ -252,6 +294,7 @@ def tarjetas():
         corto = texto.split(". ")[0] + "."
         out.append(f'''<li class="tratamiento{clase} revelar">
           <span class="numero">{i+1:02d}</span>
+          {img(foto_trat(id_), "tratamiento-foto", 640, 420)}
           <h3>{nombre}</h3>
           <p>{corto}</p>
           <a href="tratamientos.html#{id_}">Ver {nombre.lower()} <span aria-hidden="true">→</span></a>
@@ -289,7 +332,7 @@ inicio = f'''
       </div>
       <a class="calificacion" href="{MAPS}" target="_blank" rel="noopener">{ESTRELLAS}<span><strong>{NOTA}</strong> en Google · Mira sus {OPINIONES} opiniones</span></a>
     </div>
-    {retrato("Espacio para una foto real de la doctora", prioridad=True)}
+    {retrato("Foto de referencia, de un banco de imágenes", prioridad=True, foto=FOTOS_VARIANTE[VARIANTE]["heroe"], w=(1600 if VARIANTE == "c" else 800), h=(600 if VARIANTE == "c" else 1000))}
   </div>
 </section>
 
@@ -306,6 +349,7 @@ inicio = f'''
     <div class="seccion-cabeza revelar">
       <h2 id="t-tratamientos">Tratamientos del consultorio</h2>
       <p>La estética dental es el centro de la consulta, pero no lo único. Estos son los tratamientos que ofrece el consultorio, con el nombre con que los conoces.</p>
+      <p class="nota">{AVISO_FOTOS}</p>
     </div>
     <ul class="tratamientos">
         {tarjetas()}
@@ -315,7 +359,7 @@ inicio = f'''
 
 <section class="seccion seccion--arena" aria-labelledby="t-doctora">
   <div class="contenedor doctora">
-    {retrato("Espacio para una foto de la doctora atendiendo")}
+    {retrato("Foto de referencia del consultorio · aquí va la foto real de la doctora", foto=FOTOS_VARIANTE[VARIANTE]["doctora"])}
     <div class="revelar">
       <p class="antetitulo">Quién te atiende</p>
       <h2 id="t-doctora">Conoce a la {NOMBRE}</h2>
@@ -377,6 +421,7 @@ detalles = "\n".join(f'''    <article class="detalle" id="{id_}">
         <p class="tambien"><strong>También lo buscas como:</strong> {tambien}.</p>
         <a class="btn btn--sm" href="{wa(msg)}" target="_blank" rel="noopener">{I_WA}Preguntar por {nombre.lower()}</a>
       </div>
+      {img(foto_trat(id_), "detalle-foto", 720, 540)}
     </article>''' for i, (id_, nombre, texto, tambien, msg) in enumerate(TRAT))
 indice = "".join(f'<li><a href="#{id_}">{n}</a></li>' for id_, n, *_ in TRAT)
 tratamientos = f'''
@@ -385,6 +430,7 @@ tratamientos = f'''
     <p class="antetitulo">Tratamientos</p>
     <h1>Tratamientos de odontología y <em>estética dental</em></h1>
     <p class="intro">Qué es cada tratamiento, explicado en pocas palabras. El costo y los tiempos dependen de cada caso y se definen en la valoración.</p>
+    <p class="nota">{AVISO_FOTOS}</p>
     <ul class="indice">{indice}</ul>
   </div>
 </section>
@@ -400,7 +446,7 @@ tratamientos = f'''
 doctora = f'''
 <section class="cabecera-pagina">
   <div class="contenedor doctora">
-    {retrato("Espacio para una foto real de la doctora", prioridad=True)}
+    {retrato("Foto de referencia del consultorio · aquí va la foto real de la doctora", prioridad=True, foto=FOTOS_VARIANTE[VARIANTE]["doctora"])}
     <div>
       <p class="antetitulo">La doctora</p>
       <h1>{NOMBRE}, odontóloga especialista en <em>estética</em></h1>

@@ -18,8 +18,28 @@ Recursos usados en el boceto (CLAUDE.md, sección 9).
 | Íconos de líneas | En el HTML | Dibujados para este proyecto. |
 | CSS, JavaScript y `generar.py` | `sitio-*/css`, `sitio-*/js`, `generar.py` | Propios, sin librerías externas. |
 
-## Fotos
-El boceto no usa fotos. Las fotos de la ficha de Google Maps no se descargaron: muchas las suben los pacientes y no se sabe quién tiene los derechos. Las fotos reales se le piden a la doctora.
+## Fotos de referencia (Pexels)
+Licencia de Pexels: uso gratuito, también comercial, sin atribución obligatoria (https://www.pexels.com/license/). Se enlazan desde images.pexels.com, sin descargarlas, y la página avisa que son de referencia. Si una no carga, se muestra la ilustración propia.
+Ninguna muestra a la doctora: donde va su foto se usa una foto del consultorio con el letrero "aquí va la foto real de la doctora" (CLAUDE.md: no simular al equipo con imágenes de relleno).
+Las fotos se eligieron por la descripción de su página en Pexels; desde el entorno de trabajo no se pudieron abrir, así que hay que revisarlas en el navegador antes de mostrar el boceto.
+
+| Foto | Página en Pexels | Dónde se usa |
+|---|---|---|
+| Mujer sonriendo con los ojos cerrados | https://www.pexels.com/photo/3762400/ | A: primera pantalla · B: blanqueamiento |
+| Mujer con labios rosados sonriendo | https://www.pexels.com/photo/3762408/ | B: primera pantalla · A y C: blanqueamiento |
+| Sonrisa de una mujer con labios rojos | https://www.pexels.com/photo/3762453/ | Diseño de sonrisa |
+| Guía de colores de dientes artificiales | https://www.pexels.com/photo/6627604/ | Carillas y lentes cerámicos |
+| Modelo de un implante dental | https://www.pexels.com/photo/6502305/ | Implantes y coronas |
+| Modelo dental con brackets | https://www.pexels.com/photo/6502309/ | Ortodoncia |
+| Piezas de mano dentales | https://www.pexels.com/photo/6502549/ | Conductos |
+| Paciente sonriendo en una revisión dental | https://www.pexels.com/photo/3845682/ | Limpieza y encías |
+| Juego de instrumentos dentales | https://www.pexels.com/photo/305566/ | Odontología general |
+| Sillón odontológico | https://www.pexels.com/photo/6812479/ | A: espacio de la doctora |
+| Sillón odontológico visto desde atrás | https://www.pexels.com/photo/4269276/ | B: espacio de la doctora |
+| Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | C: espacio de la doctora |
+| Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | C: primera pantalla |
+
+Las fotos de la ficha de Google Maps no se usaron: muchas las suben los pacientes. Antes del sitio final todas se reemplazan por fotos reales, alojadas en el propio dominio.
 
 ## Del cliente
 Nombre, dirección, teléfono, horario, lista de servicios, calificación y formación se tomaron de su perfil público de Google y de su biografía pública (octubre de 2026). Marca, fotos y textos del consultorio son del consultorio.

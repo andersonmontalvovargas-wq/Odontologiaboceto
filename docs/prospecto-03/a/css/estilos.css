@@ -1,26 +1,26 @@
 /* =========================================================
-   Boceto prospecto-03 · Estética dental, marca personal
-   Paleta porcelana y vino, titulares Fraunces, texto Figtree
+   Boceto prospecto-03 · Propuesta A
+   Rosa empolvado y frambuesa, titulares Fraunces, texto Figtree
    ========================================================= */
 
 :root {
-  --porcelana: #FAF6F1;
+  --porcelana: #FDF7F7;
   --blanco: #FFFFFF;
-  --arena: #F1E8DE;
-  --rosa: #F4E1E1;
-  --tinta: #2B2420;
-  --tinta-suave: #5A4E47;
-  --vino: #7B2D3B;
-  --vino-900: #4A1B25;
-  --vino-claro: #F3D9DC;
-  --oro: #B08A57;
-  --linea: #E3D6C8;
+  --arena: #F7E9EA;
+  --rosa: #F8DDE3;
+  --tinta: #2E2226;
+  --tinta-suave: #64505A;
+  --vino: #A23E5E;
+  --vino-900: #5E1F35;
+  --vino-claro: #F6D7E0;
+  --oro: #C99384;
+  --linea: #EFDCDF;
 
   --f-titulo: "Fraunces", Georgia, "Times New Roman", serif;
   --f-texto: "Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   --radio: 18px;
-  --sombra: 0 1px 2px rgba(43, 36, 32, .06), 0 10px 30px -12px rgba(74, 27, 37, .18);
+  --sombra: 0 1px 2px rgba(43, 36, 32, .06), 0 10px 30px -12px rgba(94, 31, 53, .18);
   --ancho: 1160px;
 }
 
@@ -57,7 +57,7 @@ p { margin: 0 0 1em; }
 /* ---------- Aviso de boceto ---------- */
 .aviso-propuesta {
   background: var(--tinta);
-  color: #F7EFE7;
+  color: #FBEFF2;
   text-align: center;
   font-size: .875rem;
   padding: 8px 16px;
@@ -66,7 +66,7 @@ p { margin: 0 0 1em; }
 /* ---------- Encabezado ---------- */
 .encabezado {
   position: sticky; top: 0; z-index: 50;
-  background: rgba(250, 246, 241, .94);
+  background: rgba(253, 247, 247, .94);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--linea);
 }
@@ -165,12 +165,12 @@ p { margin: 0 0 1em; }
 /* ---------- Secciones ---------- */
 .seccion { padding: clamp(56px, 8vw, 104px) 0; }
 .seccion--arena { background: var(--arena); }
-.seccion--vino { background: var(--vino-900); color: #F7EDE6; }
+.seccion--vino { background: var(--vino-900); color: #FBEFF2; }
 .seccion--vino h2 { color: var(--blanco); }
-.seccion--vino a:not(.btn) { color: #F7D9DE; }
+.seccion--vino a:not(.btn) { color: #FFE6EE; }
 .seccion-cabeza { max-width: 44em; margin-bottom: 40px; }
 .seccion-cabeza p { color: var(--tinta-suave); font-size: 1.1rem; }
-.seccion--vino .seccion-cabeza p { color: #EBD9D2; }
+.seccion--vino .seccion-cabeza p { color: #F3D0DA; }
 
 /* ---------- Tratamientos (tarjetas) ---------- */
 .tratamientos { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
@@ -178,10 +178,10 @@ p { margin: 0 0 1em; }
   background: var(--blanco); border: 1px solid var(--linea); border-radius: var(--radio);
   padding: 24px; display: flex; flex-direction: column;
 }
-.tratamiento--destacado { grid-column: span 2; background: var(--vino); border-color: var(--vino); color: #F7EDE6; }
+.tratamiento--destacado { grid-column: span 2; background: var(--vino); border-color: var(--vino); color: #FBEFF2; }
 .tratamiento--destacado h3, .tratamiento--destacado a { color: var(--blanco); }
-.tratamiento--destacado .numero { color: #F3C9CF; }
-.numero { font-family: var(--f-titulo); font-style: italic; color: #8A6A3F; font-size: 1rem; margin-bottom: 10px; }
+.tratamiento--destacado .numero { color: #FFE6EE; }
+.numero { font-family: var(--f-titulo); font-style: italic; color: #9A5A4A; font-size: 1rem; margin-bottom: 10px; }
 .tratamiento p { font-size: .98rem; flex: 1; }
 .tratamiento a { font-weight: 600; text-decoration: none; }
 .tratamiento a:hover { text-decoration: underline; }
@@ -203,10 +203,10 @@ p { margin: 0 0 1em; }
 .pasos li { position: relative; padding: 28px 24px 24px; border-top: 2px solid var(--oro); }
 .pasos li::before {
   counter-increment: paso; content: counter(paso, decimal-leading-zero);
-  font-family: var(--f-titulo); font-style: italic; font-size: 2.2rem; color: #F3C9CF;
+  font-family: var(--f-titulo); font-style: italic; font-size: 2.2rem; color: #FFE6EE;
   display: block; margin-bottom: 8px;
 }
-.pasos p { color: #EBD9D2; margin: 0; }
+.pasos p { color: #F3D0DA; margin: 0; }
 
 /* ---------- Opiniones ---------- */
 .opiniones { display: grid; grid-template-columns: auto 1fr; gap: clamp(24px, 5vw, 64px); align-items: center; }
@@ -252,12 +252,12 @@ p { margin: 0 0 1em; }
 .contacto-tarjeta p { color: var(--tinta-suave); flex: 1; }
 
 /* ---------- Pie ---------- */
-.pie { background: var(--tinta); color: #E9DFD6; padding: 56px 0 96px; font-size: .95rem; }
-.pie a { color: #F7EDE6; }
+.pie { background: var(--tinta); color: #EBDDE1; padding: 56px 0 96px; font-size: .95rem; }
+.pie a { color: #FBEFF2; }
 .pie-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr; gap: 32px; }
 .pie h2 { font-size: 1.15rem; color: var(--blanco); margin-bottom: 12px; }
 .pie ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
-.pie-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .85rem; color: #CFC3B9; }
+.pie-legal { margin-top: 40px; padding-top: 20px; border-top: 1px solid rgba(255, 255, 255, .15); font-size: .85rem; color: #D3C2C8; }
 
 /* ---------- WhatsApp flotante (celular) ---------- */
 .wa-flotante {
@@ -265,7 +265,7 @@ p { margin: 0 0 1em; }
   display: none; align-items: center; gap: 8px;
   min-height: 52px; padding: 0 20px; border-radius: 999px;
   background: var(--vino); color: var(--blanco); text-decoration: none; font-weight: 600;
-  box-shadow: 0 8px 24px rgba(74, 27, 37, .35);
+  box-shadow: 0 8px 24px rgba(94, 31, 53, .35);
 }
 .wa-flotante svg { width: 22px; height: 22px; }
 .wa-flotante:hover { color: var(--blanco); background: var(--vino-900); }
@@ -307,4 +307,19 @@ p { margin: 0 0 1em; }
   .tratamiento--destacado { grid-column: auto; }
   .marca-texto small { display: none; }
   .acciones .btn { width: 100%; }
+}
+
+/* ---------- Fotos de referencia ---------- */
+.retrato .foto { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.retrato-nota { z-index: 1; }
+.tratamiento-foto { width: calc(100% + 48px); max-width: none; height: auto; aspect-ratio: 16 / 10; object-fit: cover; margin: -24px -24px 18px; border-radius: var(--radio) var(--radio) 0 0; background: var(--rosa); }
+.tratamiento { overflow: hidden; }
+.tratamiento .numero { order: 1; }
+.tratamiento .tratamiento-foto { order: 0; }
+.tratamiento h3, .tratamiento p, .tratamiento a { order: 2; }
+.tratamiento--destacado .tratamiento-foto { aspect-ratio: 16 / 7; }
+.detalle > div { grid-column: 2; grid-row: 1 / span 2; }
+.detalle-foto { grid-column: 1; grid-row: 2; width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 16px; background: var(--rosa); }
+@media (max-width: 860px) {
+  .detalle > div, .detalle-foto { grid-column: auto; grid-row: auto; }
 }
