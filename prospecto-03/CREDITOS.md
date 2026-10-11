@@ -11,6 +11,8 @@ Recursos usados en el boceto (CLAUDE.md, sección 9).
 | Instrument Serif e Inter Tight (propuesta D) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Young Serif y Hanken Grotesk (propuesta E) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Cormorant y Manrope (propuesta F) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
+| Geist (propuesta G) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
+| Archivo y JetBrains Mono (propuesta H) | Google Fonts | SIL Open Font License 1.1 | Igual que las anteriores. |
 | Ícono de WhatsApp | Marca de WhatsApp (Meta) | Marca registrada | Solo identifica el botón de contacto, sin modificar su forma. |
 
 ## Recursos propios (hechos para este boceto)
@@ -41,6 +43,13 @@ Las fotos se eligieron por la descripción de su página en Pexels; desde el ent
 | Sillón odontológico visto desde atrás | https://www.pexels.com/photo/4269276/ | B y E: espacio de la doctora · F: primera cita |
 | Equipo dental en un consultorio | https://www.pexels.com/photo/6812453/ | C: espacio de la doctora · F: preguntas frecuentes |
 | Consultorio odontológico moderno | https://www.pexels.com/photo/30902075/ | C: primera pantalla · D: espacio de la doctora · F: contacto |
+
+**Dónde se usan en G y H** (las mismas fotos de la tabla, sin agregar ninguna nueva):
+
+| Propuesta | Primera pantalla | Espacio de la doctora | Blanqueamiento | Otras secciones |
+|---|---|---|---|---|
+| G | Consultorio odontológico moderno (30902075) | Sillón visto desde atrás (4269276) | Labios rosados (3762408) | Primera cita: paciente en revisión (3845682) · Preguntas: sillón (6812479) · Contacto: equipo dental (6812453) |
+| H | Mujer con los ojos cerrados (3762400) | Equipo dental (6812453) | Labios rosados (3762408) | Primera cita: sillón visto desde atrás (4269276) · Contacto: consultorio moderno (30902075) |
 
 Las fotos de la ficha de Google Maps no se usaron: muchas las suben los pacientes. Antes del sitio final todas se reemplazan por fotos reales, alojadas en el propio dominio.
 
