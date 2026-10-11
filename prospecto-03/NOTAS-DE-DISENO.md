@@ -54,3 +54,27 @@ Fotos genéricas de referencia (Pexels) en todas las páginas, cada una con su d
 
 Nada se mueve solo: el sello y la línea de pasos se mueven con el desplazamiento, así que no necesitan botón de pausa. Con `prefers-reduced-motion` todo queda quieto. Sin JavaScript el contenido se ve completo.
 Contraste AA comprobado: el más bajo en texto normal es 5,4:1 (rosa sobre durazno). Los números de las preguntas, en coral, son decorativos (`aria-hidden`).
+
+## Propuestas G y H: dos conceptos distintos de F
+
+Mismos textos, datos, horario y 5 páginas (salen de `generar.py`), con la misma forma de escribir. Cada una tiene su propio generador, CSS y JavaScript.
+
+| | G · Nácar (transiciones tipo página de producto) | H · Retícula (estilo suizo tipográfico) |
+|---|---|---|
+| Idea | Mucho blanco, una sola tipografía, el contenido aparece con transiciones ligadas al desplazamiento | Retícula de 12 columnas con líneas finas visibles, tipografía protagonista, esquinas rectas y sin sombras |
+| Colores | Blanco `#FBFBFD`, gris `#F5F5F7`, negro, orquídea `#B0246A`, degradado orquídea → violeta `#7A3FB5` | Papel `#F3EFE8`, tinta `#171415`, frambuesa `#C8284F`, malva `#DCD3E0` |
+| Tipografía | Geist (una sola familia, varios pesos) | Archivo extendida en mayúsculas para titulares, Archivo normal para texto y JetBrains Mono para etiquetas y datos |
+| Encabezado | Navegación global y barra secundaria fija con el nombre de la página, el teléfono y el botón "Agendar" | Barra con las páginas numeradas (01–04) separadas por líneas |
+| Primera pantalla | Titular centrado con degradado; al bajar, la foto crece hasta llenar la pantalla | Nombre enorme en mayúsculas extendidas; debajo, tres columnas: texto y botones, ficha del consultorio con la hora de Bucaramanga, y la foto como "Fig. 01" |
+| Tratamientos (inicio) | Las 8 tarjetas pasan de lado mientras se baja, con una barra de avance (en computador). En celular, una debajo de otra | Tabla de 4 × 2 con líneas; al pasar el cursor, la celda se invierte a tinta |
+| La doctora | Párrafo que se ilumina palabra por palabra sobre fondo negro | Bloque malva con foto y ficha técnica |
+| Primera cita | Tres fichas grises con números en degradado | Tres columnas con números gigantes en frambuesa |
+| Opiniones | "5,0" gigante en degradado sobre negro | "5,0 / 5" gigante sobre tinta |
+| Horario | Lista con el día de hoy marcado | Tabla con franja de 6 a. m. a 10 p. m. por día y el día de hoy marcado |
+| Página de tratamientos | Índice de 8 fichas y un capítulo por tratamiento; la foto crece al llegar | Índice en retícula y una ficha técnica por tratamiento (Qué es / También lo buscas como) |
+| Preguntas | Fichas en dos columnas | Filas: número, pregunta y respuesta |
+| WhatsApp en celular | Botón redondo flotante | Barra fija a lo ancho de la pantalla |
+
+Nada se mueve solo: todo lo que se mueve depende del desplazamiento. Con `prefers-reduced-motion`, G se ve como una página normal (sin foto que crece, sin desfile de tarjetas, texto ya iluminado) y H aparece quieta. Sin JavaScript, las dos muestran el contenido completo.
+Contraste AA comprobado. El más bajo en texto normal es 4,66:1 en G (gris sobre ficha gris) y 4,73:1 en H (frambuesa sobre papel). Sobre malva, H usa frambuesa oscuro (5,4:1).
+
