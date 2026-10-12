@@ -1,12 +1,12 @@
 # Créditos y licencias — boceto prospecto-01
 
-Recursos de terceros usados en el boceto (versiones verde, azul y azul 2).
+Recursos de terceros usados en el boceto (versión verde y versiones azul 1 a 5).
 
 ## Fuentes (Google Fonts, SIL Open Font License 1.1)
 
 | Fuente | Uso | Licencia |
 |---|---|---|
-| Figtree | Texto en las tres versiones | SIL OFL 1.1 |
+| Figtree | Texto en todas las versiones | SIL OFL 1.1 |
 | Cormorant Garamond | Titulares de la versión verde y de la azul 1 | SIL OFL 1.1 |
 | DM Serif Display | Titulares de las versiones azul 2 y azul 5 | SIL OFL 1.1 |
 | Libre Baskerville | Titulares de la versión azul 3 | SIL OFL 1.1 |
