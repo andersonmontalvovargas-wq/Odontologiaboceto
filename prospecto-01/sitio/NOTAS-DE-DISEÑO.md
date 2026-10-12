@@ -36,3 +36,8 @@
 - Preguntas frecuentes con las respuestas visibles desde el inicio (no escondidas en desplegables).
 - Enlaces "Conocer más" cambiados por textos que nombran el servicio.
 - Coordenadas del JSON-LD con 5 decimales. Créditos y licencias en `../CREDITOS.md`.
+
+## Variantes 3, 4 y 5 (a partir de azul 2)
+- **Azul 3 · clínica limpia** (`docs/azul-3/`): titulares en Libre Baskerville, esquinas rectas, sin curvas entre secciones, tarjetas con línea celeste arriba, marco rectangular, antetítulos como etiqueta.
+- **Azul 4 · profunda** (`docs/azul-4/`): titulares en Playfair Display, portadas en azul oscuro con texto blanco, esquinas muy redondeadas, línea de acento bajo los títulos, botones más grandes.
+- **Azul 5 · portada con fondos** (`docs/azul-5/`): igual que azul 2, pero la portada del inicio usa 5 fotos de referencia de fondo que se alternan cada 6 s con fundido y zoom lento. Lleva botón de pausa y puntos para elegir (WCAG 2.2.2); con `prefers-reduced-motion` queda una sola foto fija; se detiene si la pestaña no está visible; la primera foto va con `fetchpriority="high"` y las demás cargan después. Velo azul sobre las fotos para mantener el contraste del texto.

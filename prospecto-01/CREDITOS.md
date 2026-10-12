@@ -8,11 +8,13 @@ Recursos de terceros usados en el boceto (versiones verde, azul y azul 2).
 |---|---|---|
 | Figtree | Texto en las tres versiones | SIL OFL 1.1 |
 | Cormorant Garamond | Titulares de la versión verde y de la azul 1 | SIL OFL 1.1 |
-| DM Serif Display | Titulares de la versión azul 2 | SIL OFL 1.1 |
+| DM Serif Display | Titulares de las versiones azul 2 y azul 5 | SIL OFL 1.1 |
+| Libre Baskerville | Titulares de la versión azul 3 | SIL OFL 1.1 |
+| Playfair Display | Titulares de la versión azul 4 | SIL OFL 1.1 |
 
 Hoy se cargan desde Google Fonts. Para el sitio final se pueden alojar en el mismo dominio.
 
-## Fotos de referencia (solo versión azul 2)
+## Fotos de referencia (versiones azul 2, 3, 4 y 5)
 
 Todas vienen de Pexels, con [licencia Pexels](https://www.pexels.com/license/): uso comercial gratuito y sin atribución obligatoria. Se dan los créditos igualmente.
 Se enlazan desde `images.pexels.com`; no están alojadas en el sitio. Todas llevan en la página la etiqueta "Imagen de referencia" y se deben reemplazar por fotos propias del consultorio antes del sitio final.
@@ -31,7 +33,8 @@ Se enlazan desde `images.pexels.com`; no están alojadas en el sitio. Todas llev
 | Implantes (sección) | https://www.pexels.com/photo/close-up-shot-of-dental-implant-model-6502343/ |
 | Implantes (tarjeta) | https://www.pexels.com/photo/close-up-photo-of-an-implant-tooth-6502340/ |
 | Reparación de carillas | https://www.pexels.com/photo/a-dentist-treating-a-patient-5355715/ |
-| Ubicación | https://www.pexels.com/photo/back-view-of-a-dental-chair-in-a-clinic-4269276/ |
+| Ubicación y fondo de portada (azul 5) | https://www.pexels.com/photo/back-view-of-a-dental-chair-in-a-clinic-4269276/ |
+| Fondo de portada (azul 5) | https://www.pexels.com/photo/modern-dental-office-interior-with-equipment-30902075/ |
 
 No se usa ninguna foto de relleno para el doctor ni para su equipo, como piden las reglas del proyecto.
 
